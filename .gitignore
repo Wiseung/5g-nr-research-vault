@@ -1,0 +1,45 @@
+# Explicitly excluded source folder
+/NR解码代码/
+**/NR解码代码/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Obsidian machine state, plugins, and local data
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/cache/
+.trash/
+
+# Local editor configuration may contain absolute paths or environment references
+.vscode/
+
+# Agent skill links are machine-specific; canonical skill sources live under copilot/skills/
+/.agents/skills/
+/.claude/skills/
+/.opencode/skills/
+
+# Machine-specific mirrored content
+/Users/
+
+# Generated dependencies, caches, and build output
+.opencode/node_modules/
+.copilot/model-catalog-cache.json
+build/
+node_modules/
+.cache/
+
+# Local conversation exports
+/copilot/copilot-conversations/
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
