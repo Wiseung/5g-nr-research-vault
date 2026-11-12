@@ -1,0 +1,58 @@
+{
+  "status": "EMPTY_SCHEMA_NOT_MEASURED_RESULTS",
+  "run_identity": {
+    "run_id": null, "config_id": null, "decoder": null,
+    "code_commit": null, "weights_sha256": null, "manifest_sha256": null,
+    "index_sha256": null, "shift_sha256": null, "lockfile_sha256": null,
+    "gpu_uuid": null, "gpu_model": null, "driver": "待核实",
+    "torch_cuda_triton_versions": "待核实", "dtype": "FP32",
+    "tf32_enabled": false, "amp_enabled": false,
+    "train_seed": null, "split": null, "test_shard": null, "rng_engine_version": null
+  },
+  "accuracy_per_shard": {
+    "ebn0_db_payload_convention": null, "payload_rate_A_over_E": null,
+    "channel": null, "csi": null, "frames": null, "payload_bits_A": null,
+    "frame_errors_payload": null, "payload_bit_errors": null,
+    "service_frame_errors_payload_or_rejected": null,
+    "sum_neural_full_sweeps": null, "sum_fallback_full_sweeps": null,
+    "neural_only_frame_errors": null, "fallback_trigger_count": null,
+    "fallback_rescued_previously_wrong_count": null,
+    "final_reject_count": null, "final_accepted_wrong_count": null,
+    "frame_level_log_path": null, "sampling_rule": "fixed_N_frozen_before_test",
+    "bler_ci95": null, "ci_method": "Wilson; exact one-sided if zero"
+  },
+  "training": {
+    "optimizer_steps": null, "effective_batch": null, "microbatch": null,
+    "gradient_accumulation": null, "channel_observations": null,
+    "successful_run_gpu_hours": null, "all_trials_gpu_hours": null,
+    "teacher_gpu_hours": null, "validation_gpu_hours": null,
+    "cpu_core_hours": null, "checkpoint_selection_rule": null
+  },
+  "complexity": {
+    "trainable_parameters": null, "frozen_parameters": null,
+    "polynomial_flops_per_cw_MAC2": null, "special_ops_per_cw": null,
+    "planned_tensor_bytes_per_cw": null, "measured_dram_bytes_per_cw": null,
+    "peak_allocated_bytes": null, "peak_reserved_bytes": null,
+    "nvml_process_memory_bytes": null, "memory_scope": null
+  },
+  "timing": {
+    "batch": null, "snr_case": null, "max_T": null,
+    "early_stop": null, "fallback": null, "compaction": null,
+    "timing_scope": null, "includes_rate_recovery": null,
+    "includes_crc": null, "includes_H2D_D2H": null,
+    "warmup_calls": null, "round": null, "calls": null,
+    "p50_us": null, "p99_us": null, "ci95_p50_us": null, "ci95_p99_us": null,
+    "elapsed_s": null, "completed_codewords": null,
+    "codewords_per_s": null, "payload_Mbps": null,
+    "deadline_us": null, "deadline_violation_rate": null,
+    "raw_call_times_path": null, "clock_temperature_powerlimit_log_path": null
+  },
+  "energy": {
+    "measurement_method": null, "sensor_support": "待核实",
+    "sensor_actual_window_ms": "待核实", "poll_interval_ms": 100,
+    "duration_s": null, "idle_mean_W": null,
+    "gross_J": null, "incremental_J": null, "completed_codewords": null,
+    "gross_J_per_cw": null, "incremental_J_per_cw": null,
+    "nvml_power_scope": null, "raw_power_timestamps_path": null
+  }
+}

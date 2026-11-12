@@ -1,0 +1,29 @@
+{
+  "status": "external_sources_read_no_experiment_results",
+  "sources": [
+    {
+      "name": "TS38.212",
+      "url": "https://www.etsi.org/deliver/etsi_ts/138200_138299/138212/18.05.00_60/ts_138212v180500p.pdf",
+      "retrieved_date": "2026-11-12",
+      "bytes": 3198973,
+      "sha256": "41b52e13f8593314cfcc71a81fd9e2afc04521e537cbf26d842558aa2f01800b",
+      "scope": "source_read_only_not_local_decoder_validation"
+    },
+    {
+      "name": "NVML",
+      "url": "https://docs.nvidia.com/deploy/nvml-api/620/api/group__nvmlDeviceQueries.html",
+      "retrieved_date": "2026-11-12",
+      "bytes": 949108,
+      "sha256": "7cb3d29c3d0c56af0f097267bd7ca700add6f97fe90711454686019a124d4d43",
+      "scope": "source_read_only_not_local_decoder_validation"
+    },
+    {
+      "name": "Sionna notebook",
+      "url": "https://nvlabs.github.io/sionna/v2.1.0/phy/tutorials/notebooks/5G_Channel_Coding_Polar_vs_LDPC_Codes.html",
+      "retrieved_date": "2026-11-12",
+      "bytes": 476853,
+      "sha256": "eed9e960cdb23b641540a1eaa3c6c60b413a4931ccae24cc86d72b42c86bb8bb",
+      "scope": "source_read_only_not_local_decoder_validation"
+    }
+  ]
+}
