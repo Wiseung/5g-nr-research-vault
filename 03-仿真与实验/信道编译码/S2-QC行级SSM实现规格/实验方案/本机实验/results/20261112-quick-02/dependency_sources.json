@@ -1,0 +1,10 @@
+{
+  "sionna": {
+    "version": "2.2.0",
+    "url": "https://pypi.org/project/sionna/2.2.0/",
+    "usage": "PHY only; sionna-rt not installed; existing torch reused"
+  },
+  "table_origin": "Sionna packaged 3GPP 5G_bg1.csv / 5G_bg2.csv; hash per config",
+  "curve_protocol_version": "2.1.0 notebook; exact curve reproduction remains pending",
+  "cuda_scatter": "FP32 index_add on CUDA may have non-bitwise reduction order; compare with tolerances"
+}

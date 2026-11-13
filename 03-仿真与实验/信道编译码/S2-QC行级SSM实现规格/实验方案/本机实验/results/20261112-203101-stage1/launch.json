@@ -1,0 +1,19 @@
+﻿{
+    "output":  "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\results\\20261112-203101-stage1",
+    "run_id":  "20261112-203101-stage1",
+    "pid":  43516,
+    "arguments":  [
+                      "-B",
+                      "-u",
+                      "run_local.py",
+                      "--mode",
+                      "stage1",
+                      "--output",
+                      "results/20261112-203101-stage1",
+                      "--batch",
+                      64,
+                      "--diagnostic-frames",
+                      256
+                  ],
+    "stage":  "chain_validation_only"
+}

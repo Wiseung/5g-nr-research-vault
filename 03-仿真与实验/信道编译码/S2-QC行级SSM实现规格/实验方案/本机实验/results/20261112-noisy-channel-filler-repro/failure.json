@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError('nonzero filler accepted despite valid LDPC/CRC')",
+  "traceback": "Traceback (most recent call last):\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\check_channel.py\", line 115, in main\n    records = [check(NRLink(ldpc(b, Fraction(1, 2)))) for b in (1024, 4096)]\n               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\check_channel.py\", line 72, in check\n    assert not link.accepted(invalid_filler_llr).any(), \"nonzero filler accepted despite valid LDPC/CRC\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: nonzero filler accepted despite valid LDPC/CRC\n"
+}

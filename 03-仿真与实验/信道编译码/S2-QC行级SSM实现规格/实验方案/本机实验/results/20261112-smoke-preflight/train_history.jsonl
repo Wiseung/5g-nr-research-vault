@@ -1,0 +1,3 @@
+{"step": 1, "loss": 0.30839598178863525, "gradient_norm_before_clip": 1.7182834148406982, "state_abs_max": 0.8947931528091431, "seconds": 0.419121399987489, "peak_allocated_bytes": 133703168, "snr_min_db": 0.005270128669842666, "snr_max_db": 1.9168882012645514}
+{"step": 2, "loss": 0.1851753443479538, "gradient_norm_before_clip": 0.7338526844978333, "state_abs_max": 0.8948028087615967, "seconds": 0.3593258997425437, "peak_allocated_bytes": 139849728, "snr_min_db": 0.3983023959643859, "snr_max_db": 1.7936475512342334}
+{"step": 3, "loss": 0.27955904603004456, "gradient_norm_before_clip": 5.529211521148682, "state_abs_max": 0.8930147290229797, "seconds": 0.3432101998478174, "peak_allocated_bytes": 139849728, "snr_min_db": 0.3257754546304714, "snr_max_db": 1.755125604378659}

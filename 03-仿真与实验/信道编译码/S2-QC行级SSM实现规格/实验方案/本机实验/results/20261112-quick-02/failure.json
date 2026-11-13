@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError(('SSM sign symmetry', 0.019347190856933594))",
+  "traceback": "Traceback (most recent call last):\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\run_local.py\", line 327, in main\n    ssms.append({\"config_id\": cid, \"extra\": extra_checks(link), \"ssm\": check_ssm(link)})\n                                                                       ~~~~~~~~~^^^^^^\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\run_local.py\", line 192, in check_ssm\n    assert error < 2e-4, (\"SSM sign symmetry\", error)\n           ^^^^^^^^^^^^\nAssertionError: ('SSM sign symmetry', 0.019347190856933594)\n"
+}

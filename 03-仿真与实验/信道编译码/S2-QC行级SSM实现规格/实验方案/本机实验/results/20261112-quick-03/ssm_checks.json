@@ -1,0 +1,48 @@
+[
+  {
+    "config_id": "ldpc_B1024_R1-2_Q2",
+    "extra": {
+      "minsum_ties_and_zeros": "passed",
+      "repeat_recovery_max_error": 1.9073486328125e-06,
+      "repeat_count_max": 3
+    },
+    "ssm": {
+      "frames": 4,
+      "iterations": 20,
+      "parameters": 1857,
+      "symmetry_max_error_before_after_update": [
+        0.0,
+        0.0
+      ],
+      "state_max": 0.9101736545562744,
+      "loss": 3.223977085298202e-09,
+      "gradient_norm": 4.749038076852508e-13,
+      "disposable_optimizer_steps": 1,
+      "checkpoint_saved": false,
+      "formal_training": false
+    }
+  },
+  {
+    "config_id": "ldpc_B4096_R1-2_Q2",
+    "extra": {
+      "minsum_ties_and_zeros": "passed",
+      "repeat_recovery_max_error": 1.9073486328125e-06,
+      "repeat_count_max": 3
+    },
+    "ssm": {
+      "frames": 4,
+      "iterations": 20,
+      "parameters": 1873,
+      "symmetry_max_error_before_after_update": [
+        0.0,
+        0.0
+      ],
+      "state_max": 0.9125564098358154,
+      "loss": 3.042301077726961e-09,
+      "gradient_norm": 4.942775531012152e-16,
+      "disposable_optimizer_steps": 1,
+      "checkpoint_saved": false,
+      "formal_training": false
+    }
+  }
+]

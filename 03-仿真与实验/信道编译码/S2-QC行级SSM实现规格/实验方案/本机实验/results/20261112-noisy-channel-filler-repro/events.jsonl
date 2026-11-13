@@ -1,0 +1,1 @@
+{"time": "2026-11-12T22:48:44.946536+08:00", "event": "failed", "error": "AssertionError('nonzero filler accepted despite valid LDPC/CRC')"}

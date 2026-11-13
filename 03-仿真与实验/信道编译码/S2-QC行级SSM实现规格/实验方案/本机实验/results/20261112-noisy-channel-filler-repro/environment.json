@@ -1,0 +1,37 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.10.0+cu126",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "sionna": "2.2.0",
+    "py3gpp": "0.6.0"
+  },
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "tf32": false,
+  "amp": false,
+  "dtype": "float32",
+  "args": {
+    "output": "results/20261112-noisy-channel-filler-repro"
+  },
+  "pid": 40388,
+  "rng": "NumPy PCG64; independent bits/noise subkeys",
+  "source_sha256": {
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\nr_link.py": "9a9f7cbe6a02bc5390ac9ac1cce9b834a393ed57d73bc4bdfbdadf9328a8ed18",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\run_local.py": "cfe4b04f6d15b721f8a98fc704ce20b104093b9ade7b534ba1f4a2259a147d65",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\README.md": "6e6b1aef72f4bef44eacf07c5cafc3deedd7df9bb82188f0b07e54602a53da83",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\.venv\\Lib\\site-packages\\sionna\\phy\\fec\\ldpc\\encoding.py": "34d8db6660b2e84708a8fb534f63c194f6f2b964e3693fcffc9dcaf21532ccfd",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\.venv\\Lib\\site-packages\\sionna\\phy\\fec\\ldpc\\decoding.py": "44d84b92b749e2970f94d92cd348a11648e2286b4d851faa0af8b21d08f0da23",
+    "G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\check_channel.py": "37dadbc864fa2e56c0a83a8c1711f57e41e3980528a1c436159a6aa536301cce"
+  },
+  "gpu_rankings": "none; engineering validation on local GPU only",
+  "nvidia_smi": "0, GPU-6bf0d9b4-58e2-bf05-41bc-cd7bcba4e5fe, NVIDIA GeForce RTX 4060 Laptop GPU, 560.94, 0 MiB, 8188 MiB",
+  "git_commit": "57cc442e4a2895d6620ebddcfd07e5fbaac751c5",
+  "git_status": " M ../../s2_codex.md\n?? ./\n"
+}

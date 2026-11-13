@@ -1,0 +1,4 @@
+{"time": "2026-11-12T20:24:22.994803+08:00", "event": "started", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU", "mode": "quick", "pid": 35300}
+{"time": "2026-11-12T20:24:23.078717+08:00", "event": "scalar_gate_passed", "manifest_sha256": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c"}
+{"time": "2026-11-12T20:24:23.834528+08:00", "event": "config_started", "config_id": "ldpc_B1024_R1-2_Q2"}
+{"time": "2026-11-12T20:24:23.869748+08:00", "event": "failed", "error": "ValueError('Invalid device: cuda')"}

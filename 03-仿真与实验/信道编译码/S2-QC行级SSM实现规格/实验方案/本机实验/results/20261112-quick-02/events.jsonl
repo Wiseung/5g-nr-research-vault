@@ -1,0 +1,9 @@
+{"time": "2026-11-12T20:25:26.900369+08:00", "event": "started", "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU", "mode": "quick", "pid": 38428}
+{"time": "2026-11-12T20:25:26.985490+08:00", "event": "scalar_gate_passed", "manifest_sha256": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c"}
+{"time": "2026-11-12T20:25:27.552360+08:00", "event": "config_started", "config_id": "ldpc_B1024_R1-2_Q2"}
+{"time": "2026-11-12T20:25:28.171416+08:00", "event": "reference_gate_passed", "config_id": "ldpc_B1024_R1-2_Q2", "frames": 4, "full_codeword_mismatches": 0, "tx_mismatches": 0, "index_mismatches": 0, "crc_mismatches": 0, "recovered_llr_max_error": 0.0, "independent_decoder": "Sionna boxplus-phi 50, positive logits favor bit 1"}
+{"time": "2026-11-12T20:25:28.457455+08:00", "event": "noiseless_gate_passed", "config_id": "ldpc_B1024_R1-2_Q2", "frames": 16, "payload_frame_errors": 0, "payload_bit_errors": 0, "rejected": 0, "max_T": 50, "alpha": 0.8, "alpha_status": "uncalibrated_engineering_default", "seconds": 0.2839124999009073}
+{"time": "2026-11-12T20:25:28.469982+08:00", "event": "config_started", "config_id": "ldpc_B4096_R1-2_Q2"}
+{"time": "2026-11-12T20:25:28.861467+08:00", "event": "reference_gate_passed", "config_id": "ldpc_B4096_R1-2_Q2", "frames": 4, "full_codeword_mismatches": 0, "tx_mismatches": 0, "index_mismatches": 0, "crc_mismatches": 0, "recovered_llr_max_error": 0.0, "independent_decoder": "Sionna boxplus-phi 50, positive logits favor bit 1"}
+{"time": "2026-11-12T20:25:29.249715+08:00", "event": "noiseless_gate_passed", "config_id": "ldpc_B4096_R1-2_Q2", "frames": 16, "payload_frame_errors": 0, "payload_bit_errors": 0, "rejected": 0, "max_T": 50, "alpha": 0.8, "alpha_status": "uncalibrated_engineering_default", "seconds": 0.3869513999670744}
+{"time": "2026-11-12T20:25:29.979092+08:00", "event": "failed", "error": "AssertionError(('SSM sign symmetry', 0.019347190856933594))"}

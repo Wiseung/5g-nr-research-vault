@@ -1,0 +1,104 @@
+{
+  "status": "smoke_training_completed",
+  "formal_training": false,
+  "config_id": "ldpc_B4096_R1-2_Q2",
+  "steps": 100,
+  "batch": 8,
+  "observations": 800,
+  "parameters": 1873,
+  "elapsed_seconds": 84.89844819996506,
+  "mean_step_seconds": 0.4514339869981632,
+  "mean_step_seconds_after_first_10": 0.4492873388859961,
+  "peak_allocated_bytes": 347149312,
+  "peak_reserved_bytes": 358612992,
+  "initial_validation": [
+    {
+      "snr_db": 0.5,
+      "frames": 64,
+      "information_bce": 0.36592017486691475,
+      "payload_frame_errors": 64,
+      "payload_bit_errors": 40839,
+      "rejected": 64,
+      "bler_ci95": [
+        0.9433759402071946,
+        1
+      ]
+    },
+    {
+      "snr_db": 1.0,
+      "frames": 64,
+      "information_bce": 0.15843940060585737,
+      "payload_frame_errors": 63,
+      "payload_bit_errors": 16836,
+      "rejected": 64,
+      "bler_ci95": [
+        0.9166589839990573,
+        0.9972364580766624
+      ]
+    },
+    {
+      "snr_db": 1.5,
+      "frames": 64,
+      "information_bce": 0.00037997626876637436,
+      "payload_frame_errors": 5,
+      "payload_bit_errors": 43,
+      "rejected": 7,
+      "bler_ci95": [
+        0.03383117690855046,
+        0.17019537354162906
+      ]
+    }
+  ],
+  "final_validation": [
+    {
+      "snr_db": 0.5,
+      "frames": 64,
+      "information_bce": 0.36098402366042137,
+      "payload_frame_errors": 64,
+      "payload_bit_errors": 40124,
+      "rejected": 64,
+      "bler_ci95": [
+        0.9433759402071946,
+        1
+      ]
+    },
+    {
+      "snr_db": 1.0,
+      "frames": 64,
+      "information_bce": 0.14194096624851227,
+      "payload_frame_errors": 63,
+      "payload_bit_errors": 14907,
+      "rejected": 64,
+      "bler_ci95": [
+        0.9166589839990573,
+        0.9972364580766624
+      ]
+    },
+    {
+      "snr_db": 1.5,
+      "frames": 64,
+      "information_bce": 0.00020633926232427324,
+      "payload_frame_errors": 4,
+      "payload_bit_errors": 18,
+      "rejected": 7,
+      "bler_ci95": [
+        0.024571201396618017,
+        0.14997485092208662
+      ]
+    }
+  ],
+  "post_checks": {
+    "frames": 8,
+    "symmetry_max_abs_error": 0.0,
+    "state_abs_max": 0.92543625831604,
+    "trained_controller_noiseless_payload_errors": 0,
+    "noiseless_rejected": 0
+  },
+  "checkpoint_replay_max_error": 0.0,
+  "checkpoint_sha256": "41145ae02ca5f627f3ecf768e097eb216e8a90a29ca014a28a9493bd99739160",
+  "limitations": [
+    "bounded debugging run is not formal model training",
+    "uncalibrated alpha and debugging SNR; no BLER improvement claim",
+    "no protocol speed benchmark or full-batch64 runtime extrapolation"
+  ]
+}

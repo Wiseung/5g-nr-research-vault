@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError((-0.8059067462382137, 0.5274348988658989))",
+  "traceback": "Traceback (most recent call last):\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\check_channel.py\", line 107, in main\n    records = [check(NRLink(ldpc(b, Fraction(1, 2)))) for b in (1024, 4096)]\n               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"G:\\5g-nr-research-vault-1\\03-仿真与实验\\信道编译码\\S2-QC行级SSM实现规格\\实验方案\\本机实验\\check_channel.py\", line 45, in check\n    assert abs(mean) < 0.015 and abs(variance - 1) < 0.025, (mean, variance)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: (-0.8059067462382137, 0.5274348988658989)\n"
+}

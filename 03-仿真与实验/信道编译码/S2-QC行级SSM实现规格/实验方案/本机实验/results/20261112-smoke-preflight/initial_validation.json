@@ -1,0 +1,78 @@
+{
+  "NMS_F20": [
+    {
+      "snr_db": 0.5,
+      "frames": 16,
+      "information_bce": 0.43391580879688263,
+      "payload_frame_errors": 16,
+      "payload_bit_errors": 3014,
+      "rejected": 16,
+      "bler_ci95": [
+        0.8063923194655637,
+        1
+      ]
+    },
+    {
+      "snr_db": 1.0,
+      "frames": 16,
+      "information_bce": 0.2859569117426872,
+      "payload_frame_errors": 15,
+      "payload_bit_errors": 1962,
+      "rejected": 15,
+      "bler_ci95": [
+        0.7167126242970107,
+        0.9888806552353576
+      ]
+    },
+    {
+      "snr_db": 1.5,
+      "frames": 16,
+      "information_bce": 0.028299144643824548,
+      "payload_frame_errors": 3,
+      "payload_bit_errors": 198,
+      "rejected": 5,
+      "bler_ci95": [
+        0.06591599071428142,
+        0.4300888096197414
+      ]
+    }
+  ],
+  "initial_SSM": [
+    {
+      "snr_db": 0.5,
+      "frames": 16,
+      "information_bce": 0.38616229593753815,
+      "payload_frame_errors": 15,
+      "payload_bit_errors": 2732,
+      "rejected": 16,
+      "bler_ci95": [
+        0.7167126242970107,
+        0.9888806552353576
+      ]
+    },
+    {
+      "snr_db": 1.0,
+      "frames": 16,
+      "information_bce": 0.20117948204278946,
+      "payload_frame_errors": 14,
+      "payload_bit_errors": 1349,
+      "rejected": 15,
+      "bler_ci95": [
+        0.639771727342413,
+        0.9650225122567595
+      ]
+    },
+    {
+      "snr_db": 1.5,
+      "frames": 16,
+      "information_bce": 0.019899233018804807,
+      "payload_frame_errors": 1,
+      "payload_bit_errors": 129,
+      "rejected": 3,
+      "bler_ci95": [
+        0.01111934476464252,
+        0.28328737570298945
+      ]
+    }
+  ]
+}
