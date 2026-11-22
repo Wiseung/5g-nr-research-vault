@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "fixedN_points_and_arrays": 107,
+  "NMS_decoded_frames": 5140000,
+  "unique_pilot_calibration_channel_observations": 2740000,
+  "optimization_runs": 12,
+  "optimization_steps": 6000,
+  "optimization_observations": 48000,
+  "prior_artifacts": [
+    {
+      "index": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-summary/artifact_sha256.json",
+      "files": 140,
+      "mismatches": []
+    },
+    {
+      "index": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-160241-bg1-gradient/artifact_sha256.json",
+      "files": 101,
+      "mismatches": []
+    }
+  ],
+  "tracked_diff_empty": true,
+  "HEAD": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+  "independent_CI_implementation": "scipy.stats.binomtest.proportion_ci wilson; one-sided exact for zero"
+}

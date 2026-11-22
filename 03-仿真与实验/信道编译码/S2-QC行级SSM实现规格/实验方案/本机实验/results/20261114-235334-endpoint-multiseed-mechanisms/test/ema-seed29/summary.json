@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "cohort": "ema-seed29",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": {
+      "target_bler": 0.001,
+      "methods": [
+        {
+          "method": "NMS",
+          "crossing_db": 2.049487106295418,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            2.043641234007996,
+            2.0555953844824453
+          ],
+          "ci95_db": [
+            2.043641234007996,
+            2.0555953844824453
+          ]
+        },
+        {
+          "method": "ema-seed29",
+          "crossing_db": 1.9662883647652265,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.957693766023053,
+            1.9755034604840067
+          ],
+          "ci95_db": [
+            1.957693766023053,
+            1.9755034604840067
+          ],
+          "gain_vs_NMS_db": 0.08319874153019136,
+          "gain_bootstrap_valid": 10000,
+          "gain_ci95_db": [
+            0.07392631323570285,
+            0.09221040982917945
+          ],
+          "gain_conditional_ci95_db": [
+            0.07392631323570285,
+            0.09221040982917945
+          ]
+        }
+      ],
+      "interpolation": "log10(BLER), adjacent positive observed points only; no pseudocount, no extrapolation",
+      "ci_scope": "paired32-shard percentile bootstrap, sampling uncertainty conditional on selected models; no training-seed uncertainty or interpolation-model-error coverage",
+      "invalid_bootstrap_policy": "any invalid replicate makes ordinary CI N/A; valid-only conditional interval separately disclosed"
+    },
+    "ldpc_B4096_R1-2_Q2": {
+      "target_bler": 0.001,
+      "methods": [
+        {
+          "method": "NMS",
+          "crossing_db": 1.6702907563440552,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.6635393506731009,
+            1.677117115559167
+          ],
+          "ci95_db": [
+            1.6635393506731009,
+            1.677117115559167
+          ]
+        },
+        {
+          "method": "ema-seed29",
+          "crossing_db": 1.5981469773763899,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.5923524057671223,
+            1.6032033808155473
+          ],
+          "ci95_db": [
+            1.5923524057671223,
+            1.6032033808155473
+          ],
+          "gain_vs_NMS_db": 0.07214377896766533,
+          "gain_bootstrap_valid": 10000,
+          "gain_ci95_db": [
+            0.06447658720872664,
+            0.08053291411895852
+          ],
+          "gain_conditional_ci95_db": [
+            0.06447658720872664,
+            0.08053291411895852
+          ]
+        }
+      ],
+      "interpolation": "log10(BLER), adjacent positive observed points only; no pseudocount, no extrapolation",
+      "ci_scope": "paired32-shard percentile bootstrap, sampling uncertainty conditional on selected models; no training-seed uncertainty or interpolation-model-error coverage",
+      "invalid_bootstrap_policy": "any invalid replicate makes ordinary CI N/A; valid-only conditional interval separately disclosed"
+    }
+  },
+  "test_grid_sha256": "1b3a6ff44894c649aa73244fc34724efa5a3319aea25ef394991a934ff2b7632",
+  "finished_at": "2026-11-20T06:42:39.160532+08:00"
+}

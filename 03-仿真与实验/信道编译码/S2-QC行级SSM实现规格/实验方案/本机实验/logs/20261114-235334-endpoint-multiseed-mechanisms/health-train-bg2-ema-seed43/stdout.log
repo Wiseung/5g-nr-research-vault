@@ -1,0 +1,21 @@
+{"pattern": 0, "chunk": 0, "device_ptr": "0x73fe30000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 8, "device_ptr": "0x73fda8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 16, "device_ptr": "0x73fd28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 24, "device_ptr": "0x73fca8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 32, "device_ptr": "0x73fc28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 40, "device_ptr": "0x73fba8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 48, "device_ptr": "0x73fb28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 56, "device_ptr": "0x73faa8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 64, "device_ptr": "0x73fa28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 0, "chunk": 72, "device_ptr": "0x73f9a8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 0, "device_ptr": "0x73fe30000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 8, "device_ptr": "0x73fda8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 16, "device_ptr": "0x73fd28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 24, "device_ptr": "0x73fca8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 32, "device_ptr": "0x73fc28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 40, "device_ptr": "0x73fba8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 48, "device_ptr": "0x73fb28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 56, "device_ptr": "0x73faa8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 64, "device_ptr": "0x73fa28000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"pattern": 1, "chunk": 72, "device_ptr": "0x73f9a8000000", "mismatches": 0, "first_byte_offsets": [], "expected": [], "actual": [], "pid": 2089286}
+{"status": "passed", "bytes_checked": 42949672960, "mismatches": 0}

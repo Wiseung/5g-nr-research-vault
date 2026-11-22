@@ -1,0 +1,201 @@
+{
+  "status": "passed",
+  "endpoint_frames": 31250,
+  "endpoint_decodes": 62500,
+  "fixed_validation_replay_frames": 9375,
+  "failure_shards": [
+    {
+      "shard": 0,
+      "method": "NMS",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.0,
+      "NMS_matches_seed17": true,
+      "sample_sha256": "0dbb04df5ce376e06ec44caf854b249e130ef7a150040848daa4a7a4d1aab703"
+    },
+    {
+      "shard": 0,
+      "method": "mlp-seed29",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.9999997615814209,
+      "NMS_matches_seed17": null,
+      "sample_sha256": "0dbb04df5ce376e06ec44caf854b249e130ef7a150040848daa4a7a4d1aab703"
+    },
+    {
+      "shard": 5,
+      "method": "NMS",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.0,
+      "NMS_matches_seed17": true,
+      "sample_sha256": "3f7132e89beb97d12240657b5840358b07618dcf36884497b772584902e47649"
+    },
+    {
+      "shard": 5,
+      "method": "mlp-seed29",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.9999997615814209,
+      "NMS_matches_seed17": null,
+      "sample_sha256": "3f7132e89beb97d12240657b5840358b07618dcf36884497b772584902e47649"
+    },
+    {
+      "shard": 8,
+      "method": "NMS",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.0,
+      "NMS_matches_seed17": true,
+      "sample_sha256": "ff9376b478acb45f2afc7d8088b1d6c27595bf0b6a8a3d724582572888956a62"
+    },
+    {
+      "shard": 8,
+      "method": "mlp-seed29",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.9999997615814209,
+      "NMS_matches_seed17": null,
+      "sample_sha256": "ff9376b478acb45f2afc7d8088b1d6c27595bf0b6a8a3d724582572888956a62"
+    },
+    {
+      "shard": 11,
+      "method": "NMS",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.0,
+      "NMS_matches_seed17": true,
+      "sample_sha256": "18990d83e1eb6ee60451f2e7d8d5f54c54dc422e97c1e416f296326d2004a599"
+    },
+    {
+      "shard": 11,
+      "method": "mlp-seed29",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.9999997615814209,
+      "NMS_matches_seed17": null,
+      "sample_sha256": "18990d83e1eb6ee60451f2e7d8d5f54c54dc422e97c1e416f296326d2004a599"
+    },
+    {
+      "shard": 16,
+      "method": "NMS",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.0,
+      "NMS_matches_seed17": true,
+      "sample_sha256": "e7d97be20439dbb2237b65a3d72b24f5297aac943e991aebc04b5e103508503a"
+    },
+    {
+      "shard": 16,
+      "method": "mlp-seed29",
+      "frames": 6250,
+      "finite": true,
+      "state_max": 0.9999997615814209,
+      "NMS_matches_seed17": null,
+      "sample_sha256": "e7d97be20439dbb2237b65a3d72b24f5297aac943e991aebc04b5e103508503a"
+    }
+  ],
+  "validation": [
+    {
+      "step": null,
+      "snr": 0.0612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": null,
+      "snr": 0.6862,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": null,
+      "snr": 1.3112,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": null,
+      "snr": 1.9362,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": null,
+      "snr": 2.5612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 47000,
+      "snr": 0.0612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 47000,
+      "snr": 0.6862,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 47000,
+      "snr": 1.3112,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 47000,
+      "snr": 1.9362,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 47000,
+      "snr": 2.5612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 41000,
+      "snr": 0.0612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 41000,
+      "snr": 0.6862,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 41000,
+      "snr": 1.3112,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 41000,
+      "snr": 1.9362,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    },
+    {
+      "step": 41000,
+      "snr": 2.5612,
+      "frames": 625,
+      "all_saved_per_frame_metrics_bitwise_equal": true
+    }
+  ],
+  "post_checks": {
+    "frames": 8,
+    "symmetry_max_abs_error": 0.0,
+    "state_abs_max": 0.9999997615814209,
+    "noiseless_payload_errors": 0,
+    "noiseless_rejected": 0
+  },
+  "checkpoint_parameter_reload_exact": true,
+  "selected_step_unchanged": 47000,
+  "full_training_reexecution": false,
+  "validation_scope": "one of 32 shards at all5 SNRs, for NMS and frozen top2; not a complete validation rerun"
+}

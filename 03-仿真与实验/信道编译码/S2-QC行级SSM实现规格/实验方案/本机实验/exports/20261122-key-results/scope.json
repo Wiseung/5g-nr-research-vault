@@ -1,0 +1,16 @@
+{
+  "source_experiment_commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+  "completed_at": "2026-11-22T08:05:19.574438+08:00",
+  "training_runs_in_campaign": 22,
+  "prior_seed17_training_runs": 2,
+  "trained_selected_models": 24,
+  "paired_test_cohorts": 13,
+  "test_frames_per_config_snr": 200000,
+  "channel_observations_shared_across_cohorts": 1800000,
+  "original_local_root": "/home/czr/workspace/5g-nr-research-vault",
+  "precision": "FP32, TF32/AMP off",
+  "published": "source, protocol, calibration/proof, reports/plots, aggregate point/shard statistics, audit records, selected checkpoints, stage command/exit/stdout/stderr",
+  "retained_locally": "per-frame test/validation npz, complete train_history.jsonl, non-selected checkpoints, large fault arrays, full original hash inventories, downloaded papers",
+  "verification_limit": "Published summaries and checkpoints can be hashed and compared. Full independent per-frame audit requires the retained raw archive; completion_audit is historical evidence.",
+  "portability": "Original immutable JSON/PT retain absolute host paths and source hash keys. Use checkpoint_repository_path for checkout-relative lookup; do not silently rewrite original artifacts."
+}

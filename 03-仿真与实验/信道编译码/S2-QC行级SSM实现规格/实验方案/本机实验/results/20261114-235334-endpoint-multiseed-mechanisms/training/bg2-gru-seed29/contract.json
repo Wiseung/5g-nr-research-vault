@@ -1,0 +1,52 @@
+{
+  "protocol": "S2-v1",
+  "config_id": "ldpc_B1024_R1-2_Q2",
+  "seed": 29,
+  "total_steps": 50000,
+  "effective_batch": 64,
+  "microbatch": 64,
+  "backend": "cuda-graph",
+  "dtype": "FP32",
+  "TF32": false,
+  "AMP": false,
+  "deterministic": true,
+  "alpha": 0.75,
+  "snr_range_db": [
+    0.31999627656918816,
+    2.819996276569188
+  ],
+  "validation_snr_db": [
+    0.32,
+    0.945,
+    1.57,
+    2.195,
+    2.82
+  ],
+  "training_split": "S2-formal-train-v1",
+  "validation_split": "S2-formal-validation-v1",
+  "frozen_inputs_sha256": "627b71b0f7c5e5e4908c1547c940f4a3799486e5ebfb1b7d52b153ee79de8f7b",
+  "source_sha256": {
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+  },
+  "index_sha256": "21edf846d449aee0bf3c3ceec38d953d578aec5b88c253a7067173e362c5ff68",
+  "shift_sha256": "4f4db6f7607446984c0b1dc6243bff4286f6fbad3a477f29d84a5e0edab523fb",
+  "packages": {
+    "torch": "2.9.1+cu128",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sionna": "2.2.0",
+    "py3gpp": "0.6.0"
+  },
+  "optimizer": "AdamW foreach=False betas(.9,.999) eps1e-8, protocol decay exclusions, clip1",
+  "training_payload": "random with real TB CRC",
+  "teacher": false,
+  "T": 20,
+  "mechanism": "gru",
+  "mechanism_source_sha256": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4",
+  "mechanism_runner_sha256": "d7fbabe988f29b2e891daad00082cc55f1ea1e1a1854ee30a71656ac11179139"
+}

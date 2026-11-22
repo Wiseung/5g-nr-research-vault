@@ -1,0 +1,1602 @@
+[
+  {
+    "pattern": 0,
+    "chunk": 0,
+    "device_ptr": "0x768110000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 1,
+    "device_ptr": "0x768120000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 2,
+    "device_ptr": "0x7680e8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 3,
+    "device_ptr": "0x7680d8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 4,
+    "device_ptr": "0x7680c8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 5,
+    "device_ptr": "0x7680b8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 6,
+    "device_ptr": "0x7680a8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 7,
+    "device_ptr": "0x768098000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 8,
+    "device_ptr": "0x768088000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 9,
+    "device_ptr": "0x768078000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 10,
+    "device_ptr": "0x768068000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 11,
+    "device_ptr": "0x768058000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 12,
+    "device_ptr": "0x768048000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 13,
+    "device_ptr": "0x768038000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 14,
+    "device_ptr": "0x768028000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 15,
+    "device_ptr": "0x768018000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 16,
+    "device_ptr": "0x768008000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 17,
+    "device_ptr": "0x767ff8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 18,
+    "device_ptr": "0x767fe8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 19,
+    "device_ptr": "0x767fd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 20,
+    "device_ptr": "0x767fc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 21,
+    "device_ptr": "0x767fb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 22,
+    "device_ptr": "0x767fa8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 23,
+    "device_ptr": "0x767f98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 24,
+    "device_ptr": "0x767f88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 25,
+    "device_ptr": "0x767f78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 26,
+    "device_ptr": "0x767f68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 27,
+    "device_ptr": "0x767f58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 28,
+    "device_ptr": "0x767f48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 29,
+    "device_ptr": "0x767f38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 30,
+    "device_ptr": "0x767f28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 31,
+    "device_ptr": "0x767f18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 32,
+    "device_ptr": "0x767f08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 33,
+    "device_ptr": "0x767ef8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 34,
+    "device_ptr": "0x767ee8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 35,
+    "device_ptr": "0x767ed8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 36,
+    "device_ptr": "0x767ec8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 37,
+    "device_ptr": "0x767eb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 38,
+    "device_ptr": "0x767ea8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 39,
+    "device_ptr": "0x767e98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 40,
+    "device_ptr": "0x767e88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 41,
+    "device_ptr": "0x767e78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 42,
+    "device_ptr": "0x767e68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 43,
+    "device_ptr": "0x767e58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 44,
+    "device_ptr": "0x767e48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 45,
+    "device_ptr": "0x767e38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 46,
+    "device_ptr": "0x767e28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 47,
+    "device_ptr": "0x767e18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 48,
+    "device_ptr": "0x767e08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 49,
+    "device_ptr": "0x767df8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 50,
+    "device_ptr": "0x767de8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 51,
+    "device_ptr": "0x767dd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 52,
+    "device_ptr": "0x767dc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 53,
+    "device_ptr": "0x767db8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 54,
+    "device_ptr": "0x767da8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 55,
+    "device_ptr": "0x767d98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 56,
+    "device_ptr": "0x767d88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 57,
+    "device_ptr": "0x767d78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 58,
+    "device_ptr": "0x767d68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 59,
+    "device_ptr": "0x767d58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 60,
+    "device_ptr": "0x767d48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 61,
+    "device_ptr": "0x767d38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 62,
+    "device_ptr": "0x767d28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 63,
+    "device_ptr": "0x767d18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 64,
+    "device_ptr": "0x767d08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 65,
+    "device_ptr": "0x767cf8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 66,
+    "device_ptr": "0x767ce8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 67,
+    "device_ptr": "0x767cd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 68,
+    "device_ptr": "0x767cc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 69,
+    "device_ptr": "0x767cb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 70,
+    "device_ptr": "0x767ca8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 71,
+    "device_ptr": "0x767c98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 72,
+    "device_ptr": "0x767c88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 73,
+    "device_ptr": "0x767c78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 74,
+    "device_ptr": "0x767c68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 75,
+    "device_ptr": "0x767c58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 76,
+    "device_ptr": "0x767c48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 77,
+    "device_ptr": "0x767c38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 78,
+    "device_ptr": "0x767c28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 0,
+    "chunk": 79,
+    "device_ptr": "0x767c18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 0,
+    "device_ptr": "0x768110000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 1,
+    "device_ptr": "0x768120000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 2,
+    "device_ptr": "0x7680e8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 3,
+    "device_ptr": "0x7680d8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 4,
+    "device_ptr": "0x7680c8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 5,
+    "device_ptr": "0x7680b8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 6,
+    "device_ptr": "0x7680a8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 7,
+    "device_ptr": "0x768098000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 8,
+    "device_ptr": "0x768088000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 9,
+    "device_ptr": "0x768078000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 10,
+    "device_ptr": "0x768068000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 11,
+    "device_ptr": "0x768058000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 12,
+    "device_ptr": "0x768048000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 13,
+    "device_ptr": "0x768038000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 14,
+    "device_ptr": "0x768028000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 15,
+    "device_ptr": "0x768018000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 16,
+    "device_ptr": "0x768008000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 17,
+    "device_ptr": "0x767ff8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 18,
+    "device_ptr": "0x767fe8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 19,
+    "device_ptr": "0x767fd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 20,
+    "device_ptr": "0x767fc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 21,
+    "device_ptr": "0x767fb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 22,
+    "device_ptr": "0x767fa8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 23,
+    "device_ptr": "0x767f98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 24,
+    "device_ptr": "0x767f88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 25,
+    "device_ptr": "0x767f78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 26,
+    "device_ptr": "0x767f68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 27,
+    "device_ptr": "0x767f58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 28,
+    "device_ptr": "0x767f48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 29,
+    "device_ptr": "0x767f38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 30,
+    "device_ptr": "0x767f28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 31,
+    "device_ptr": "0x767f18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 32,
+    "device_ptr": "0x767f08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 33,
+    "device_ptr": "0x767ef8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 34,
+    "device_ptr": "0x767ee8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 35,
+    "device_ptr": "0x767ed8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 36,
+    "device_ptr": "0x767ec8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 37,
+    "device_ptr": "0x767eb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 38,
+    "device_ptr": "0x767ea8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 39,
+    "device_ptr": "0x767e98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 40,
+    "device_ptr": "0x767e88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 41,
+    "device_ptr": "0x767e78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 42,
+    "device_ptr": "0x767e68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 43,
+    "device_ptr": "0x767e58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 44,
+    "device_ptr": "0x767e48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 45,
+    "device_ptr": "0x767e38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 46,
+    "device_ptr": "0x767e28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 47,
+    "device_ptr": "0x767e18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 48,
+    "device_ptr": "0x767e08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 49,
+    "device_ptr": "0x767df8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 50,
+    "device_ptr": "0x767de8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 51,
+    "device_ptr": "0x767dd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 52,
+    "device_ptr": "0x767dc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 53,
+    "device_ptr": "0x767db8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 54,
+    "device_ptr": "0x767da8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 55,
+    "device_ptr": "0x767d98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 56,
+    "device_ptr": "0x767d88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 57,
+    "device_ptr": "0x767d78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 58,
+    "device_ptr": "0x767d68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 59,
+    "device_ptr": "0x767d58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 60,
+    "device_ptr": "0x767d48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 61,
+    "device_ptr": "0x767d38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 62,
+    "device_ptr": "0x767d28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 63,
+    "device_ptr": "0x767d18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 64,
+    "device_ptr": "0x767d08000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 65,
+    "device_ptr": "0x767cf8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 66,
+    "device_ptr": "0x767ce8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 67,
+    "device_ptr": "0x767cd8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 68,
+    "device_ptr": "0x767cc8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 69,
+    "device_ptr": "0x767cb8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 70,
+    "device_ptr": "0x767ca8000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 71,
+    "device_ptr": "0x767c98000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 72,
+    "device_ptr": "0x767c88000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 73,
+    "device_ptr": "0x767c78000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 74,
+    "device_ptr": "0x767c68000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 75,
+    "device_ptr": "0x767c58000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 76,
+    "device_ptr": "0x767c48000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 77,
+    "device_ptr": "0x767c38000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 78,
+    "device_ptr": "0x767c28000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  },
+  {
+    "pattern": 1,
+    "chunk": 79,
+    "device_ptr": "0x767c18000000",
+    "mismatches": 0,
+    "first_byte_offsets": [],
+    "expected": [],
+    "actual": [],
+    "pid": 1433015
+  }
+]

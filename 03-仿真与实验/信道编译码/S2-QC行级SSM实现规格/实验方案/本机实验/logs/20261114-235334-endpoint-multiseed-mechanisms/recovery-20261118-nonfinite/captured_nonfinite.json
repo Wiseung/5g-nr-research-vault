@@ -1,0 +1,15 @@
+{
+  "config": "ldpc_B4096_R1-2_Q2",
+  "split": "S2-formal-test-awgn-t20-v1",
+  "snr": 1.5,
+  "shard": 11,
+  "n": 6250,
+  "calls": 38,
+  "method": "NMS",
+  "batch": 125,
+  "nonfinite_output": 2,
+  "input_finite": false,
+  "eager_finite": false,
+  "model_finite": true,
+  "pid": 469792
+}

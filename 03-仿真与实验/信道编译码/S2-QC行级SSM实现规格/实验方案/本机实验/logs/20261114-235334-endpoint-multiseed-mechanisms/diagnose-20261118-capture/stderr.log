@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-nonfinite/capture_endpoint.py", line 31, in <module>
+    e.test(e.OUT/'mlp-seed29_registry.json')
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py", line 258, in test
+    points=[evaluate_point(OUT/"test"/cohort/cid,link,specs,engines,grid["split"],snr,p["frames_per_snr"]) for snr in p["snr_db"]]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py", line 118, in evaluate_point
+    end=min(n,begin+engine.batch);u=engine(lch[begin:end])
+                                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-nonfinite/capture_endpoint.py", line 27, in call
+    raise AssertionError('nonfinite preserved; original correctness gate retained')
+AssertionError: nonfinite preserved; original correctness gate retained

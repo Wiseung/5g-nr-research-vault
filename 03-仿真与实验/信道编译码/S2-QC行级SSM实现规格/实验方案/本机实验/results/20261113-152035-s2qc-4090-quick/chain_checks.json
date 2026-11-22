@@ -1,0 +1,60 @@
+[
+  {
+    "config_id": "ldpc_B1024_R1-2_Q2",
+    "algebra": {
+      "frames": 16,
+      "nonzero_syndromes": 0,
+      "nonzero_filler": 0,
+      "shift_sha256": "4f4db6f7607446984c0b1dc6243bff4286f6fbad3a477f29d84a5e0edab523fb",
+      "index_sha256": "21edf846d449aee0bf3c3ceec38d953d578aec5b88c253a7067173e362c5ff68"
+    },
+    "reference": {
+      "frames": 4,
+      "full_codeword_mismatches": 0,
+      "tx_mismatches": 0,
+      "index_mismatches": 0,
+      "crc_mismatches": 0,
+      "recovered_llr_max_error": 0.0,
+      "independent_decoder": "Sionna boxplus-phi 50, positive logits favor bit 1"
+    },
+    "noiseless": {
+      "frames": 16,
+      "payload_frame_errors": 0,
+      "payload_bit_errors": 0,
+      "rejected": 0,
+      "max_T": 50,
+      "alpha": 0.8,
+      "alpha_status": "uncalibrated_engineering_default",
+      "seconds": 0.22001403383910656
+    }
+  },
+  {
+    "config_id": "ldpc_B4096_R1-2_Q2",
+    "algebra": {
+      "frames": 16,
+      "nonzero_syndromes": 0,
+      "nonzero_filler": 0,
+      "shift_sha256": "4ae766634def05dc45e4903c775a5ad7e1feb067747a644504b6d8c90d33b1ed",
+      "index_sha256": "5c714e7c00be50cae8f1b718c8282b1279f4c7cda117e9722fe6293c40651dc3"
+    },
+    "reference": {
+      "frames": 4,
+      "full_codeword_mismatches": 0,
+      "tx_mismatches": 0,
+      "index_mismatches": 0,
+      "crc_mismatches": 0,
+      "recovered_llr_max_error": 0.0,
+      "independent_decoder": "Sionna boxplus-phi 50, positive logits favor bit 1"
+    },
+    "noiseless": {
+      "frames": 16,
+      "payload_frame_errors": 0,
+      "payload_bit_errors": 0,
+      "rejected": 0,
+      "max_T": 50,
+      "alpha": 0.8,
+      "alpha_status": "uncalibrated_engineering_default",
+      "seconds": 0.22170340549200773
+    }
+  }
+]

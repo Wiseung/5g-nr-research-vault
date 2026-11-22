@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-22T08:04:41.153812+08:00",
+  "status": "sampling",
+  "split": "S2-formal-test-awgn-t20-v1",
+  "config": "ldpc_B4096_R1-2_Q2",
+  "snr": 1.8,
+  "completed_shards": 32,
+  "frames": 200000,
+  "methods": [
+    "NMS",
+    "gru-seed43"
+  ],
+  "pid": 3047668
+}

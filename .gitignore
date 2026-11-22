@@ -34,6 +34,8 @@
 build/
 node_modules/
 .cache/
+__pycache__/
+*.py[cod]
 
 # Local conversation exports
 /copilot/copilot-conversations/

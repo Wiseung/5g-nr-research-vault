@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "finished_at": "2026-11-22T08:05:19.574438+08:00",
+  "elapsed_stage_wall_hours": 141.29755978916663,
+  "prior_archives_verified": {
+    "20261113-214206-formal50k": 10536,
+    "20261114-165401-bg1-formal50k": 9941,
+    "20261114-233643-formal50k-analysis": 21
+  },
+  "training_runs": 22,
+  "test_cohorts": 13,
+  "no_git_commit_push": true,
+  "report": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/20261114-235334-endpoint-multiseed-mechanisms-独立终点测试与多种子机制对照进展.md"
+}

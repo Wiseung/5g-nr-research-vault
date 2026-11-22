@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "mechanism_sources": {
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/train_mechanism.py": "d7fbabe988f29b2e891daad00082cc55f1ea1e1a1854ee30a71656ac11179139",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/mechanisms.py": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+  },
+  "definitions": {
+    "mlp": {
+      "width": 24,
+      "history": false,
+      "definition": "x=W_in[features,embedding]; z=RMSNorm(x); h=tanh(W_drive z+W_condition c); eta=.5sigmoid(head(RMSNorm(x+W_out h)))"
+    },
+    "ema": {
+      "width": 24,
+      "history": true,
+      "definition": "Same current drive as MLP; h_t=a*h_prev+(1-a)*drive, learned constant per-channel a=sigmoid(theta), initial a=.5; zero initial state."
+    },
+    "gru": {
+      "width": 14,
+      "history": true,
+      "definition": "x=W_in[features,embedding]; z=RMSNorm(x)+W_condition c; h_t=GRUCell(z,h_prev), zero initial state; eta=.5sigmoid(head(RMSNorm(x+W_out h_t)))."
+    }
+  },
+  "checks": {
+    "ldpc_B1024_R1-2_Q2": {
+      "mlp": {
+        "status": "passed",
+        "parameters": 1945,
+        "SSM_parameters": 1857,
+        "ratio": 1.0473882606354334,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9924370050430298,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "ema": {
+        "status": "passed",
+        "parameters": 1969,
+        "SSM_parameters": 1857,
+        "ratio": 1.0603123317178245,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9841724634170532,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "gru": {
+        "status": "passed",
+        "parameters": 1975,
+        "SSM_parameters": 1857,
+        "ratio": 1.063543349488422,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9882857799530029,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "static_eta": {
+        "status": "passed",
+        "scalar_graph_eager_exact": true,
+        "symmetry_and_noiseless": "passed"
+      }
+    },
+    "ldpc_B4096_R1-2_Q2": {
+      "mlp": {
+        "status": "passed",
+        "parameters": 1961,
+        "SSM_parameters": 1873,
+        "ratio": 1.0469834490122798,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9902855157852173,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "ema": {
+        "status": "passed",
+        "parameters": 1985,
+        "SSM_parameters": 1873,
+        "ratio": 1.0597971169247198,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9828087091445923,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "gru": {
+        "status": "passed",
+        "parameters": 1991,
+        "SSM_parameters": 1873,
+        "ratio": 1.0630005339028297,
+        "four_graph_eager_updates_exact": true,
+        "checkpoint_next_update_exact": true,
+        "inference_exact": true,
+        "syndrome_full_weight_finite": true,
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9861293435096741,
+          "noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        }
+      },
+      "static_eta": {
+        "status": "passed",
+        "scalar_graph_eager_exact": true,
+        "symmetry_and_noiseless": "passed"
+      }
+    }
+  }
+}

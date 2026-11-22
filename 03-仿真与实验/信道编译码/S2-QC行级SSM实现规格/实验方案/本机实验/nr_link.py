@@ -50,6 +50,8 @@ class NRLink:
         self.p = len(rr)
         assert self.p * self.z == config["graph_edges"]
         self.edge_row = torch.tensor(rr, device=self.device)
+        # Topology is constant; bincount itself cannot run inside CUDA graph capture.
+        self.row_degree = torch.bincount(self.edge_row, minlength=self.rows)
         self.var_np = cc[:, None] * self.z + (np.arange(self.z) + self.base[rr, cc, None]) % self.z
         self.var = torch.tensor(self.var_np, device=self.device)
         self.flat_var = self.var.flatten()
@@ -188,8 +190,7 @@ class NRLink:
                     torch.log1p(counts.clamp_max(4).float()) / np.log(5)):
             total = u.new_zeros(self.rows)
             total.index_add_(0, self.edge_row, val.float().mean(-1))
-            degree = torch.bincount(self.edge_row, minlength=self.rows)
-            cond.append((total / degree)[None].expand(len(u), -1))
+            cond.append((total / self.row_degree)[None].expand(len(u), -1))
         zero = torch.zeros_like(violation)
         c = torch.stack((violation, violation - prev_violation, zero, zero, *cond), dim=-1)
         return f.detach(), c.detach(), violation.detach()

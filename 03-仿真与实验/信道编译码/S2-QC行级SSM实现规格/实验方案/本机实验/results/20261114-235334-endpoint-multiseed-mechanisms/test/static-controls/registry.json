@@ -1,0 +1,43 @@
+{
+  "cohort": "static-controls",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.75
+      },
+      {
+        "name": "static-tuned",
+        "kind": "static",
+        "alpha": 0.75,
+        "eta": 0.1
+      },
+      {
+        "name": "static-initial-eta005",
+        "kind": "static",
+        "alpha": 0.75,
+        "eta": 0.05
+      }
+    ],
+    "ldpc_B4096_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.7
+      },
+      {
+        "name": "static-tuned",
+        "kind": "static",
+        "alpha": 0.7,
+        "eta": 0.1
+      },
+      {
+        "name": "static-initial-eta005",
+        "kind": "static",
+        "alpha": 0.7,
+        "eta": 0.05
+      }
+    ]
+  }
+}

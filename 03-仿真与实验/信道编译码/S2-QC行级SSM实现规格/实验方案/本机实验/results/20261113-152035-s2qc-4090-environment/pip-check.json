@@ -1,0 +1,5 @@
+{
+  "returncode": 1,
+  "stdout": "sionna 2.2.0 requires sionna-rt, which is not installed.\n",
+  "stderr": ""
+}

@@ -1,0 +1,106 @@
+{
+  "ldpc_B1024_R1-2_Q2": {
+    "winner": 0.75,
+    "other": 0.7,
+    "mean_BLER_difference": -0.0022080000000000003,
+    "paired_normal95": [
+      -0.002504299905608214,
+      -0.0019117000943917864
+    ],
+    "points": [
+      {
+        "snr_db": 0.3651,
+        "winner_minus_other_bler": 1e-05,
+        "winner_only_error": 4,
+        "other_only_error": 3,
+        "frames": 100000,
+        "variance_of_mean": 7.000060000600008e-10
+      },
+      {
+        "snr_db": 0.9901,
+        "winner_minus_other_bler": -0.00385,
+        "winner_only_error": 1176,
+        "other_only_error": 1561,
+        "frames": 100000,
+        "variance_of_mean": 2.7355451054510547e-07
+      },
+      {
+        "snr_db": 1.6151,
+        "winner_minus_other_bler": -0.00708,
+        "winner_only_error": 1126,
+        "other_only_error": 1834,
+        "frames": 100000,
+        "variance_of_mean": 2.955016910169102e-07
+      },
+      {
+        "snr_db": 2.2401,
+        "winner_minus_other_bler": -0.00012,
+        "winner_only_error": 2,
+        "other_only_error": 14,
+        "frames": 100000,
+        "variance_of_mean": 1.5998719987199868e-09
+      },
+      {
+        "snr_db": 2.8651,
+        "winner_minus_other_bler": 0.0,
+        "winner_only_error": 0,
+        "other_only_error": 0,
+        "frames": 100000,
+        "variance_of_mean": 0.0
+      }
+    ],
+    "qualification": "descriptive paired validation comparison; no correction for candidate selection; not test-set gain"
+  },
+  "ldpc_B4096_R1-2_Q2": {
+    "winner": 0.7,
+    "other": 0.75,
+    "mean_BLER_difference": -0.010782000000000002,
+    "paired_normal95": [
+      -0.011132402071636198,
+      -0.010431597928363805
+    ],
+    "points": [
+      {
+        "snr_db": 0.1226,
+        "winner_minus_other_bler": 0.0,
+        "winner_only_error": 0,
+        "other_only_error": 0,
+        "frames": 100000,
+        "variance_of_mean": 0.0
+      },
+      {
+        "snr_db": 0.7476,
+        "winner_minus_other_bler": -1e-05,
+        "winner_only_error": 0,
+        "other_only_error": 1,
+        "frames": 100000,
+        "variance_of_mean": 9.999999999999998e-11
+      },
+      {
+        "snr_db": 1.3726,
+        "winner_minus_other_bler": -0.0539,
+        "winner_only_error": 1445,
+        "other_only_error": 6835,
+        "frames": 100000,
+        "variance_of_mean": 7.989558895588957e-07
+      },
+      {
+        "snr_db": 1.9976,
+        "winner_minus_other_bler": 0.0,
+        "winner_only_error": 0,
+        "other_only_error": 0,
+        "frames": 100000,
+        "variance_of_mean": 0.0
+      },
+      {
+        "snr_db": 2.6226,
+        "winner_minus_other_bler": 0.0,
+        "winner_only_error": 0,
+        "other_only_error": 0,
+        "frames": 100000,
+        "variance_of_mean": 0.0
+      }
+    ],
+    "qualification": "descriptive paired validation comparison; no correction for candidate selection; not test-set gain"
+  }
+}

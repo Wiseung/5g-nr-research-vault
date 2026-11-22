@@ -1,0 +1,300 @@
+{
+  "status": "passed",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": {
+      "status": "passed",
+      "batch": 64,
+      "loss_original_checks": {
+        "1": {
+          "loss": 0.07737626880407333,
+          "gradient_max_error": 0.0
+        },
+        "5000": {
+          "loss": 0.07737626880407333,
+          "gradient_max_error": 0.0
+        },
+        "5001": {
+          "loss": 0.07737667113542557,
+          "gradient_max_error": 0.0
+        },
+        "7500": {
+          "loss": 0.07838217169046402,
+          "gradient_max_error": 0.0
+        },
+        "10000": {
+          "loss": 0.0793880820274353,
+          "gradient_max_error": 0.0
+        }
+      },
+      "schedule": {
+        "0": {
+          "lr": 0.0,
+          "syndrome": 0.0
+        },
+        "1": {
+          "lr": 1e-06,
+          "syndrome": 0.0
+        },
+        "999": {
+          "lr": 0.000999,
+          "syndrome": 0.0
+        },
+        "1000": {
+          "lr": 0.001,
+          "syndrome": 0.0
+        },
+        "1001": {
+          "lr": 0.0009999999990751099,
+          "syndrome": 0.0
+        },
+        "4999": {
+          "lr": 0.000985290005752913,
+          "syndrome": 0.0
+        },
+        "5000": {
+          "lr": 0.0009852826883675631,
+          "syndrome": 0.0
+        },
+        "5001": {
+          "lr": 0.0009852753691929307,
+          "syndrome": 4.000000000000001e-06
+        },
+        "7500": {
+          "lr": 0.0009614856803571157,
+          "syndrome": 0.01
+        },
+        "10000": {
+          "lr": 0.0009271396472013282,
+          "syndrome": 0.02
+        },
+        "50000": {
+          "lr": 0.0001,
+          "syndrome": 0.02
+        }
+      },
+      "microbatch_sample_partition": [
+        8,
+        16,
+        32,
+        64
+      ],
+      "channel_original_max_error": 0.0,
+      "validation625_3125_prefix": {
+        "0.32": "exact",
+        "0.945": "exact",
+        "1.57": "exact",
+        "2.195": "exact",
+        "2.82": "exact"
+      },
+      "graph_eager_updates": [
+        {
+          "step": 1,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 2,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 3,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 4,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 5001,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 7500,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 10000,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        }
+      ],
+      "checkpoint_next_step_model_optimizer_gradient_max_error": 0.0,
+      "rng_restore": "exact",
+      "inference_graph_original_max_error": 0.0,
+      "updated_model_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 0.9035620093345642,
+        "noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      },
+      "peak_allocated_bytes": 1311633920,
+      "peak_reserved_bytes": 1501560832
+    },
+    "ldpc_B4096_R1-2_Q2": {
+      "status": "passed",
+      "batch": 64,
+      "loss_original_checks": {
+        "1": {
+          "loss": 0.11347811669111252,
+          "gradient_max_error": 0.0
+        },
+        "5000": {
+          "loss": 0.11347811669111252,
+          "gradient_max_error": 0.0
+        },
+        "5001": {
+          "loss": 0.11347880959510803,
+          "gradient_max_error": 0.0
+        },
+        "7500": {
+          "loss": 0.11521469056606293,
+          "gradient_max_error": 0.0
+        },
+        "10000": {
+          "loss": 0.11695125699043274,
+          "gradient_max_error": 0.0
+        }
+      },
+      "schedule": {
+        "0": {
+          "lr": 0.0,
+          "syndrome": 0.0
+        },
+        "1": {
+          "lr": 1e-06,
+          "syndrome": 0.0
+        },
+        "999": {
+          "lr": 0.000999,
+          "syndrome": 0.0
+        },
+        "1000": {
+          "lr": 0.001,
+          "syndrome": 0.0
+        },
+        "1001": {
+          "lr": 0.0009999999990751099,
+          "syndrome": 0.0
+        },
+        "4999": {
+          "lr": 0.000985290005752913,
+          "syndrome": 0.0
+        },
+        "5000": {
+          "lr": 0.0009852826883675631,
+          "syndrome": 0.0
+        },
+        "5001": {
+          "lr": 0.0009852753691929307,
+          "syndrome": 4.000000000000001e-06
+        },
+        "7500": {
+          "lr": 0.0009614856803571157,
+          "syndrome": 0.01
+        },
+        "10000": {
+          "lr": 0.0009271396472013282,
+          "syndrome": 0.02
+        },
+        "50000": {
+          "lr": 0.0001,
+          "syndrome": 0.02
+        }
+      },
+      "microbatch_sample_partition": [
+        8,
+        16,
+        32,
+        64
+      ],
+      "channel_original_max_error": 0.0,
+      "validation625_3125_prefix": {
+        "0.0612": "exact",
+        "0.6862": "exact",
+        "1.3112": "exact",
+        "1.9362": "exact",
+        "2.5612": "exact"
+      },
+      "graph_eager_updates": [
+        {
+          "step": 1,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 2,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 3,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 4,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 5001,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 7500,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        },
+        {
+          "step": 10000,
+          "parameter_max_error": 0.0,
+          "optimizer_max_error": 0.0,
+          "gradient_max_error": 0.0
+        }
+      ],
+      "checkpoint_next_step_model_optimizer_gradient_max_error": 0.0,
+      "rng_restore": "exact",
+      "inference_graph_original_max_error": 0.0,
+      "updated_model_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 0.9120806455612183,
+        "noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      },
+      "peak_allocated_bytes": 3123856384,
+      "peak_reserved_bytes": 3760193536
+    }
+  },
+  "source_sha256": {
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+  },
+  "frozen_inputs_sha256": "627b71b0f7c5e5e4908c1547c940f4a3799486e5ebfb1b7d52b153ee79de8f7b",
+  "elapsed_seconds": 44.04276594892144,
+  "verify_script_sha256": "9cb1a267fcc620a41cfd54c2b39bbdff7d6557d274e422bbbd6cbc2be29df5bd"
+}

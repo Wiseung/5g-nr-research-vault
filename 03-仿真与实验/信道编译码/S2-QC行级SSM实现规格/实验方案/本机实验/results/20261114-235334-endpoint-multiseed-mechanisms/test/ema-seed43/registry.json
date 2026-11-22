@@ -1,0 +1,39 @@
+{
+  "cohort": "ema-seed43",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.75
+      },
+      {
+        "name": "ema-seed43",
+        "kind": "ema",
+        "seed": 43,
+        "alpha": 0.75,
+        "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg2-ema-seed43/checkpoints/step-47000.pt",
+        "checkpoint_sha256": "63111fde30aa048ea877ba2ad4b185fb4c5fe02a408bfec5caab8693d84879c2",
+        "parameter_sha256": "90b0a0ea434f0988640e5f801369cd34261eb96f32684cb89753848607b08558",
+        "step": 47000
+      }
+    ],
+    "ldpc_B4096_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.7
+      },
+      {
+        "name": "ema-seed43",
+        "kind": "ema",
+        "seed": 43,
+        "alpha": 0.7,
+        "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ema-seed43/checkpoints/step-50000.pt",
+        "checkpoint_sha256": "dfe8f54de930c919afe06c82c7561b9ef49b9d33d7b7be353c65468c8f811a2d",
+        "parameter_sha256": "b0f8d27143ebeeb8cdfbc6d3c8b3eaf66efb4455f067fcee956ba6e1afbce75e",
+        "step": 50000
+      }
+    ]
+  }
+}

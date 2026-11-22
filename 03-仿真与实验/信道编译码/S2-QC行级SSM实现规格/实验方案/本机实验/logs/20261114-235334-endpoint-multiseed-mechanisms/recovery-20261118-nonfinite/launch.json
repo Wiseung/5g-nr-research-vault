@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+    "-B",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/runner.py",
+    "launch",
+    "--name",
+    "pipeline",
+    "--",
+    "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+    "-B",
+    "-u",
+    "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/pipeline-resume-20261118.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"name\": \"pipeline\", \"supervisor_pid\": 468311, \"logs\": \"/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/pipeline\"}\n",
+  "stderr": ""
+}

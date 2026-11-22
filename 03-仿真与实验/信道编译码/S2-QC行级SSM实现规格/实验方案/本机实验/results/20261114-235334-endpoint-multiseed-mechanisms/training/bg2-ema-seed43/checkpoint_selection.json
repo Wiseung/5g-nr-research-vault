@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "candidates": [
+    {
+      "step": 47000,
+      "mean_information_bce": 0.10082679515580102,
+      "model_parameter_sha256": "90b0a0ea434f0988640e5f801369cd34261eb96f32684cb89753848607b08558"
+    },
+    {
+      "step": 46000,
+      "mean_information_bce": 0.10083846811623356,
+      "model_parameter_sha256": "4b96f726cd764b9ae22c924cb752fc127c4f4ffc6cb5b072dc4715a2d323b76a"
+    }
+  ],
+  "selected": {
+    "step": 47000,
+    "mean_information_bce": 0.10082679515580102,
+    "model_parameter_sha256": "90b0a0ea434f0988640e5f801369cd34261eb96f32684cb89753848607b08558"
+  },
+  "NMS_mean_information_bce": 0.1327225263094512,
+  "scope": "selection validation; no independent test or formal BLER improvement claim"
+}

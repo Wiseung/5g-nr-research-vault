@@ -1,0 +1,857 @@
+[
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-00.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-01.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-02.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-03.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-04.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-05.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-06.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-07.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-08.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-09.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-10.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-11.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-12.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-13.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-14.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-15.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-16.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-17.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-18.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-19.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-20.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-21.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-22.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-23.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-24.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-25.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-26.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-27.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-28.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-29.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-30.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.8000/shard-31.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-00.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-01.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-02.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-03.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-04.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-05.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-06.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-07.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-08.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-09.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-10.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-11.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-12.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-13.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-14.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-15.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-16.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-17.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-18.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-19.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-20.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-21.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-22.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-23.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-24.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-25.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-26.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-27.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-28.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-29.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-30.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-1.9000/shard-31.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-00.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-01.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-02.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-03.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-04.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-05.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-06.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-07.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-08.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-09.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-10.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-11.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-12.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-13.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-14.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-15.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-16.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-17.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-18.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-19.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-20.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-21.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-22.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-23.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-24.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-25.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-26.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-27.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-28.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-29.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-30.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.0000/shard-31.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-00.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-01.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-02.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-03.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-04.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-05.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-06.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-07.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-08.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-09.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-10.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-11.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-12.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-13.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-14.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-15.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-16.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-17.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-18.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-19.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-20.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-21.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-22.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-23.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-24.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-25.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-26.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-27.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-28.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-29.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-30.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.1000/shard-31.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-00.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-01.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-02.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-03.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-04.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-05.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-06.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-07.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-08.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-09.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-10.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-11.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-12.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-13.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-14.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-15.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-16.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-17.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-18.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-19.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-20.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-21.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-22.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-23.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-24.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-25.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-26.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-27.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-28.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-29.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-30.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B1024_R1-2_Q2/snr-2.2000/shard-31.npz",
+    "sample_equal": true,
+    "nms_equal": true
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-00.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-01.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-02.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-03.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-04.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-05.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-06.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-07.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-08.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-09.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  },
+  {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-\u4eff\u771f\u4e0e\u5b9e\u9a8c/\u4fe1\u9053\u7f16\u8bd1\u7801/S2-QC\u884c\u7ea7SSM\u5b9e\u73b0\u89c4\u683c/\u5b9e\u9a8c\u65b9\u6848/\u672c\u673a\u5b9e\u9a8c/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-10.npz",
+    "sample_equal": false,
+    "nms_equal": false
+  }
+]

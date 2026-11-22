@@ -1,0 +1,17 @@
+{
+  "manifest_matches_generator": true,
+  "ldpc_configs": 20,
+  "protocol": {
+    "status": "analytic_checks_passed_not_a_decoder_test",
+    "example_200_errors_in_2M_frames": {
+      "estimate": 0.0001,
+      "Wilson95": [
+        8.706861605859423e-05,
+        0.00011485172551741423
+      ]
+    },
+    "zero_errors_in_1M_one_sided95_upper": 2.995727786352544e-06,
+    "illustrative_traffic_ceiling_payload_Mbps": 135.82269748189032,
+    "runtime_example_240M_cw_at_10k_cw_s_hours": 6.666666666666667
+  }
+}

@@ -1,0 +1,86 @@
+{"time": "2026-11-14T23:59:33.289517+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.5, "done": 8}
+{"time": "2026-11-14T23:59:39.465281+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.5, "done": 16}
+{"time": "2026-11-14T23:59:46.290153+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.5, "done": 24}
+{"time": "2026-11-14T23:59:52.699840+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.5, "done": 32}
+{"time": "2026-11-14T23:59:52.709229+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.5, "frames": 20000, "errors": {"NMS": 4051, "S2-seed17": 2224}, "seconds": 25.588973965495825}
+{"time": "2026-11-14T23:59:58.910613+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.6, "done": 8}
+{"time": "2026-11-15T00:00:05.111995+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.6, "done": 16}
+{"time": "2026-11-15T00:00:11.313423+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.6, "done": 24}
+{"time": "2026-11-15T00:00:17.507270+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.6, "done": 32}
+{"time": "2026-11-15T00:00:17.516690+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.6, "frames": 20000, "errors": {"NMS": 2149, "S2-seed17": 1070}, "seconds": 24.790885533206165}
+{"time": "2026-11-15T00:00:23.758509+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.7, "done": 8}
+{"time": "2026-11-15T00:00:29.993512+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.7, "done": 16}
+{"time": "2026-11-15T00:00:36.235452+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.7, "done": 24}
+{"time": "2026-11-15T00:00:42.514924+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.7, "done": 32}
+{"time": "2026-11-15T00:00:42.525757+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.7, "frames": 20000, "errors": {"NMS": 968, "S2-seed17": 433}, "seconds": 24.991350795142353}
+{"time": "2026-11-15T00:00:48.931557+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.8, "done": 8}
+{"time": "2026-11-15T00:00:55.232240+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.8, "done": 16}
+{"time": "2026-11-15T00:01:01.545017+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.8, "done": 24}
+{"time": "2026-11-15T00:01:07.842298+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.8, "done": 32}
+{"time": "2026-11-15T00:01:07.851768+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.8, "frames": 20000, "errors": {"NMS": 373, "S2-seed17": 154}, "seconds": 25.308602495118976}
+{"time": "2026-11-15T00:01:14.215382+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.9, "done": 8}
+{"time": "2026-11-15T00:01:20.572774+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.9, "done": 16}
+{"time": "2026-11-15T00:01:26.896066+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.9, "done": 24}
+{"time": "2026-11-15T00:01:33.244885+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.9, "done": 32}
+{"time": "2026-11-15T00:01:33.254417+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 1.9, "frames": 20000, "errors": {"NMS": 123, "S2-seed17": 41}, "seconds": 25.385662739165127}
+{"time": "2026-11-15T00:01:39.643394+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.0, "done": 8}
+{"time": "2026-11-15T00:01:46.122898+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.0, "done": 16}
+{"time": "2026-11-15T00:01:52.552510+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.0, "done": 24}
+{"time": "2026-11-15T00:01:58.953148+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.0, "done": 32}
+{"time": "2026-11-15T00:01:58.962740+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.0, "frames": 20000, "errors": {"NMS": 42, "S2-seed17": 13}, "seconds": 25.69151938613504}
+{"time": "2026-11-15T00:02:05.397777+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.1, "done": 8}
+{"time": "2026-11-15T00:02:11.943743+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.1, "done": 16}
+{"time": "2026-11-15T00:02:18.378044+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.1, "done": 24}
+{"time": "2026-11-15T00:02:24.803334+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.1, "done": 32}
+{"time": "2026-11-15T00:02:24.812446+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.1, "frames": 20000, "errors": {"NMS": 13, "S2-seed17": 3}, "seconds": 25.833291622810066}
+{"time": "2026-11-15T00:02:31.282942+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.2, "done": 8}
+{"time": "2026-11-15T00:02:37.750843+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.2, "done": 16}
+{"time": "2026-11-15T00:02:44.445128+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.2, "done": 24}
+{"time": "2026-11-15T00:02:50.932003+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.2, "done": 32}
+{"time": "2026-11-15T00:02:50.941860+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.2, "frames": 20000, "errors": {"NMS": 1, "S2-seed17": 0}, "seconds": 26.112186923623085}
+{"time": "2026-11-15T00:02:57.431052+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.3, "done": 8}
+{"time": "2026-11-15T00:03:03.945500+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.3, "done": 16}
+{"time": "2026-11-15T00:03:10.441689+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.3, "done": 24}
+{"time": "2026-11-15T00:03:16.947712+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.3, "done": 32}
+{"time": "2026-11-15T00:03:16.956846+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B1024_R1-2_Q2", "snr": 2.3, "frames": 20000, "errors": {"NMS": 0, "S2-seed17": 0}, "seconds": 25.998665116727352}
+{"time": "2026-11-15T00:03:33.470620+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.2, "done": 8}
+{"time": "2026-11-15T00:03:48.339974+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.2, "done": 16}
+{"time": "2026-11-15T00:04:03.127439+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.2, "done": 24}
+{"time": "2026-11-15T00:04:17.975291+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.2, "done": 32}
+{"time": "2026-11-15T00:04:17.985013+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.2, "frames": 20000, "errors": {"NMS": 14368, "S2-seed17": 9315}, "seconds": 59.332545483484864}
+{"time": "2026-11-15T00:04:32.839087+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.3, "done": 8}
+{"time": "2026-11-15T00:04:47.740715+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.3, "done": 16}
+{"time": "2026-11-15T00:05:02.546873+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.3, "done": 24}
+{"time": "2026-11-15T00:05:17.404801+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.3, "done": 32}
+{"time": "2026-11-15T00:05:17.414586+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.3, "frames": 20000, "errors": {"NMS": 8427, "S2-seed17": 4030}, "seconds": 59.41256210207939}
+{"time": "2026-11-15T00:05:32.316836+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.4, "done": 8}
+{"time": "2026-11-15T00:05:47.290480+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.4, "done": 16}
+{"time": "2026-11-15T00:06:02.181866+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.4, "done": 24}
+{"time": "2026-11-15T00:06:17.051131+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.4, "done": 32}
+{"time": "2026-11-15T00:06:17.061105+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.4, "frames": 20000, "errors": {"NMS": 3156, "S2-seed17": 1063}, "seconds": 59.6293821092695}
+{"time": "2026-11-15T00:06:32.044247+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.5, "done": 8}
+{"time": "2026-11-15T00:06:47.060567+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.5, "done": 16}
+{"time": "2026-11-15T00:07:02.021040+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.5, "done": 24}
+{"time": "2026-11-15T00:07:16.949504+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.5, "done": 32}
+{"time": "2026-11-15T00:07:16.959492+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.5, "frames": 20000, "errors": {"NMS": 716, "S2-seed17": 192}, "seconds": 59.88071380183101}
+{"time": "2026-11-15T00:07:32.011983+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.6, "done": 8}
+{"time": "2026-11-15T00:07:48.140840+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.6, "done": 16}
+{"time": "2026-11-15T00:08:03.211078+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.6, "done": 24}
+{"time": "2026-11-15T00:08:18.250987+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.6, "done": 32}
+{"time": "2026-11-15T00:08:18.260601+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.6, "frames": 20000, "errors": {"NMS": 110, "S2-seed17": 22}, "seconds": 61.28433357179165}
+{"time": "2026-11-15T00:08:33.409882+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.7, "done": 8}
+{"time": "2026-11-15T00:08:48.797135+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.7, "done": 16}
+{"time": "2026-11-15T00:09:03.947444+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.7, "done": 24}
+{"time": "2026-11-15T00:09:19.125503+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.7, "done": 32}
+{"time": "2026-11-15T00:09:19.135203+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.7, "frames": 20000, "errors": {"NMS": 10, "S2-seed17": 1}, "seconds": 60.857529315166175}
+{"time": "2026-11-15T00:09:34.404422+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.8, "done": 8}
+{"time": "2026-11-15T00:09:49.793072+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.8, "done": 16}
+{"time": "2026-11-15T00:10:05.037345+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.8, "done": 24}
+{"time": "2026-11-15T00:10:20.272853+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.8, "done": 32}
+{"time": "2026-11-15T00:10:20.282679+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.8, "frames": 20000, "errors": {"NMS": 1, "S2-seed17": 1}, "seconds": 61.13024935219437}
+{"time": "2026-11-15T00:10:35.865994+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.9, "done": 8}
+{"time": "2026-11-15T00:10:52.295333+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.9, "done": 16}
+{"time": "2026-11-15T00:11:07.769021+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.9, "done": 24}
+{"time": "2026-11-15T00:11:23.188958+08:00", "event": "shards", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.9, "done": 32}
+{"time": "2026-11-15T00:11:23.198438+08:00", "event": "point_complete", "split": "S2-endpoint-pilot-v1", "config": "ldpc_B4096_R1-2_Q2", "snr": 1.9, "frames": 20000, "errors": {"NMS": 1, "S2-seed17": 1}, "seconds": 62.899090484716}
+{"time": "2026-11-15T00:11:23.442166+08:00", "event": "pilot_completed"}

@@ -1,0 +1,1 @@
+{"status": "passed", "paired_known_gain_db": 0.3010299956639812, "zero_upper_crossing": "N/A without pseudocount", "Wilson_independent_Scipy": "passed", "bootstrap_replicates": 10000}

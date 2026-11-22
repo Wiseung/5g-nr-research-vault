@@ -1,0 +1,70 @@
+{
+  "status": "formal_50k_completed",
+  "config_id": "ldpc_B4096_R1-2_Q2",
+  "seed": 43,
+  "batch": 64,
+  "microbatch": 64,
+  "steps": 50000,
+  "observations": 3200000,
+  "formal_protocol": true,
+  "budget_steps": 50000,
+  "mean_step_seconds": 0.28142483447976235,
+  "mean_step_seconds_after_first10": 0.2814236925096844,
+  "peak_allocated_bytes": 1435195392,
+  "peak_reserved_bytes": 5695864832,
+  "gradient_clip_fraction": 0.05822,
+  "gradient_norm_quantiles": {
+    "0": 0.0056949215941131115,
+    "0.25": 0.17435647919774055,
+    "0.5": 0.2578326612710953,
+    "0.75": 0.407924622297287,
+    "0.9": 0.7031742811203003,
+    "0.95": 1.0940280020236954,
+    "0.99": 2.543789610862746,
+    "1": 8.03154468536377
+  },
+  "initial_validation_mean_bce": 0.12826742476783531,
+  "latest_periodic_validation_step": 50000,
+  "latest_validation_mean_bce": 0.11036145117063108,
+  "post_checks": {
+    "frames": 8,
+    "symmetry_max_abs_error": 0.0,
+    "state_abs_max": 1.0,
+    "noiseless_payload_errors": 0,
+    "noiseless_rejected": 0
+  },
+  "checkpoint_reload_max_error": 0.0,
+  "checkpoint": {
+    "path": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-mlp-seed43/checkpoints/step-50000.pt",
+    "sha256": "f997f301b9729252621d37d764c25f36baa98e8f569ecb57b20c22cad6e41ec7",
+    "global_step": 50000
+  },
+  "checkpoint_selection": {
+    "status": "passed",
+    "candidates": [
+      {
+        "step": 49000,
+        "mean_information_bce": 0.11008470846328508,
+        "model_parameter_sha256": "2b26446593829baeae2e33f7c1f6041b8a07bd4cfe32b056ef165504294ba56d"
+      },
+      {
+        "step": 43000,
+        "mean_information_bce": 0.1102209606133904,
+        "model_parameter_sha256": "0e8a3233dd24a7aad3868764e9e8e427067cae97bc377a498d548d33cf4a4d28"
+      }
+    ],
+    "selected": {
+      "step": 49000,
+      "mean_information_bce": 0.11008470846328508,
+      "model_parameter_sha256": "2b26446593829baeae2e33f7c1f6041b8a07bd4cfe32b056ef165504294ba56d"
+    },
+    "NMS_mean_information_bce": 0.14219046674488273,
+    "scope": "selection validation; no independent test or formal BLER improvement claim"
+  },
+  "segment_elapsed_seconds": 27656.692631733007,
+  "all_training_loss_gradients_parameters_finite": true,
+  "limitations": [
+    "selection validation is not independent formal BLER test",
+    "seed29/43 and matched baselines remain separate work"
+  ]
+}

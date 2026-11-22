@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "cohort": "mlp-seed29",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": {
+      "target_bler": 0.001,
+      "methods": [
+        {
+          "method": "NMS",
+          "crossing_db": 2.049487106295418,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            2.043641234007996,
+            2.0555953844824453
+          ],
+          "ci95_db": [
+            2.043641234007996,
+            2.0555953844824453
+          ]
+        },
+        {
+          "method": "mlp-seed29",
+          "crossing_db": 1.9651868349314638,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.9572382108636084,
+            1.973262436965709
+          ],
+          "ci95_db": [
+            1.9572382108636084,
+            1.973262436965709
+          ],
+          "gain_vs_NMS_db": 0.08430027136395402,
+          "gain_bootstrap_valid": 10000,
+          "gain_ci95_db": [
+            0.07573252503945356,
+            0.09254120705352872
+          ],
+          "gain_conditional_ci95_db": [
+            0.07573252503945356,
+            0.09254120705352872
+          ]
+        }
+      ],
+      "interpolation": "log10(BLER), adjacent positive observed points only; no pseudocount, no extrapolation",
+      "ci_scope": "paired32-shard percentile bootstrap, sampling uncertainty conditional on selected models; no training-seed uncertainty or interpolation-model-error coverage",
+      "invalid_bootstrap_policy": "any invalid replicate makes ordinary CI N/A; valid-only conditional interval separately disclosed"
+    },
+    "ldpc_B4096_R1-2_Q2": {
+      "target_bler": 0.001,
+      "methods": [
+        {
+          "method": "NMS",
+          "crossing_db": 1.6702907563440552,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.6635393506731009,
+            1.677117115559167
+          ],
+          "ci95_db": [
+            1.6635393506731009,
+            1.677117115559167
+          ]
+        },
+        {
+          "method": "mlp-seed29",
+          "crossing_db": 1.595570087484527,
+          "bootstrap_valid": 10000,
+          "bootstrap_total": 10000,
+          "conditional_bootstrap_ci95_db": [
+            1.5895142285369173,
+            1.6011282735038939
+          ],
+          "ci95_db": [
+            1.5895142285369173,
+            1.6011282735038939
+          ],
+          "gain_vs_NMS_db": 0.0747206688595281,
+          "gain_bootstrap_valid": 10000,
+          "gain_ci95_db": [
+            0.06560490725938892,
+            0.0841241738525036
+          ],
+          "gain_conditional_ci95_db": [
+            0.06560490725938892,
+            0.0841241738525036
+          ]
+        }
+      ],
+      "interpolation": "log10(BLER), adjacent positive observed points only; no pseudocount, no extrapolation",
+      "ci_scope": "paired32-shard percentile bootstrap, sampling uncertainty conditional on selected models; no training-seed uncertainty or interpolation-model-error coverage",
+      "invalid_bootstrap_policy": "any invalid replicate makes ordinary CI N/A; valid-only conditional interval separately disclosed"
+    }
+  },
+  "test_grid_sha256": "1b3a6ff44894c649aa73244fc34724efa5a3319aea25ef394991a934ff2b7632",
+  "finished_at": "2026-11-18T17:53:38.165962+08:00"
+}

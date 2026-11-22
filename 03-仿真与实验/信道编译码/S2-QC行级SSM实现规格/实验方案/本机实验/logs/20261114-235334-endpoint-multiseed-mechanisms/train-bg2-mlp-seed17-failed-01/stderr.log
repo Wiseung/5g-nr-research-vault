@@ -1,0 +1,7 @@
+usage: train_mechanism.py [-h] --output OUTPUT --config-id
+                          {ldpc_B1024_R1-2_Q2,ldpc_B4096_R1-2_Q2} --frozen
+                          FROZEN --proof PROOF [--seed SEED] [--batch BATCH]
+                          [--microbatch MICROBATCH]
+                          [--backend {cuda-graph,eager}]
+                          [--stop-after STOP_AFTER] [--resume]
+train_mechanism.py: error: unrecognized arguments: --mechanism mlp

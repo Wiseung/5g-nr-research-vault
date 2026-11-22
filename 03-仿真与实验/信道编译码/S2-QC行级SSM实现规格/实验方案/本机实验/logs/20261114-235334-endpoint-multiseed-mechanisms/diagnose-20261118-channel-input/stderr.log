@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-nonfinite/channel_probe.py", line 36, in <module>
+    raise AssertionError('nonfinite input/output retained; no substitution')
+AssertionError: nonfinite input/output retained; no substitution

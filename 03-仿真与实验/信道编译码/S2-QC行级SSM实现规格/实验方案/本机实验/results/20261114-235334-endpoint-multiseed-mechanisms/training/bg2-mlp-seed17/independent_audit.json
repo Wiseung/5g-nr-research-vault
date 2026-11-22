@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "config_id": "ldpc_B1024_R1-2_Q2",
+  "seed": 17,
+  "kind": "mlp",
+  "steps": 50000,
+  "checkpoints": 501,
+  "validation_score_files": 55,
+  "decoded_validation_records": 6700000,
+  "selected_model": {
+    "name": "mlp-seed17",
+    "kind": "mlp",
+    "seed": 17,
+    "alpha": 0.75,
+    "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg2-mlp-seed17/checkpoints/step-46000.pt",
+    "checkpoint_sha256": "6605ed382bb346e839cc1e8cc4bac882fea9e55135b7c08fe67d08a732725d4a",
+    "parameter_sha256": "175963a7d9a39c6b6020bd931317ed4cc0466693ffe8b3ecb165294e4041ebd4",
+    "step": 46000
+  },
+  "post_checks": {
+    "frames": 8,
+    "symmetry_max_abs_error": 0.0,
+    "state_abs_max": 1.0,
+    "noiseless_payload_errors": 0,
+    "noiseless_rejected": 0
+  },
+  "observations_matched_to_SSM_same_seed": 3200000
+}

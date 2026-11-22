@@ -1,0 +1,5223 @@
+{
+  "status": "passed",
+  "cohort": "seed29",
+  "config_id": "ldpc_B4096_R1-2_Q2",
+  "test_grid_sha256": "1b3a6ff44894c649aa73244fc34724efa5a3319aea25ef394991a934ff2b7632",
+  "methods": [
+    {
+      "name": "NMS",
+      "kind": "nms",
+      "alpha": 0.7
+    },
+    {
+      "name": "ssm-seed29",
+      "kind": "ssm",
+      "seed": 29,
+      "alpha": 0.7,
+      "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ssm-seed29/checkpoints/step-49000.pt",
+      "checkpoint_sha256": "06592820525408fd6297aed084fc2640c4c4c774f8973ee80b4329690194ac6f",
+      "parameter_sha256": "811a7a885dece72aa91087ce5d639412e9fe0d35bacee79f97decb61197a758b",
+      "step": 49000
+    }
+  ],
+  "points": [
+    {
+      "status": "passed",
+      "identity": {
+        "config_id": "ldpc_B4096_R1-2_Q2",
+        "snr_db": 1.5,
+        "frames": 200000,
+        "shards": 32,
+        "split": "S2-formal-test-awgn-t20-v1",
+        "methods": [
+          {
+            "name": "NMS",
+            "kind": "nms",
+            "alpha": 0.7
+          },
+          {
+            "name": "ssm-seed29",
+            "kind": "ssm",
+            "seed": 29,
+            "alpha": 0.7,
+            "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ssm-seed29/checkpoints/step-49000.pt",
+            "checkpoint_sha256": "06592820525408fd6297aed084fc2640c4c4c774f8973ee80b4329690194ac6f",
+            "parameter_sha256": "811a7a885dece72aa91087ce5d639412e9fe0d35bacee79f97decb61197a758b",
+            "step": 49000
+          }
+        ],
+        "T": 20,
+        "early_stop": false,
+        "fallback": false,
+        "core_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+        },
+        "endpoint_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py": "17404b1751b56cdbffc2b31d0485127a58f231e2603f2a09741517d59cdc534a",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/mechanisms.py": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+        }
+      },
+      "methods": [
+        {
+          "frames": 200000,
+          "payload_frame_errors": 7527,
+          "payload_bit_errors": 70634,
+          "rejected": 31920,
+          "service_frame_errors": 31920,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 49.96015803439739,
+          "name": "NMS",
+          "payload_bler": 0.037635,
+          "information_bce": 0.0002498007901719869,
+          "payload_ber": 8.673133595284872e-05,
+          "bler_ci95": [
+            0.03680977813660784,
+            0.038477983083323494
+          ]
+        },
+        {
+          "frames": 200000,
+          "payload_frame_errors": 2878,
+          "payload_bit_errors": 14014,
+          "rejected": 19447,
+          "service_frame_errors": 19447,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 10.8234938423477,
+          "name": "ssm-seed29",
+          "payload_bler": 0.01439,
+          "information_bce": 5.41174692117385e-05,
+          "payload_ber": 1.7207760314341847e-05,
+          "bler_ci95": [
+            0.013877314211610512,
+            0.01492133993827292
+          ]
+        }
+      ],
+      "shards": [
+        {
+          "shard": 0,
+          "sample_sha256": "0dbb04df5ce376e06ec44caf854b249e130ef7a150040848daa4a7a4d1aab703",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 243,
+              "payload_bit_errors": 2807,
+              "rejected": 1006,
+              "service_frame_errors": 1006,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.9489375688653157,
+              "payload_bler": 0.03888,
+              "bler_ci95": [
+                0.034363875529363166,
+                0.04396261580338401
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 99,
+              "payload_bit_errors": 518,
+              "rejected": 605,
+              "service_frame_errors": 605,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3961134205245441,
+              "payload_bler": 0.01584,
+              "bler_ci95": [
+                0.013028678389560065,
+                0.019246117853636672
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 1,
+          "sample_sha256": "e890f8c7cb60f1bc239c1252d648bfc046e37444d78927a0bce02625cac577ec",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 237,
+              "payload_bit_errors": 2859,
+              "rejected": 1001,
+              "service_frame_errors": 1001,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.9456814534160403,
+              "payload_bler": 0.03792,
+              "bler_ci95": [
+                0.03346148463386077,
+                0.04294618607015516
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 91,
+              "payload_bit_errors": 427,
+              "rejected": 613,
+              "service_frame_errors": 613,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3308610826588614,
+              "payload_bler": 0.01456,
+              "bler_ci95": [
+                0.01187451866070646,
+                0.01784185007751525
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 2,
+          "sample_sha256": "32615e6791f93460bc8077c2ecaeb83ecbc017cf746e040934498da73ed6c0db",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 237,
+              "payload_bit_errors": 1907,
+              "rejected": 998,
+              "service_frame_errors": 998,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.3537967104856365,
+              "payload_bler": 0.03792,
+              "bler_ci95": [
+                0.03346148463386077,
+                0.04294618607015516
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 88,
+              "payload_bit_errors": 374,
+              "rejected": 589,
+              "service_frame_errors": 589,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.29347303279526005,
+              "payload_bler": 0.01408,
+              "bler_ci95": [
+                0.01144317029077838,
+                0.017313788133077698
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 3,
+          "sample_sha256": "724f7eb0f0160661efaadbabca28dd92018d03e2640fb0b5fcb8365057ae658a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 240,
+              "payload_bit_errors": 3057,
+              "rejected": 990,
+              "service_frame_errors": 990,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.0665430005955487,
+              "payload_bler": 0.0384,
+              "bler_ci95": [
+                0.033912580075421764,
+                0.04345450094295977
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 100,
+              "payload_bit_errors": 550,
+              "rejected": 600,
+              "service_frame_errors": 600,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3941385372415962,
+              "payload_bler": 0.016,
+              "bler_ci95": [
+                0.013173322952324287,
+                0.01942127672899432
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 4,
+          "sample_sha256": "fe5b6a5e562476722f7c8b014b4fe1fb56db64c6316d867c8ebde8d290ecede7",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 232,
+              "payload_bit_errors": 2124,
+              "rejected": 984,
+              "service_frame_errors": 984,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4748109537872423,
+              "payload_bler": 0.03712,
+              "bler_ci95": [
+                0.03271011331412631,
+                0.04209854019928022
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 87,
+              "payload_bit_errors": 415,
+              "rejected": 597,
+              "service_frame_errors": 597,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3300820932538865,
+              "payload_bler": 0.01392,
+              "bler_ci95": [
+                0.01129957628198911,
+                0.01713757870374509
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 5,
+          "sample_sha256": "3f7132e89beb97d12240657b5840358b07618dcf36884497b772584902e47649",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 234,
+              "payload_bit_errors": 1773,
+              "rejected": 1054,
+              "service_frame_errors": 1054,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.2597267720163952,
+              "payload_bler": 0.03744,
+              "bler_ci95": [
+                0.03301059284671881,
+                0.042437667542931476
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 97,
+              "payload_bit_errors": 399,
+              "rejected": 631,
+              "service_frame_errors": 631,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3100395064232292,
+              "payload_bler": 0.01552,
+              "bler_ci95": [
+                0.01273963145633365,
+                0.018895557910619334
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 6,
+          "sample_sha256": "18525ff5c286364f26b0da7cc81c2331509e00da82e353a722e32675f369cc91",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 251,
+              "payload_bit_errors": 2185,
+              "rejected": 1026,
+              "service_frame_errors": 1026,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.5864558759153837,
+              "payload_bler": 0.04016,
+              "bler_ci95": [
+                0.03556828139206399,
+                0.04531663744565822
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 93,
+              "payload_bit_errors": 426,
+              "rejected": 603,
+              "service_frame_errors": 603,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3229616542882705,
+              "payload_bler": 0.01488,
+              "bler_ci95": [
+                0.012162541078932667,
+                0.0181934345355328
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 7,
+          "sample_sha256": "af0adc5bcd47c5fbdbe951b79eacc3d867f3e355eb19e22ba26795eef9431485",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 229,
+              "payload_bit_errors": 2098,
+              "rejected": 1006,
+              "service_frame_errors": 1006,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.494900791573204,
+              "payload_bler": 0.03664,
+              "bler_ci95": [
+                0.03225956936146148,
+                0.04158967383757941
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 81,
+              "payload_bit_errors": 491,
+              "rejected": 605,
+              "service_frame_errors": 605,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.37217930037698854,
+              "payload_bler": 0.01296,
+              "bler_ci95": [
+                0.010440109593768745,
+                0.016078224763234183
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 8,
+          "sample_sha256": "ff9376b478acb45f2afc7d8088b1d6c27595bf0b6a8a3d724582572888956a62",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 215,
+              "payload_bit_errors": 1938,
+              "rejected": 969,
+              "service_frame_errors": 969,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.3676379836678194,
+              "payload_bler": 0.0344,
+              "bler_ci95": [
+                0.030159927420362734,
+                0.03921206764497186
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 75,
+              "payload_bit_errors": 450,
+              "rejected": 583,
+              "service_frame_errors": 583,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.33455102520191216,
+              "payload_bler": 0.012,
+              "bler_ci95": [
+                0.009584527267580266,
+                0.015014986460691396
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 9,
+          "sample_sha256": "aab64f20b3943c9e0df30f894b832048613ceab84b4fc7e2a8e0ca6d7bfee16d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 222,
+              "payload_bit_errors": 1746,
+              "rejected": 967,
+              "service_frame_errors": 967,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.2708026538952186,
+              "payload_bler": 0.03552,
+              "bler_ci95": [
+                0.031209139250285067,
+                0.04040147988190268
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 74,
+              "payload_bit_errors": 465,
+              "rejected": 596,
+              "service_frame_errors": 596,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.35406561329854136,
+              "payload_bler": 0.01184,
+              "bler_ci95": [
+                0.009442339107871607,
+                0.014837371182278175
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 10,
+          "sample_sha256": "e6139e002b821d0a3460fa9a6e934aecf0645d5f9847dcd310eb693522039ff3",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 223,
+              "payload_bit_errors": 2038,
+              "rejected": 977,
+              "service_frame_errors": 977,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4662603440016562,
+              "payload_bler": 0.03568,
+              "bler_ci95": [
+                0.031359127391346886,
+                0.04057129517896274
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 87,
+              "payload_bit_errors": 355,
+              "rejected": 586,
+              "service_frame_errors": 586,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.29591113121420687,
+              "payload_bler": 0.01392,
+              "bler_ci95": [
+                0.01129957628198911,
+                0.01713757870374509
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 11,
+          "sample_sha256": "18990d83e1eb6ee60451f2e7d8d5f54c54dc422e97c1e416f296326d2004a599",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 224,
+              "payload_bit_errors": 1604,
+              "rejected": 957,
+              "service_frame_errors": 957,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.1627183057577821,
+              "payload_bler": 0.03584,
+              "bler_ci95": [
+                0.03150914022796485,
+                0.04074108578046664
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 86,
+              "payload_bit_errors": 350,
+              "rejected": 584,
+              "service_frame_errors": 584,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.27548839474067044,
+              "payload_bler": 0.01376,
+              "bler_ci95": [
+                0.011156079307700104,
+                0.016961272239912215
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 12,
+          "sample_sha256": "f99e84b4b842991dc58b6de7f6f96a9aefdf19b0ee9b0139d5ba5d6cee93aa46",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 238,
+              "payload_bit_errors": 2922,
+              "rejected": 984,
+              "service_frame_errors": 984,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.9938451818268943,
+              "payload_bler": 0.03808,
+              "bler_ci95": [
+                0.033611827334967766,
+                0.04311564680717004
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 104,
+              "payload_bit_errors": 531,
+              "rejected": 609,
+              "service_frame_errors": 609,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.41402058828646016,
+              "payload_bler": 0.01664,
+              "bler_ci95": [
+                0.013752681505179278,
+                0.020121131928626843
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 13,
+          "sample_sha256": "60eb29af6ebe7a54e19e55f0b2607c956f0346674fa017a92312f277254d6631",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 226,
+              "payload_bit_errors": 1729,
+              "rejected": 1033,
+              "service_frame_errors": 1033,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.2516889439532233,
+              "payload_bler": 0.03616,
+              "bler_ci95": [
+                0.0318092393560936,
+                0.04108059352858165
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 87,
+              "payload_bit_errors": 398,
+              "rejected": 626,
+              "service_frame_errors": 626,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3067813769446087,
+              "payload_bler": 0.01392,
+              "bler_ci95": [
+                0.01129957628198911,
+                0.01713757870374509
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 14,
+          "sample_sha256": "1e1f8fa504c793b30a27675127a92aae6537efc922a8d2e0e866a1a73c86b832",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 213,
+              "payload_bit_errors": 2075,
+              "rejected": 962,
+              "service_frame_errors": 962,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4882412282825137,
+              "payload_bler": 0.03408,
+              "bler_ci95": [
+                0.029860384310294703,
+                0.03887200387879613
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 86,
+              "payload_bit_errors": 441,
+              "rejected": 593,
+              "service_frame_errors": 593,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.34393356422569676,
+              "payload_bler": 0.01376,
+              "bler_ci95": [
+                0.011156079307700104,
+                0.016961272239912215
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 15,
+          "sample_sha256": "4522e372264c48a0b8004518790a91fdfdfa013587bade557ef48dcbc8e3287e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 245,
+              "payload_bit_errors": 1794,
+              "rejected": 1028,
+              "service_frame_errors": 1028,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.3403553192694355,
+              "payload_bler": 0.0392,
+              "bler_ci95": [
+                0.03466484853511878,
+                0.04430124967387215
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 89,
+              "payload_bit_errors": 387,
+              "rejected": 626,
+              "service_frame_errors": 626,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3014242829203584,
+              "payload_bler": 0.01424,
+              "bler_ci95": [
+                0.011586859725665838,
+                0.017489902136312116
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 16,
+          "sample_sha256": "e7d97be20439dbb2237b65a3d72b24f5297aac943e991aebc04b5e103508503a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 207,
+              "payload_bit_errors": 1995,
+              "rejected": 990,
+              "service_frame_errors": 990,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4324743344325164,
+              "payload_bler": 0.03312,
+              "bler_ci95": [
+                0.028962393953788003,
+                0.037851173606571566
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 77,
+              "payload_bit_errors": 513,
+              "rejected": 575,
+              "service_frame_errors": 575,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.38337354981726457,
+              "payload_bler": 0.01232,
+              "bler_ci95": [
+                0.00986926296335971,
+                0.015369857641155704
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 17,
+          "sample_sha256": "9b7cdd5d61a4875a7b3071438ae74a83a5510f27b2516600be1dd66a28732404",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 227,
+              "payload_bit_errors": 2362,
+              "rejected": 979,
+              "service_frame_errors": 979,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.6616215677339312,
+              "payload_bler": 0.03632,
+              "bler_ci95": [
+                0.03195932533603829,
+                0.04125031098675884
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 76,
+              "payload_bit_errors": 452,
+              "rejected": 605,
+              "service_frame_errors": 605,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3349568715348852,
+              "payload_bler": 0.01216,
+              "bler_ci95": [
+                0.00972683599062486,
+                0.015192481175768682
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 18,
+          "sample_sha256": "6c0a92cc11c0369f6a6ed792670a4250bbaccf5e0389513c9f9b924f0d0a01f2",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 235,
+              "payload_bit_errors": 2075,
+              "rejected": 1000,
+              "service_frame_errors": 1000,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4769890222972104,
+              "payload_bler": 0.0376,
+              "bler_ci95": [
+                0.03316086725130217,
+                0.04260719657647
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 104,
+              "payload_bit_errors": 435,
+              "rejected": 620,
+              "service_frame_errors": 620,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.32903218389596733,
+              "payload_bler": 0.01664,
+              "bler_ci95": [
+                0.013752681505179278,
+                0.020121131928626843
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 19,
+          "sample_sha256": "a11b327ca761f03475141d65635b246b080f9c46192adf50bff920bf15f7b96e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 260,
+              "payload_bit_errors": 1978,
+              "rejected": 1019,
+              "service_frame_errors": 1019,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.412221699983048,
+              "payload_bler": 0.0416,
+              "bler_ci95": [
+                0.03692482979530255,
+                0.04683831998551656
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 100,
+              "payload_bit_errors": 540,
+              "rejected": 650,
+              "service_frame_errors": 650,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.40512762731438723,
+              "payload_bler": 0.016,
+              "bler_ci95": [
+                0.013173322952324287,
+                0.01942127672899432
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 20,
+          "sample_sha256": "03becdb38d707d7732e75d9230939eca2c06997baf1c0366e04ab5111040b87f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 214,
+              "payload_bit_errors": 1707,
+              "rejected": 984,
+              "service_frame_errors": 984,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.247705497032135,
+              "payload_bler": 0.03424,
+              "bler_ci95": [
+                0.03001014276336722,
+                0.03904204886384549
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 75,
+              "payload_bit_errors": 275,
+              "rejected": 591,
+              "service_frame_errors": 591,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.2176783506323713,
+              "payload_bler": 0.012,
+              "bler_ci95": [
+                0.009584527267580266,
+                0.015014986460691396
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 21,
+          "sample_sha256": "20c61eed47ffc109412b49c6d23f3f207aef230217f5cc6bfea1b880e9ff5981",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 232,
+              "payload_bit_errors": 2302,
+              "rejected": 1044,
+              "service_frame_errors": 1044,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.6755391227086784,
+              "payload_bler": 0.03712,
+              "bler_ci95": [
+                0.03271011331412631,
+                0.04209854019928022
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 103,
+              "payload_bit_errors": 419,
+              "rejected": 611,
+              "service_frame_errors": 611,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.32406496690310727,
+              "payload_bler": 0.01648,
+              "bler_ci95": [
+                0.013607727052502022,
+                0.019946282943182226
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 22,
+          "sample_sha256": "376a13ba8ca536a271fb5b8f72750390be440adf69303604f42108979d5c6734",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 267,
+              "payload_bit_errors": 2828,
+              "rejected": 1004,
+              "service_frame_errors": 1004,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.8947677505173912,
+              "payload_bler": 0.04272,
+              "bler_ci95": [
+                0.0379810371038818,
+                0.048020736743790454
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 104,
+              "payload_bit_errors": 421,
+              "rejected": 627,
+              "service_frame_errors": 627,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.33141251326153665,
+              "payload_bler": 0.01664,
+              "bler_ci95": [
+                0.013752681505179278,
+                0.020121131928626843
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 23,
+          "sample_sha256": "c08742ec0d370b2f93ef2779b173778161d897f5db4db1bf750cd80161922375",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 250,
+              "payload_bit_errors": 2333,
+              "rejected": 1010,
+              "service_frame_errors": 1010,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.6999159237773636,
+              "payload_bler": 0.04,
+              "bler_ci95": [
+                0.03541765644403567,
+                0.045147458955564664
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 90,
+              "payload_bit_errors": 376,
+              "rejected": 624,
+              "service_frame_errors": 624,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.30828999348550234,
+              "payload_bler": 0.0144,
+              "bler_ci95": [
+                0.0117306430227061,
+                0.01766592227739373
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 24,
+          "sample_sha256": "c3ab98740aff53e0d956b48a84db221f58ba3c363ef710a7a85a63bf8a567dd1",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 242,
+              "payload_bit_errors": 2050,
+              "rejected": 983,
+              "service_frame_errors": 983,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.4653731016422957,
+              "payload_bler": 0.03872,
+              "bler_ci95": [
+                0.0342134217079859,
+                0.043793266186639396
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 91,
+              "payload_bit_errors": 421,
+              "rejected": 609,
+              "service_frame_errors": 609,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.32096909191388623,
+              "payload_bler": 0.01456,
+              "bler_ci95": [
+                0.01187451866070646,
+                0.01784185007751525
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 25,
+          "sample_sha256": "706b67af2b70b90b074d92a7799ad6de0f8c3f40ac6e6c332cad9a9ea75278b9",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 222,
+              "payload_bit_errors": 1884,
+              "rejected": 999,
+              "service_frame_errors": 999,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.376710051729717,
+              "payload_bler": 0.03552,
+              "bler_ci95": [
+                0.031209139250285067,
+                0.04040147988190268
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 71,
+              "payload_bit_errors": 324,
+              "rejected": 600,
+              "service_frame_errors": 600,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3006794391736056,
+              "payload_bler": 0.01136,
+              "bler_ci95": [
+                0.009016522326070444,
+                0.014303777649713703
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 26,
+          "sample_sha256": "33693757c4924a5b618e85ae9fd0f3aadfce0db7b07586f3c0378076339bf8db",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 247,
+              "payload_bit_errors": 2711,
+              "rejected": 1017,
+              "service_frame_errors": 1017,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.8921670401958397,
+              "payload_bler": 0.03952,
+              "bler_ci95": [
+                0.03496590784382997,
+                0.044639797241404724
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 106,
+              "payload_bit_errors": 590,
+              "rejected": 650,
+              "service_frame_errors": 650,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.43184976309646317,
+              "payload_bler": 0.01696,
+              "bler_ci95": [
+                0.014042813623469031,
+                0.020470606686580847
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 27,
+          "sample_sha256": "1332f22babc74716179608ccdc2a9fcfab21c8f6f1ef2b80a68320e095e68e57",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 227,
+              "payload_bit_errors": 2334,
+              "rejected": 956,
+              "service_frame_errors": 956,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.5876159856741716,
+              "payload_bler": 0.03632,
+              "bler_ci95": [
+                0.03195932533603829,
+                0.04125031098675884
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 91,
+              "payload_bit_errors": 489,
+              "rejected": 578,
+              "service_frame_errors": 578,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.37530444239564575,
+              "payload_bler": 0.01456,
+              "bler_ci95": [
+                0.01187451866070646,
+                0.01784185007751525
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 28,
+          "sample_sha256": "ff0a94dc6f83fa8f4117a4c1e168937219a7d83afefb8a1b0771becc322109c6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 250,
+              "payload_bit_errors": 2681,
+              "rejected": 978,
+              "service_frame_errors": 978,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.922792541580633,
+              "payload_bler": 0.04,
+              "bler_ci95": [
+                0.03541765644403567,
+                0.045147458955564664
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 96,
+              "payload_bit_errors": 550,
+              "rejected": 591,
+              "service_frame_errors": 591,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.4029317087036651,
+              "payload_bler": 0.01536,
+              "bler_ci95": [
+                0.012595231518223959,
+                0.018720154410607145
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 29,
+          "sample_sha256": "c6c2ed4be73e68b70cdef431e65f9a2b44219e36e4538eeb7083b40d031d9f0d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 229,
+              "payload_bit_errors": 2155,
+              "rejected": 970,
+              "service_frame_errors": 970,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.5186608049503771,
+              "payload_bler": 0.03664,
+              "bler_ci95": [
+                0.03225956936146148,
+                0.04158967383757941
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 83,
+              "payload_bit_errors": 423,
+              "rejected": 599,
+              "service_frame_errors": 599,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.32784637235938563,
+              "payload_bler": 0.01328,
+              "bler_ci95": [
+                0.010726187381011037,
+                0.01643175385223565
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 30,
+          "sample_sha256": "975a70d98af811cd1d3c6325a7de59eb9b36e1dcea450c2e891cf4e8744d6f38",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 256,
+              "payload_bit_errors": 2200,
+              "rejected": 1007,
+              "service_frame_errors": 1007,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.5249040355881776,
+              "payload_bler": 0.04096,
+              "bler_ci95": [
+                0.036321716392445365,
+                0.046162219635886244
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 91,
+              "payload_bit_errors": 375,
+              "rejected": 619,
+              "service_frame_errors": 619,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3162964951122649,
+              "payload_bler": 0.01456,
+              "bler_ci95": [
+                0.01187451866070646,
+                0.01784185007751525
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 31,
+          "sample_sha256": "0998b24b53b8fc1d207b7a60b9f7c04015ff3dad4fd3308927e31dc1bf426cfe",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 253,
+              "payload_bit_errors": 2383,
+              "rejected": 1038,
+              "service_frame_errors": 1038,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.6982964672445897,
+              "payload_bler": 0.04048,
+              "bler_ci95": [
+                0.03586959369155694,
+                0.04565493202240903
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 96,
+              "payload_bit_errors": 434,
+              "rejected": 652,
+              "service_frame_errors": 652,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.3376558683526707,
+              "payload_bler": 0.01536,
+              "bler_ci95": [
+                0.012595231518223959,
+                0.018720154410607145
+              ]
+            }
+          ]
+        }
+      ],
+      "seconds": 593.1695824088529,
+      "artifacts_sha256": {
+        "shard-00.npz": "3709ce6792b5e124dd318786bf15ed6b9871fa40ed93e930a822a02e4c20161f",
+        "shard-01.npz": "91ab8b3679881407e4ab4c79cf63a5824281e5cd4ddeb79e9f6ce2699e5c3a4c",
+        "shard-02.npz": "7dfe7f8892acf7d8c3172a61712d291a85ac5ac07575fba13dd1d0cbe3929ff9",
+        "shard-03.npz": "1727ede080af29c8c899a6b314a11967c290161d5122adc0a4e5c77a3ba141e9",
+        "shard-04.npz": "7bc0825d51eb707607c47a8ac5afb1588e515220095b1380d95030bc0686ff96",
+        "shard-05.npz": "953ea1291f5788e86e74ac48e7579c9af904ed1919793d2572f10e1072cf372a",
+        "shard-06.npz": "8d1ff673d1aae01136704f55f1e2d6e741f746748ec2d44815546f9baa4a9e08",
+        "shard-07.npz": "502dfbb5cc02be8fa9fb4409e02b3377ba133672317c84d78e4fd2cb855884b2",
+        "shard-08.npz": "6bab01e0700f4b933eb3547b9e426c9a6ecdc16affb58fb17524bb761edb9a02",
+        "shard-09.npz": "d57cf81cf9b1ac3910248736f2399ef925ab0c26b98a5cc0830c4d9f675fbe32",
+        "shard-10.npz": "535e0676df5c4a7da345e7d8e18a177638f4df76733c6e07993fdb04312a1bca",
+        "shard-11.npz": "3bc5503730893d7fbc60255b46a12f786fce375707531dcfd0daf61c71715e58",
+        "shard-12.npz": "e481f025a29d5060aa4dc834bb46d6d0b0a192bd3816a0f8880a4beccbc68564",
+        "shard-13.npz": "6d190fcf7e983feb93b0b7c0fbb69ee730246d3363effaf8d2f02ee6cfc5878f",
+        "shard-14.npz": "319ea0c69d5e58b35223b5d0058bd94170ff25234df009b23145095b8849a010",
+        "shard-15.npz": "1567529933a7bfb788d01c435f63189b4137979c36a5e933eabd81f925c152d7",
+        "shard-16.npz": "afcd0bad7555c3ad84771180d7002a6702f16c87ef1d38da2eb21eb48d157d24",
+        "shard-17.npz": "b48e1cdfb0e33be8af24d0b7d571b9c85da45153c103568fa38fb1454e416cfb",
+        "shard-18.npz": "9708679db5edd5cfc735461319f67cfdab1a4bbe242691563a9aa38cbbf62616",
+        "shard-19.npz": "a59d7e1af836219be1857ec1341d0c3803d79b747bd4eb3760b3420e70086cfd",
+        "shard-20.npz": "62c47297c41bcef69868270909409ea33cd3304d517643bd504e1e3fb11b28a0",
+        "shard-21.npz": "701c1cfdf268a620b14149ad0b17338d68ec6166c621470278f65c0f4fce4d24",
+        "shard-22.npz": "8a7d3326b91f3a5dcf23cf32d44c60aec8cab00bfb62f0362f1dd9abe635ec95",
+        "shard-23.npz": "6bbc3e370dd97767eca51725c74a5a4d0a0ac6e127e128c4190709d9396b8dcd",
+        "shard-24.npz": "db7c2a8525b4243a90902c57ec5e53bd05ddaa6800e62789c64e945c4f92bb9d",
+        "shard-25.npz": "0e03d9ccbe00fedf6ac2724f66026aa0264b615a8fcca8d757369ce29cd8e309",
+        "shard-26.npz": "a2282a3eaddc9dc05de5f4f3552a7fd5a9216ae291b0c414d6861afafc8a1162",
+        "shard-27.npz": "3283571631938b09d2299ff737e28f39dce527c78d7fef3736d84050e140d558",
+        "shard-28.npz": "73c04bb0de2feadd99ec46e20399c82ce9e97189f88680cd6de3f5c554a7d385",
+        "shard-29.npz": "f2060a4a1bd39b0844e509f9aea30a6d4cde5648665e9a1d2fc9253621f55b95",
+        "shard-30.npz": "fa7d8698d5320da3eabb92cbe45446dae509422335f6783c1625ac36b3cb8f49",
+        "shard-31.npz": "4541ad9b0a5d058f1a84f31142760fe3ec029c792240bbf5f3eb55f18fb1b93f"
+      }
+    },
+    {
+      "status": "passed",
+      "identity": {
+        "config_id": "ldpc_B4096_R1-2_Q2",
+        "snr_db": 1.6,
+        "frames": 200000,
+        "shards": 32,
+        "split": "S2-formal-test-awgn-t20-v1",
+        "methods": [
+          {
+            "name": "NMS",
+            "kind": "nms",
+            "alpha": 0.7
+          },
+          {
+            "name": "ssm-seed29",
+            "kind": "ssm",
+            "seed": 29,
+            "alpha": 0.7,
+            "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ssm-seed29/checkpoints/step-49000.pt",
+            "checkpoint_sha256": "06592820525408fd6297aed084fc2640c4c4c774f8973ee80b4329690194ac6f",
+            "parameter_sha256": "811a7a885dece72aa91087ce5d639412e9fe0d35bacee79f97decb61197a758b",
+            "step": 49000
+          }
+        ],
+        "T": 20,
+        "early_stop": false,
+        "fallback": false,
+        "core_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+        },
+        "endpoint_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py": "17404b1751b56cdbffc2b31d0485127a58f231e2603f2a09741517d59cdc534a",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/mechanisms.py": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+        }
+      },
+      "methods": [
+        {
+          "frames": 200000,
+          "payload_frame_errors": 1007,
+          "payload_bit_errors": 5736,
+          "rejected": 8128,
+          "service_frame_errors": 8128,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 4.295542102229297,
+          "name": "NMS",
+          "payload_bler": 0.005035,
+          "information_bce": 2.1477710511146487e-05,
+          "payload_ber": 7.043222003929273e-06,
+          "bler_ci95": [
+            0.004734167702985998,
+            0.0053548458084677454
+          ]
+        },
+        {
+          "frames": 200000,
+          "payload_frame_errors": 328,
+          "payload_bit_errors": 1067,
+          "rejected": 4542,
+          "service_frame_errors": 4542,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 0.8992100226168193,
+          "name": "ssm-seed29",
+          "payload_bler": 0.00164,
+          "information_bce": 4.496050113084097e-06,
+          "payload_ber": 1.3101669941060903e-06,
+          "bler_ci95": [
+            0.0014719788303568396,
+            0.0018271650961189454
+          ]
+        }
+      ],
+      "shards": [
+        {
+          "shard": 0,
+          "sample_sha256": "cafb8ecd7ac70931660535144d71db6dbd8a68612753cdd7beb438f007f7090c",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 29,
+              "payload_bit_errors": 129,
+              "rejected": 240,
+              "service_frame_errors": 240,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.10618092157545178,
+              "payload_bler": 0.00464,
+              "bler_ci95": [
+                0.003232697371029936,
+                0.006655858203635328
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 9,
+              "payload_bit_errors": 19,
+              "rejected": 140,
+              "service_frame_errors": 140,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.01852187031083896,
+              "payload_bler": 0.00144,
+              "bler_ci95": [
+                0.0007577901930752504,
+                0.0027346966191524515
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 1,
+          "sample_sha256": "341ab2888242b688d906a399ac43e9e7b72b5d9a43942ce5c4651670ff10093e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 25,
+              "payload_bit_errors": 126,
+              "rejected": 261,
+              "service_frame_errors": 261,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09290755769500958,
+              "payload_bler": 0.004,
+              "bler_ci95": [
+                0.002710926970965236,
+                0.0058984148512125165
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 30,
+              "rejected": 136,
+              "service_frame_errors": 136,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.025814648516195193,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 2,
+          "sample_sha256": "b277c0f03b79d8295a52a7c7006e3c440c30808837e8650e379a62b8dbf691e7",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 37,
+              "payload_bit_errors": 275,
+              "rejected": 290,
+              "service_frame_errors": 290,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.1919974321941872,
+              "payload_bler": 0.00592,
+              "bler_ci95": [
+                0.0042981410774095155,
+                0.008148842002230774
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 14,
+              "payload_bit_errors": 38,
+              "rejected": 159,
+              "service_frame_errors": 159,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.030499167743982758,
+              "payload_bler": 0.00224,
+              "bler_ci95": [
+                0.0013348286582727114,
+                0.0037566753445643806
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 3,
+          "sample_sha256": "42bab109cbe097c5794dade081897e72e0f8068c84f6a87f04e98b668a4b92f4",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 26,
+              "payload_bit_errors": 165,
+              "rejected": 276,
+              "service_frame_errors": 276,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.13116895250024552,
+              "payload_bler": 0.00416,
+              "bler_ci95": [
+                0.0028405532841284473,
+                0.006088591976171181
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 21,
+              "rejected": 143,
+              "service_frame_errors": 143,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.023630106171222742,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 4,
+          "sample_sha256": "2859c1d1dde3b878588afd222b26a3f1d3ac26f03e23414428889e59f0a74260",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 31,
+              "payload_bit_errors": 123,
+              "rejected": 244,
+              "service_frame_errors": 244,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.10197496563555974,
+              "payload_bler": 0.00496,
+              "bler_ci95": [
+                0.003496579365378355,
+                0.007031583085530666
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 33,
+              "rejected": 135,
+              "service_frame_errors": 135,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.02683959857388918,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 5,
+          "sample_sha256": "175aac3ef54c75c807b487aeb40e913189be9ebc0ad766781d371f6d531ccdc4",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 26,
+              "payload_bit_errors": 129,
+              "rejected": 233,
+              "service_frame_errors": 233,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09304302985376589,
+              "payload_bler": 0.00416,
+              "bler_ci95": [
+                0.0028405532841284473,
+                0.006088591976171181
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 18,
+              "rejected": 130,
+              "service_frame_errors": 130,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.018135440395371738,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 6,
+          "sample_sha256": "6a01af130e756a8260040e0c4154e2b5edef0c644e22710738767b51d79d17cb",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 25,
+              "payload_bit_errors": 131,
+              "rejected": 261,
+              "service_frame_errors": 261,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.10219001389509275,
+              "payload_bler": 0.004,
+              "bler_ci95": [
+                0.002710926970965236,
+                0.0058984148512125165
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 24,
+              "rejected": 139,
+              "service_frame_errors": 139,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.024517465060169386,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 7,
+          "sample_sha256": "a5508f764686d58ee22bed70880201c53cceae459568a0b801d8994276f5a7ce",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 38,
+              "payload_bit_errors": 119,
+              "rejected": 271,
+              "service_frame_errors": 271,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0963251632507659,
+              "payload_bler": 0.00608,
+              "bler_ci95": [
+                0.0044330044961752735,
+                0.008333782021586895
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 19,
+              "rejected": 166,
+              "service_frame_errors": 166,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.01997810966507485,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 8,
+          "sample_sha256": "893f9e2957b24207c4fa60e386059fa131015265bf4c28249c1d365b2d2ce244",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 111,
+              "rejected": 252,
+              "service_frame_errors": 252,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09408089938354547,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 28,
+              "rejected": 138,
+              "service_frame_errors": 138,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.020161790100829524,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 9,
+          "sample_sha256": "a5bbc19482a867bf2179a12b8736ef35825a98a608e29f87888a46ace3d3d49f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 28,
+              "payload_bit_errors": 175,
+              "rejected": 262,
+              "service_frame_errors": 262,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.1331825340369066,
+              "payload_bler": 0.00448,
+              "bler_ci95": [
+                0.003101467061923843,
+                0.006467285074619543
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 9,
+              "payload_bit_errors": 28,
+              "rejected": 128,
+              "service_frame_errors": 128,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.02443388031176441,
+              "payload_bler": 0.00144,
+              "bler_ci95": [
+                0.0007577901930752504,
+                0.0027346966191524515
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 10,
+          "sample_sha256": "08abe7e293f0f991711eba7cdc6298f26839c24922b33cec06efe1b24447c83d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 157,
+              "rejected": 245,
+              "service_frame_errors": 245,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.1203669284288087,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 31,
+              "rejected": 131,
+              "service_frame_errors": 131,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0265984245356643,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 11,
+          "sample_sha256": "55d78a4fc65ef5e57abf5e34673c955d27896d98d1fa1fa55d0198d541e17ca0",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 145,
+              "rejected": 269,
+              "service_frame_errors": 269,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.12642212388658913,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 8,
+              "payload_bit_errors": 13,
+              "rejected": 164,
+              "service_frame_errors": 164,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.014945701987078008,
+              "payload_bler": 0.00128,
+              "bler_ci95": [
+                0.0006487456413605988,
+                0.002523937732745225
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 12,
+          "sample_sha256": "4d579efcb4cc101fa6ebc06ab433e5a9434bcab0772223701731adb98757f048",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 30,
+              "payload_bit_errors": 293,
+              "rejected": 256,
+              "service_frame_errors": 256,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.21860986210392752,
+              "payload_bler": 0.0048,
+              "bler_ci95": [
+                0.0033644091512280115,
+                0.00684394986155913
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 55,
+              "rejected": 145,
+              "service_frame_errors": 145,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.04170090687624284,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 13,
+          "sample_sha256": "f077c4225bf3b8ccec53c1c56ceba94ac22ceccf233de4f2158175536c667c8e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 38,
+              "payload_bit_errors": 204,
+              "rejected": 249,
+              "service_frame_errors": 249,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.14703121516299456,
+              "payload_bler": 0.00608,
+              "bler_ci95": [
+                0.0044330044961752735,
+                0.008333782021586895
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 19,
+              "rejected": 124,
+              "service_frame_errors": 124,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.02100552829732294,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 14,
+          "sample_sha256": "f636586e50bf9a0e21ef218fdc03e1f573daa3d83c368a61a92cdae0c56f7c68",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 204,
+              "rejected": 253,
+              "service_frame_errors": 253,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.15127850096328777,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 9,
+              "payload_bit_errors": 27,
+              "rejected": 150,
+              "service_frame_errors": 150,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.027765295952873914,
+              "payload_bler": 0.00144,
+              "bler_ci95": [
+                0.0007577901930752504,
+                0.0027346966191524515
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 15,
+          "sample_sha256": "8e9e1066999c9e8d8d27af52c187b863672bd288a5af30e276783b7c6e25d6f6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 27,
+              "payload_bit_errors": 426,
+              "rejected": 242,
+              "service_frame_errors": 242,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.2840685800226762,
+              "payload_bler": 0.00432,
+              "bler_ci95": [
+                0.002970743266101927,
+                0.006278205432319581
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 9,
+              "payload_bit_errors": 71,
+              "rejected": 131,
+              "service_frame_errors": 131,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.052007369766333134,
+              "payload_bler": 0.00144,
+              "bler_ci95": [
+                0.0007577901930752504,
+                0.0027346966191524515
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 16,
+          "sample_sha256": "c3932cd289b49eb783035056b54b5b01cd70195e3ccb4714097a6e65d6d9a0a2",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 35,
+              "payload_bit_errors": 169,
+              "rejected": 255,
+              "service_frame_errors": 255,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.12958490605716466,
+              "payload_bler": 0.0056,
+              "bler_ci95": [
+                0.004029442582512047,
+                0.007777933620884487
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 62,
+              "rejected": 128,
+              "service_frame_errors": 128,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.04094869074805374,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 17,
+          "sample_sha256": "d812fd8d7fd4ffbd543f568e656219dc798fa1acec4f5697a9ac69f76ffab41f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 28,
+              "payload_bit_errors": 168,
+              "rejected": 238,
+              "service_frame_errors": 238,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.11970416531473127,
+              "payload_bler": 0.00448,
+              "bler_ci95": [
+                0.003101467061923843,
+                0.006467285074619543
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 13,
+              "payload_bit_errors": 65,
+              "rejected": 129,
+              "service_frame_errors": 129,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.04352769575524695,
+              "payload_bler": 0.00208,
+              "bler_ci95": [
+                0.001216004529098622,
+                0.003555696035616591
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 18,
+          "sample_sha256": "4ac1ad739babe7add929da290e3a900381c00fa9869ce8edfe0744cb2e129371",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 166,
+              "rejected": 269,
+              "service_frame_errors": 269,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.13236775449078753,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 12,
+              "payload_bit_errors": 40,
+              "rejected": 155,
+              "service_frame_errors": 155,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.033149868024336504,
+              "payload_bler": 0.00192,
+              "bler_ci95": [
+                0.001098690208136475,
+                0.0033532069184568614
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 19,
+          "sample_sha256": "7063fcecd0a05556ebe493371a8644665377e090d1d624ea762680280199f083",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 36,
+              "payload_bit_errors": 224,
+              "rejected": 240,
+              "service_frame_errors": 240,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.16141937651522864,
+              "payload_bler": 0.00576,
+              "bler_ci95": [
+                0.004163615860427556,
+                0.007963563781090855
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 12,
+              "payload_bit_errors": 40,
+              "rejected": 154,
+              "service_frame_errors": 154,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.03355882078205508,
+              "payload_bler": 0.00192,
+              "bler_ci95": [
+                0.001098690208136475,
+                0.0033532069184568614
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 20,
+          "sample_sha256": "aed22e062e0e85480e1d371b24221e397d5bc81dde0860411415535932686c21",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 37,
+              "payload_bit_errors": 151,
+              "rejected": 260,
+              "service_frame_errors": 260,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.12653335251761422,
+              "payload_bler": 0.00592,
+              "bler_ci95": [
+                0.0042981410774095155,
+                0.008148842002230774
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 13,
+              "payload_bit_errors": 43,
+              "rejected": 157,
+              "service_frame_errors": 157,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.04253805488008322,
+              "payload_bler": 0.00208,
+              "bler_ci95": [
+                0.001216004529098622,
+                0.003555696035616591
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 21,
+          "sample_sha256": "f28180a38c97128d34d913db482ef5bc206c0bdb2bd5b743ca889aeac4abc370",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 34,
+              "payload_bit_errors": 114,
+              "rejected": 264,
+              "service_frame_errors": 264,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09582773590693949,
+              "payload_bler": 0.00544,
+              "bler_ci95": [
+                0.0038956359418293542,
+                0.007591936823445302
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 11,
+              "payload_bit_errors": 32,
+              "rejected": 135,
+              "service_frame_errors": 135,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.023448536355906824,
+              "payload_bler": 0.00176,
+              "bler_ci95": [
+                0.000983063796558327,
+                0.0031490298919131313
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 22,
+          "sample_sha256": "137d77ab7e3706546189a1430d870c591de6bb9035860319948091225168a69c",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 29,
+              "payload_bit_errors": 203,
+              "rejected": 266,
+              "service_frame_errors": 266,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.14073212473864039,
+              "payload_bler": 0.00464,
+              "bler_ci95": [
+                0.003232697371029936,
+                0.006655858203635328
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 7,
+              "payload_bit_errors": 32,
+              "rejected": 153,
+              "service_frame_errors": 153,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.029508490813821453,
+              "payload_bler": 0.00112,
+              "bler_ci95": [
+                0.000542640497044418,
+                0.0023102394389395275
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 23,
+          "sample_sha256": "01f33dc25c579fe069b46080e8dcbfe0242a92fcea826c9e21f0c4afcabf9090",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 33,
+              "payload_bit_errors": 319,
+              "rejected": 260,
+              "service_frame_errors": 260,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.22714673070239721,
+              "payload_bler": 0.00528,
+              "bler_ci95": [
+                0.003762211694312812,
+                0.007405557632839965
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 10,
+              "payload_bit_errors": 62,
+              "rejected": 146,
+              "service_frame_errors": 146,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.04832313866467752,
+              "payload_bler": 0.0016,
+              "bler_ci95": [
+                0.0008693415115368986,
+                0.002942948738812681
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 24,
+          "sample_sha256": "c8da6df23c64ab3a6e238143cefaf40925dedd64b579c174c4d9231d04c815d1",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 26,
+              "payload_bit_errors": 120,
+              "rejected": 221,
+              "service_frame_errors": 221,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09531493869478169,
+              "payload_bler": 0.00416,
+              "bler_ci95": [
+                0.0028405532841284473,
+                0.006088591976171181
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 7,
+              "payload_bit_errors": 22,
+              "rejected": 121,
+              "service_frame_errors": 121,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.020007767545962674,
+              "payload_bler": 0.00112,
+              "bler_ci95": [
+                0.000542640497044418,
+                0.0023102394389395275
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 25,
+          "sample_sha256": "a1f00b63b9dd9bcfe601b26ab170b1234842a63f4d79fd42a489c7a7f131c92e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 40,
+              "payload_bit_errors": 262,
+              "rejected": 244,
+              "service_frame_errors": 244,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.18152103371149675,
+              "payload_bler": 0.0064,
+              "bler_ci95": [
+                0.004703695289373796,
+                0.008702698104632128
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 9,
+              "payload_bit_errors": 31,
+              "rejected": 138,
+              "service_frame_errors": 138,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.030584013124372866,
+              "payload_bler": 0.00144,
+              "bler_ci95": [
+                0.0007577901930752504,
+                0.0027346966191524515
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 26,
+          "sample_sha256": "307ec574251ca916083228a7082deffdc98e294a8aa545181374182c6a4a09ed",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 36,
+              "payload_bit_errors": 217,
+              "rejected": 241,
+              "service_frame_errors": 241,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.1593579515353104,
+              "payload_bler": 0.00576,
+              "bler_ci95": [
+                0.004163615860427556,
+                0.007963563781090855
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 15,
+              "payload_bit_errors": 37,
+              "rejected": 146,
+              "service_frame_errors": 146,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.03010968406164438,
+              "payload_bler": 0.0024,
+              "bler_ci95": [
+                0.0014550138166899594,
+                0.00395629362426901
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 27,
+          "sample_sha256": "44272a16623e00359785422b0a8831a21c2f4205cba2b456be7189c9bfcf7513",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 32,
+              "payload_bit_errors": 219,
+              "rejected": 253,
+              "service_frame_errors": 253,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.15645693756371415,
+              "payload_bler": 0.00512,
+              "bler_ci95": [
+                0.0036291867634825645,
+                0.007218779125548334
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 12,
+              "payload_bit_errors": 40,
+              "rejected": 148,
+              "service_frame_errors": 148,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.029344158559579947,
+              "payload_bler": 0.00192,
+              "bler_ci95": [
+                0.001098690208136475,
+                0.0033532069184568614
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 28,
+          "sample_sha256": "7a4b804dd294ac5840bd8e8c2f805aeb75c65ba7163826917d58d1299ff30069",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 33,
+              "payload_bit_errors": 135,
+              "rejected": 231,
+              "service_frame_errors": 231,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.09660339724346434,
+              "payload_bler": 0.00528,
+              "bler_ci95": [
+                0.003762211694312812,
+                0.007405557632839965
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 8,
+              "payload_bit_errors": 14,
+              "rejected": 129,
+              "service_frame_errors": 129,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.01416045980931524,
+              "payload_bler": 0.00128,
+              "bler_ci95": [
+                0.0006487456413605988,
+                0.002523937732745225
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 29,
+          "sample_sha256": "14d6bd2d830b7090d83c2bd6293c8d1e092b781ddfdc18b3d592534426f343ac",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 31,
+              "payload_bit_errors": 103,
+              "rejected": 283,
+              "service_frame_errors": 283,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.08468986857212257,
+              "payload_bler": 0.00496,
+              "bler_ci95": [
+                0.003496579365378355,
+                0.007031583085530666
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 8,
+              "payload_bit_errors": 22,
+              "rejected": 164,
+              "service_frame_errors": 164,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.021158696289837686,
+              "payload_bler": 0.00128,
+              "bler_ci95": [
+                0.0006487456413605988,
+                0.002523937732745225
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 30,
+          "sample_sha256": "cf8e5858e9db6e6db84559dbcede161e4cebf6f0f4f3cdeaa027480f41a7d564",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 38,
+              "payload_bit_errors": 107,
+              "rejected": 268,
+              "service_frame_errors": 268,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.08879540894654359,
+              "payload_bler": 0.00608,
+              "bler_ci95": [
+                0.0044330044961752735,
+                0.008333782021586895
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 12,
+              "payload_bit_errors": 28,
+              "rejected": 152,
+              "service_frame_errors": 152,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.023725418995725778,
+              "payload_bler": 0.00192,
+              "bler_ci95": [
+                0.001098690208136475,
+                0.0033532069184568614
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 31,
+          "sample_sha256": "045937a16fc8f2d5e9c8235226fb8f2ff32467f0e6af3291f5a1ced9d6cd7aa6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 19,
+              "payload_bit_errors": 147,
+              "rejected": 231,
+              "service_frame_errors": 231,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.1086577391295459,
+              "payload_bler": 0.00304,
+              "bler_ci95": [
+                0.0019471028205658807,
+                0.004743418372880602
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 6,
+              "payload_bit_errors": 23,
+              "rejected": 128,
+              "service_frame_errors": 128,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.018561223941345517,
+              "payload_bler": 0.00096,
+              "bler_ci95": [
+                0.0004400485428763969,
+                0.0020930279549856703
+              ]
+            }
+          ]
+        }
+      ],
+      "seconds": 600.9363495456055,
+      "artifacts_sha256": {
+        "shard-00.npz": "d57bbba84a7c14b9595f9c03c4a261455dbdc7ff8b8ccaa0d921d92814ead316",
+        "shard-01.npz": "8c3fff80b010139c2462cd53a3e6f5da7c89cdee4f910a3d692a7fcf04c21376",
+        "shard-02.npz": "83918f08b0f2aa235f1a7feddbfd2da6a43b3468396a20c198ea24749a7da513",
+        "shard-03.npz": "76ac3fed63e3cadc41e301814bf114e10aabd8ee8f95236cad8f3299bde55f5f",
+        "shard-04.npz": "423ac91a315a2bf1e1b6e6fb19acebc96bc995a98d437ba538ae2a81490913f5",
+        "shard-05.npz": "0f14fae2e2a036d5650960a6b69fc207653aaed21bf6ebe62e2fb65f57433b53",
+        "shard-06.npz": "fa0702303e2c83b58f3d49f4ffaf9ab925583e90d97c5023076a969cccc648c5",
+        "shard-07.npz": "23435209db049664bcbd61c4596e8a7a97708360506895ef180f2b9f2024b2f8",
+        "shard-08.npz": "7d8cd4104fe5831d02915452f409c077b7a383647581014b48e2b8a8b8dd2e22",
+        "shard-09.npz": "25f2673f703b9f7e2b5ac3b4b2eda7bcbfeaffbc18603fd3f78c05a9d86d31e3",
+        "shard-10.npz": "b005bbcd9e91ee69cf3aea2e411b24d032e0575d54190661f3fc10d01e72503a",
+        "shard-11.npz": "d49491651a15c7d58a13baf325513e831c553cdea9fb1ce5ba68fbb986f6ee65",
+        "shard-12.npz": "f227d969de91650fa0a67fecaab2bed95a0b65750e073da86e98ba99ac587c9a",
+        "shard-13.npz": "8947a96c584dfdbc0073119a4576351f6cd72544984bf321cb864cbb56b86ad2",
+        "shard-14.npz": "1b7d6a3776c3269d57164e4668808559b43ce4ef7d0924a14ac8a34a6fe9bd0c",
+        "shard-15.npz": "af8b1a844d5c8acd81ba18b29e9b0974930a75fa8f5de6f4d4cf4c02da46fc84",
+        "shard-16.npz": "5aecaaff4f012468d1c557cd9fc924cd81c9cf4ad88ac8d2a9bb67e18a022878",
+        "shard-17.npz": "0cee03fa3e29257a3ca82b6f90c3c7a346f049bc167eb40d880a3aefc258bbb4",
+        "shard-18.npz": "551ad48d638cdfd031417861803b64383226ec206dfa53677e962135ceb7ff09",
+        "shard-19.npz": "7ad37e4570efe99cf5ccd495a2a5efc1c63842884010679eacf420b12f04d1c0",
+        "shard-20.npz": "9c9ec88bc382c610846789495641cef29394da2291f26677140dd5c97a3855ac",
+        "shard-21.npz": "56913cb761ebe34bc54bf59fa7bb77c2ca2e015fcf1a5d9ea32356b063529df5",
+        "shard-22.npz": "d0a4f7422553cb15842d98c529b89cfe8cb9fc7e4ae2cf1fbeb6ac36ee491beb",
+        "shard-23.npz": "39f025b5b209696a338fe1ea451467c3c98f1a15e44f0e50f9f5c1a8b3544067",
+        "shard-24.npz": "42b61449c745ce3a0efeeb94166310633747eb87ba542b47faf28279e4b98036",
+        "shard-25.npz": "351280c8a37954d3a9515645ff1d55a22e02f0ddf4612a4f846ba03729f456f5",
+        "shard-26.npz": "61e50dc679de93fb3e048938142d7da9d245b825fe6f2ff9639f4db06c1c6795",
+        "shard-27.npz": "195ea512c9c3973d619dc933b1445fb46e5b98bd914dc2547320bb906f705718",
+        "shard-28.npz": "1c8082b6f7727afad9c9e77955a6da281fc51da5067bb5190c711af59c69067f",
+        "shard-29.npz": "45522fd09039ff97beba4aa935f579a39cfddc36798ab2ca9a8cfbbbfddd1c12",
+        "shard-30.npz": "d322afa6ffa3df5f3a5cc060c39dc22a6816bad3748bad3513453f195938967d",
+        "shard-31.npz": "99a30d02143180469699cd216f9840a32680e85edd13810af696dfa1322995bc"
+      }
+    },
+    {
+      "status": "passed",
+      "identity": {
+        "config_id": "ldpc_B4096_R1-2_Q2",
+        "snr_db": 1.7,
+        "frames": 200000,
+        "shards": 32,
+        "split": "S2-formal-test-awgn-t20-v1",
+        "methods": [
+          {
+            "name": "NMS",
+            "kind": "nms",
+            "alpha": 0.7
+          },
+          {
+            "name": "ssm-seed29",
+            "kind": "ssm",
+            "seed": 29,
+            "alpha": 0.7,
+            "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ssm-seed29/checkpoints/step-49000.pt",
+            "checkpoint_sha256": "06592820525408fd6297aed084fc2640c4c4c774f8973ee80b4329690194ac6f",
+            "parameter_sha256": "811a7a885dece72aa91087ce5d639412e9fe0d35bacee79f97decb61197a758b",
+            "step": 49000
+          }
+        ],
+        "T": 20,
+        "early_stop": false,
+        "fallback": false,
+        "core_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+        },
+        "endpoint_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py": "17404b1751b56cdbffc2b31d0485127a58f231e2603f2a09741517d59cdc534a",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/mechanisms.py": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+        }
+      },
+      "methods": [
+        {
+          "frames": 200000,
+          "payload_frame_errors": 101,
+          "payload_bit_errors": 291,
+          "rejected": 1393,
+          "service_frame_errors": 1393,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 0.2232900363947714,
+          "name": "NMS",
+          "payload_bler": 0.000505,
+          "information_bce": 1.1164501819738571e-06,
+          "payload_ber": 3.5731827111984283e-07,
+          "bler_ci95": [
+            0.00041566631864781893,
+            0.0006135212075481485
+          ]
+        },
+        {
+          "frames": 200000,
+          "payload_frame_errors": 32,
+          "payload_bit_errors": 68,
+          "rejected": 828,
+          "service_frame_errors": 828,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 0.0660968631984119,
+          "name": "ssm-seed29",
+          "payload_bler": 0.00016,
+          "information_bce": 3.304843159920595e-07,
+          "payload_ber": 8.349705304518664e-08,
+          "bler_ci95": [
+            0.00011334397819489481,
+            0.00022585680077945398
+          ]
+        }
+      ],
+      "shards": [
+        {
+          "shard": 0,
+          "sample_sha256": "9137ac5a2ef39a71a2a5e7b7d1a09fd143a1fe3b4d5c0842c13d16f1a77a1183",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 43,
+              "service_frame_errors": 43,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.001681943870716518,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 20,
+              "service_frame_errors": 20,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0006500888382737768,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 1,
+          "sample_sha256": "a29e19eb15af2957acc3f59bd45ea28ea02c2710f65ca725865217372d0d8d7b",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 38,
+              "service_frame_errors": 38,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.001980125744184713,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 23,
+              "service_frame_errors": 23,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0008120228013857034,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 2,
+          "sample_sha256": "c45cae75da5db59b8335d44f85abbad5889245defb6eb5101693cd8f93378220",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 2,
+              "rejected": 40,
+              "service_frame_errors": 40,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0021954824903245296,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 2,
+              "rejected": 22,
+              "service_frame_errors": 22,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0012836146406162152,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 3,
+          "sample_sha256": "813922d8802683b0f4d4c1aaaa8220a7630816b99bd620b729a7a57c036f6b57",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 23,
+              "rejected": 47,
+              "service_frame_errors": 47,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.020260784633346574,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 6,
+              "rejected": 24,
+              "service_frame_errors": 24,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.005793340995132734,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 4,
+          "sample_sha256": "87ba2a94ba27ad610de95438108540bda9735451777b0d476625a6abe40715bc",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 6,
+              "rejected": 44,
+              "service_frame_errors": 44,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.005163398161006638,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 23,
+              "service_frame_errors": 23,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0007597693816822071,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 5,
+          "sample_sha256": "610e59743ee408e1867cbfeb094d4855c8fa99e0b4d2a7ee5146ac1036328c5d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 4,
+              "rejected": 44,
+              "service_frame_errors": 44,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002997664507415454,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 22,
+              "service_frame_errors": 22,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0008350918887262138,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 6,
+          "sample_sha256": "bea81ff584007d5a7857d610dd029b79bda4ce778c80f8e6a5c112926e2c8f21",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 7,
+              "payload_bit_errors": 11,
+              "rejected": 51,
+              "service_frame_errors": 51,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00779786437824137,
+              "payload_bler": 0.00112,
+              "bler_ci95": [
+                0.000542640497044418,
+                0.0023102394389395275
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 29,
+              "service_frame_errors": 29,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002710237034219354,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 7,
+          "sample_sha256": "1c2b8e678e2fece1ab2426b9675a485b914c790d0c99db9fb563e26219a56231",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 9,
+              "rejected": 48,
+              "service_frame_errors": 48,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.007377091025634108,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 4,
+              "rejected": 37,
+              "service_frame_errors": 37,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0030933202586997943,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 8,
+          "sample_sha256": "8a2f06448c46b4ec2df25e7528d76bdd9bf3e73ae1fdf80917fc07d8007a6a24",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 8,
+              "rejected": 45,
+              "service_frame_errors": 45,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0052832164467756515,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 4,
+              "rejected": 23,
+              "service_frame_errors": 23,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002664933812677739,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 9,
+          "sample_sha256": "854163444ef3808ea09b46354547d8e46d4175c0bf12b1847ea6e26f9bbcbc77",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 6,
+              "rejected": 57,
+              "service_frame_errors": 57,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.004338162132738299,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 38,
+              "service_frame_errors": 38,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0013672871801182485,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 10,
+          "sample_sha256": "b8f66c81b5550e5300097d8b13a9f1d8b020b82c7f4d2008bee6a84ab575173e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 4,
+              "rejected": 45,
+              "service_frame_errors": 45,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.004667337420670492,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 29,
+              "service_frame_errors": 29,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.000930670376277587,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 11,
+          "sample_sha256": "02d80aa81107e7fb66e8e0238b3d07f72ee757872263d068edcf6bc158cbce4a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 3,
+              "rejected": 43,
+              "service_frame_errors": 43,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0033393543930312353,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 24,
+              "service_frame_errors": 24,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0009241996063056312,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 12,
+          "sample_sha256": "243d8687f2eb00207b338537d09f7d0666f100b3ac60245f0e8de8614e10cb2b",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 41,
+              "service_frame_errors": 41,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0012629803714532262,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 19,
+              "service_frame_errors": 19,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.001208354417228663,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 13,
+          "sample_sha256": "f6fd3fb3578ad6a1629a1a8aa491bd5c031568602bb5e0d39fc6a424c5db6811",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 15,
+              "rejected": 35,
+              "service_frame_errors": 35,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.01107349413333858,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 4,
+              "rejected": 27,
+              "service_frame_errors": 27,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0032568351419547392,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 14,
+          "sample_sha256": "cd5888de2bd10429543e8041f4da98c43d1fd72ee462f601236c8a3282ece06d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 7,
+              "rejected": 41,
+              "service_frame_errors": 41,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.004766205816480573,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 30,
+              "service_frame_errors": 30,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0006929452165724825,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 15,
+          "sample_sha256": "8ab15bd4b76e66cebedbbcb397d569687d80a38158c5ba00f09db7f604c25aac",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 5,
+              "payload_bit_errors": 8,
+              "rejected": 40,
+              "service_frame_errors": 40,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.006694549173045683,
+              "payload_bler": 0.0008,
+              "bler_ci95": [
+                0.0003417590671355933,
+                0.0018715139926045957
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 3,
+              "payload_bit_errors": 4,
+              "rejected": 29,
+              "service_frame_errors": 29,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0027758202019626532,
+              "payload_bler": 0.00048,
+              "bler_ci95": [
+                0.0001632564414298254,
+                0.0014104097420666074
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 16,
+          "sample_sha256": "ab8cf8bf3c44b428ebc0df92949c0d527d739aed45def3a86f2bc6a66010fcd1",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 8,
+              "payload_bit_errors": 28,
+              "rejected": 46,
+              "service_frame_errors": 46,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.018360344669196116,
+              "payload_bler": 0.00128,
+              "bler_ci95": [
+                0.0006487456413605988,
+                0.002523937732745225
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 26,
+              "service_frame_errors": 26,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0014608266407692971,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 17,
+          "sample_sha256": "f4959365a1279cc077ed02ba97c361fb3fe8929e2b784af2c9a1cb6343e6f95e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 7,
+              "rejected": 44,
+              "service_frame_errors": 44,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.005507862261022511,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 3,
+              "rejected": 24,
+              "service_frame_errors": 24,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0031065111448024263,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 18,
+          "sample_sha256": "373c01d3421275a4f98de4312890a79fbedab50173bc91bc9bf324517fb9e3e7",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 36,
+              "service_frame_errors": 36,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0021320750691459223,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 22,
+              "service_frame_errors": 22,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0006304901069194013,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 19,
+          "sample_sha256": "95b4ce598a3221983303b3fda37b4a06ec74f624d30d96954c8434408dc30d62",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 5,
+              "payload_bit_errors": 6,
+              "rejected": 44,
+              "service_frame_errors": 44,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.003852082682692326,
+              "payload_bler": 0.0008,
+              "bler_ci95": [
+                0.0003417590671355933,
+                0.0018715139926045957
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 24,
+              "service_frame_errors": 24,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0015489517012603482,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 20,
+          "sample_sha256": "095381ef45d4e1224268da937b743e928f0c25faf8fb2c9903dacd1657dbe29f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 15,
+              "rejected": 56,
+              "service_frame_errors": 56,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.010451571941099358,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 13,
+              "rejected": 30,
+              "service_frame_errors": 30,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00818750901521259,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 21,
+          "sample_sha256": "cdae45bc55b327848ee6144f7b19a5ecfa73e520967e8fb6e64d27525609f31a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 7,
+              "rejected": 36,
+              "service_frame_errors": 36,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.004218183382552643,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 3,
+              "rejected": 23,
+              "service_frame_errors": 23,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0018782126623100304,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 22,
+          "sample_sha256": "80dd781a1d61dc912d71239774979fcf6fed93ec9f261caaddee18b22fdd54e2",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 42,
+              "rejected": 40,
+              "service_frame_errors": 40,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.02644537369837563,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 2,
+              "rejected": 27,
+              "service_frame_errors": 27,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002318639489595098,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 23,
+          "sample_sha256": "90811631c247dd406d7a0ec3247d443896a66cbd1934a2d75bd47b6c0db6bc7c",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 6,
+              "rejected": 33,
+              "service_frame_errors": 33,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0032956935988130986,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 19,
+              "service_frame_errors": 19,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.001399877390004134,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 24,
+          "sample_sha256": "08fbe9537ae63a1be140f6253f94f5718d8808d4620d8561783250bcda0e8fc7",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 42,
+              "service_frame_errors": 42,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0020617244131608814,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 20,
+              "service_frame_errors": 20,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0001626363302260625,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 25,
+          "sample_sha256": "bcb655df542050f8f6c5f40a9322e462d06cf5d677d328afb723d34fd6a11e9a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 53,
+              "service_frame_errors": 53,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.003050069245337017,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 28,
+              "service_frame_errors": 28,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0006722568472997681,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 26,
+          "sample_sha256": "b5c2f6c185f122f6afce30757d2700ab52fa23ed2f045857750fa26491e557b1",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 42,
+              "service_frame_errors": 42,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0011827070289587294,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 31,
+              "service_frame_errors": 31,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00047617168716385105,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 27,
+          "sample_sha256": "b4bed271c2a7a0691a60c6f2c021e19fbff986d841aca8b163c9829b9f838508",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 6,
+              "payload_bit_errors": 7,
+              "rejected": 40,
+              "service_frame_errors": 40,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.004974144401165059,
+              "payload_bler": 0.00096,
+              "bler_ci95": [
+                0.0004400485428763969,
+                0.0020930279549856703
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 24,
+              "service_frame_errors": 24,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0016287902935281373,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 28,
+          "sample_sha256": "418318d8e8a5e6f65144584c491694aae412d69ebe38d783f11ca870f56da82e",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 14,
+              "rejected": 46,
+              "service_frame_errors": 46,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.011603641983248036,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 2,
+              "payload_bit_errors": 7,
+              "rejected": 29,
+              "service_frame_errors": 29,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.005540260204456082,
+              "payload_bler": 0.00032,
+              "bler_ci95": [
+                8.775992883981916e-05,
+                0.0011661028165347357
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 29,
+          "sample_sha256": "1ff90f7b88ddd79ef2f431136005dca558b6fcd84dea0299a7a336cb5d2cdfc8",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 4,
+              "payload_bit_errors": 12,
+              "rejected": 41,
+              "service_frame_errors": 41,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.010934459370691596,
+              "payload_bler": 0.00064,
+              "bler_ci95": [
+                0.0002489107633574764,
+                0.0016445588582608345
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 27,
+              "service_frame_errors": 27,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0016660458931855304,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 30,
+          "sample_sha256": "1d263787b8839727400dc175f7b94237f2c4e11e66599c1e3a0aa82afda64c98",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 4,
+              "rejected": 39,
+              "service_frame_errors": 39,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002949948727187901,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 4,
+              "rejected": 20,
+              "service_frame_errors": 20,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.002109510514531232,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        },
+        {
+          "shard": 31,
+          "sample_sha256": "72102e7f4ef23c314f3ce137e367d072cc4db3ca65a0de74fec54eb7630f776c",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 8,
+              "payload_bit_errors": 27,
+              "rejected": 53,
+              "service_frame_errors": 53,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.021390499223720938,
+              "payload_bler": 0.00128,
+              "bler_ci95": [
+                0.0006487456413605988,
+                0.002523937732745225
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 1,
+              "rejected": 35,
+              "service_frame_errors": 35,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.003551641485314172,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            }
+          ]
+        }
+      ],
+      "seconds": 600.327937239781,
+      "artifacts_sha256": {
+        "shard-00.npz": "c32dfe67e7ae4ca94592243da5ece91d701a655ce269d5b119d51cc337b87f32",
+        "shard-01.npz": "371a818cd1d481dc682260ae3211d64c055b4dd8cfa5ba6201fdacdf949bb6cc",
+        "shard-02.npz": "ef73b32fe7e7db6bf286a7d08e47a458600fcaa6c40370cb6d6d7581314fa3c4",
+        "shard-03.npz": "d8f8269a9a8c719fd6fede4d0fbb133d8e841c683c73a38a61f19e0697d570c1",
+        "shard-04.npz": "0fdd6ad4d0e84647bc4232208db5c2499d3f1fd50e28eef8e5e00358210ced00",
+        "shard-05.npz": "7d752af7203240c2eea3b0d79ac3d06fff2119041c94cf7eebefe3feaa542f32",
+        "shard-06.npz": "509e0a70066c8d7d6c5669f8a85f194770454cf92bfeb22b0e1697317d1534a5",
+        "shard-07.npz": "0a97e9d143bb8d46c9030a32d021a8d2541f811b5870fd9273980fc4617fc71c",
+        "shard-08.npz": "a56adb7df41922df6e727764bb8f0c2aaa3fbaa4e18974f0482d52e73e6c30c8",
+        "shard-09.npz": "43d9ebf7163508a3038fee26cf1f378876075ec240efe6576b9bc699b0b14a5b",
+        "shard-10.npz": "c708af2622c4c2f464173e7d448a060629163ae150fc86d188992a67e0de3336",
+        "shard-11.npz": "96a08fa6747a6aedeb4dfdebc7e09047706f5d87429f1d6ccd854a1213928592",
+        "shard-12.npz": "d80aebcb5f4dd37a3170667d9c1a9fcd83bad0da29c8ec71f3972aaadf8a5f07",
+        "shard-13.npz": "f6a2b0e6b8365176846f91c1492228d23306bd5b5bdddd7a63ff574d902bf78d",
+        "shard-14.npz": "34ccd0e8bf89a9aa42ec9ba3663bbb0fec7d6c1feb2e6044c9b266f55aa80cd0",
+        "shard-15.npz": "5fa104ce7c646e43fce54688369531dc6e13652d2fc966d8b3d1f8ddda0d09a3",
+        "shard-16.npz": "e1e1a24af30f54da0285c992722b97361097c1cd3ee68c95267a585dc56391f1",
+        "shard-17.npz": "4d7e70612b92da4c0893162ecd030d22e66473364899e8fccf7e20f38b6b7b89",
+        "shard-18.npz": "85d557c61516a5049293faa6c1c9cf54c72d1b9a773912f919cbe5f2822306da",
+        "shard-19.npz": "fdd4cf537efefa2256180ad90dd06bc5b60406fc42cf2a381674a5ad3abc8246",
+        "shard-20.npz": "af38618ad39ac6701a56ea84a90bf08f24b71eb2525cc8283228ee5c0bd4496f",
+        "shard-21.npz": "d1c81166b3a49177e94e9599ac8d14d76f3cb014680c57e2cea0a7095ce85cdc",
+        "shard-22.npz": "ea932fae69c8119845aa190dab036aadccdd1829f32d7f54b422dbe8f61f8ca6",
+        "shard-23.npz": "722425c01a71e824669a64e28d26c1fab3d79e56456d379003e3d1a7dd76d0c5",
+        "shard-24.npz": "f5a8d775a2e0c84e69dd7f9c8c9c2a7f01910649878fd672e68ba04b10a91cb6",
+        "shard-25.npz": "ac507a5e914561b6700a6d3e35814d028ff002f9bf2dfe27d626249a091c7cb8",
+        "shard-26.npz": "8c081e14328837c04b1370430d6f8a1bc0bbd830861031520a4c7a08742b0063",
+        "shard-27.npz": "ce01a55d8ebadad0927564848ebadc8036d459c4278039f76fc9597ddb7f8823",
+        "shard-28.npz": "5261e0c98e1278e12c9e3c9a92e19bc91dcb6bb986b41d01be6903e886b69393",
+        "shard-29.npz": "a25260638ac0dca2d42ff55c2ac53b8693440d67679d68caccdc28bb766035ab",
+        "shard-30.npz": "5293b99ee42c97d52efc2ed1acf925fc644f24ea00c797be7dbd3147b5dd2f8f",
+        "shard-31.npz": "5064c681249fa241f7753fa1d746c5c72e2e0027fc17d57017c2325bd2fa724b"
+      }
+    },
+    {
+      "status": "passed",
+      "identity": {
+        "config_id": "ldpc_B4096_R1-2_Q2",
+        "snr_db": 1.8,
+        "frames": 200000,
+        "shards": 32,
+        "split": "S2-formal-test-awgn-t20-v1",
+        "methods": [
+          {
+            "name": "NMS",
+            "kind": "nms",
+            "alpha": 0.7
+          },
+          {
+            "name": "ssm-seed29",
+            "kind": "ssm",
+            "seed": 29,
+            "alpha": 0.7,
+            "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-ssm-seed29/checkpoints/step-49000.pt",
+            "checkpoint_sha256": "06592820525408fd6297aed084fc2640c4c4c774f8973ee80b4329690194ac6f",
+            "parameter_sha256": "811a7a885dece72aa91087ce5d639412e9fe0d35bacee79f97decb61197a758b",
+            "step": 49000
+          }
+        ],
+        "T": 20,
+        "early_stop": false,
+        "fallback": false,
+        "core_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py": "7b2c701d64c2bcea47f60f403c497befd02872adaa52ebb08cc75d4b7f379da1",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "7964fa9ee490dfd3c7fc43a17fbf30b58ad530099522b3ae21e3d9c421c9e451",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe"
+        },
+        "endpoint_sha256": {
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py": "17404b1751b56cdbffc2b31d0485127a58f231e2603f2a09741517d59cdc534a",
+          "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/mechanisms.py": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+        }
+      },
+      "methods": [
+        {
+          "frames": 200000,
+          "payload_frame_errors": 1,
+          "payload_bit_errors": 2,
+          "rejected": 214,
+          "service_frame_errors": 214,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 0.003765844862751555,
+          "name": "NMS",
+          "payload_bler": 5e-06,
+          "information_bce": 1.8829224313757777e-08,
+          "payload_ber": 2.4557956777996073e-09,
+          "bler_ci95": [
+            8.826233199317763e-07,
+            2.8324109801225995e-05
+          ]
+        },
+        {
+          "frames": 200000,
+          "payload_frame_errors": 0,
+          "payload_bit_errors": 0,
+          "rejected": 155,
+          "service_frame_errors": 155,
+          "accepted_wrong": 0,
+          "crc_passed_wrong": 0,
+          "bce_sum": 0.001680659205448909,
+          "name": "ssm-seed29",
+          "payload_bler": 0.0,
+          "information_bce": 8.403296027244544e-09,
+          "payload_ber": 0.0,
+          "bler_ci95": [
+            0,
+            1.920692519040967e-05
+          ],
+          "zero_error_one_sided95_upper": 1.497854918818187e-05
+        }
+      ],
+      "shards": [
+        {
+          "shard": 0,
+          "sample_sha256": "0895c5c1c8348436046761e5a0798eb1a0eb265f0bcc2f748acf37b6fa0bbdb6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 9.609774327679066e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.8248843366496246e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 1,
+          "sample_sha256": "0981bab9e1a4ade95ddf96905ab5bcc48ab8b85aadaf332bdccbb7c9805b9918",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 8,
+              "service_frame_errors": 8,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.3009025724692904e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.5046339360023104e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 2,
+          "sample_sha256": "d0dd86ebf5ed40d6d3fa665ee9915f232e8f1f587d89449992694cc9f122de71",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.281069804223936e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.738526454422075e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 3,
+          "sample_sha256": "732dc3aecc34555ea6e4aa69300d8eba81546357d5daef7dc0da62f909bacec4",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 8,
+              "service_frame_errors": 8,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.792894223919596e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.4543032076884685e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 4,
+          "sample_sha256": "1c5ff44544d8ae825a4d0468a2ac9fc3d1ee1876baa03d9389093938e5f720b6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 9,
+              "service_frame_errors": 9,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 8.027728395421097e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.635336395708567e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 5,
+          "sample_sha256": "53e87370623a6c41aaba0fe267b8fafe105d582fc7bcc93f60f4c942cb0d0ea0",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00013062639782479568,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.9213068399177615e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 6,
+          "sample_sha256": "70a5df8867109c92e65773bcd06af6dd0b403240fc4fb6269c11382d851c5951",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 11,
+              "service_frame_errors": 11,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.2129477849161e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.2311837358502942e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 7,
+          "sample_sha256": "89de3c4b685783d957bf97399c000755555de994f448ae34248da9a4fd373078",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 10,
+              "service_frame_errors": 10,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0002659206127348934,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 8,
+              "service_frame_errors": 8,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00024007660719882473,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 8,
+          "sample_sha256": "bcea6396413be862bba65f658fe2ffd2c6efe788e6bf8c22fa3d06d59b5993b0",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 8,
+              "service_frame_errors": 8,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.777786246221936e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 10,
+              "service_frame_errors": 10,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.9875840670091627e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 9,
+          "sample_sha256": "fbdcd5f8ba9f4ff9826b799aa7932f7ebf77c30031e602f87d40803ae9ac27ff",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.4860654726798224e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.3717376131604517e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 10,
+          "sample_sha256": "535b08a4279dbd75b595474385cc71c5553cefd71e7e6fb81424d551266b2064",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 10,
+              "service_frame_errors": 10,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 6.679027963196749e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.4206740882457574e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 11,
+          "sample_sha256": "c26611a1dd80b01417e2200ba17121e2536db15891b5da5ce335052c4be63a29",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 1,
+              "payload_bit_errors": 2,
+              "rejected": 9,
+              "service_frame_errors": 9,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.000616984778045393,
+              "payload_bler": 0.00016,
+              "bler_ci95": [
+                2.8244487153510425e-05,
+                0.0009058148200991661
+              ]
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0002735354055175554,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 12,
+          "sample_sha256": "f5feb43fd68321cd31a34a518050f1d5741a93459c05a12800610a1e73db19d3",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.7420020525980036e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.851313326162174e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 13,
+          "sample_sha256": "9255dc6be9dec94b19fb34f25ea992ce752509579a3854fb98badaa215780628",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 9,
+              "service_frame_errors": 9,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 8.43998373648569e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.960379012919347e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 14,
+          "sample_sha256": "d90d21fcce789e8673e85634cc18d666da8f6b0ce1e22124baf30a987895b7c4",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 7.704627185678437e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 3,
+              "service_frame_errors": 3,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.3159284707883216e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 15,
+          "sample_sha256": "a9fa8216e650affb638d7b71f61624ab304b9e6c991637f1ef84f308bc0fbad0",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.299291374134981e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.1139853158370627e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 16,
+          "sample_sha256": "4f98a155898bfb8fd834d0b31ccb6412739b395040322a0a64bbf44608d07cd8",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 7.060049864437978e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.2323354923046175e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 17,
+          "sample_sha256": "4b8e087e5591add011fee2f44d4f4b00eb5008e7ef55b368ee6a67c9c06ad71f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00021065641157080872,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 2,
+              "service_frame_errors": 2,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.618992260145948e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 18,
+          "sample_sha256": "d2d6517f61c81be2796481f7a231a31d50bec65be9fac44259f4c66afc7f44a3",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.516084914507612e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.297700421205473e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 19,
+          "sample_sha256": "e0c7782554a88541138bad73737f840daf9519d98eff9c70d5fddb337dcd6d09",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0002637855760586616,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.7596133116046815e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 20,
+          "sample_sha256": "def182339e1ebf55ae918b5ea2c5aee9d7e884e7bde36e2c5d378ad0e7a5c2ab",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.030937612031771e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 3.443800559854715e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 21,
+          "sample_sha256": "43ca679f1b0599bc935f52d56b59d33ede85ba7562e24aa1d5dd027627825476",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 8.61550412232237e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 7,
+              "service_frame_errors": 7,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 6.450818246428458e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 22,
+          "sample_sha256": "cffab8f88c576a8aff852bd8fac933a7febad90752779d68b9b49093a50cb06b",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.0002235280378849458,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.886756194324768e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 23,
+          "sample_sha256": "b39b650a94c1dee272a45df22737ed24173e6aeb8af4ae0459015ef646792dd1",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 3,
+              "service_frame_errors": 3,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00037345694770474225,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.856498592471393e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 24,
+          "sample_sha256": "1aa73227851c24f78f0da7afd0726bc2b39ec35aa7a6a1c53c1b8c7381701d18",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 10,
+              "service_frame_errors": 10,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 8.150957636654521e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.082194234573567e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 25,
+          "sample_sha256": "f0abb98757c34355b30bf8b872047f808a8b5a981dd5fade4f5b4d86965066e9",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 8.28152796604753e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 5.2050564358308016e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 26,
+          "sample_sha256": "19c4ab903f75541298de15655ef006804b249442479d272daf6811707ad11d0d",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 10,
+              "service_frame_errors": 10,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00024838385696568377,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 4.255024629651327e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 27,
+          "sample_sha256": "e1040a7ecfd3640befe0ac5e2c471c9cc63a0388280a1ae8a0072d82c731a85f",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 9,
+              "service_frame_errors": 9,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 9.740861173601623e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.9078060421960927e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 28,
+          "sample_sha256": "ab36826542a2c9f03580a8dffb68fd8615b49c987771edb16ecc53374032b2d6",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 1,
+              "service_frame_errors": 1,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.8157577318221882e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 0,
+              "service_frame_errors": 0,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 1.1792198525650832e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 29,
+          "sample_sha256": "477ea2b6491daa51474a84e26d2004f2c71ecd6b976d6ab46a0bb425e72acf17",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 8,
+              "service_frame_errors": 8,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.844376984645347e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 2.3031524255978653e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 30,
+          "sample_sha256": "878386bbacb0f89b6a59ee2f4deab358c96900f1ac1d2a87028af0a6afc88692",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 9.40257636172781e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 4,
+              "service_frame_errors": 4,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 6.262318353955632e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        },
+        {
+          "shard": 31,
+          "sample_sha256": "d0d6612246d6ca6026a674cc9a491eec063ed830ed7573a2169b1ec72445f34a",
+          "methods": [
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 6,
+              "service_frame_errors": 6,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 7.43748888873963e-05,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            },
+            {
+              "frames": 6250,
+              "payload_frame_errors": 0,
+              "payload_bit_errors": 0,
+              "rejected": 5,
+              "service_frame_errors": 5,
+              "accepted_wrong": 0,
+              "crc_passed_wrong": 0,
+              "bce_sum": 0.00012631655420181076,
+              "payload_bler": 0.0,
+              "bler_ci95": [
+                0,
+                0.0006142558691307983
+              ],
+              "zero_error_one_sided95_upper": 0.000479202309648147
+            }
+          ]
+        }
+      ],
+      "seconds": 604.3283705590293,
+      "artifacts_sha256": {
+        "shard-00.npz": "18324c1e33f0eddd1e66b15bff9ad3937358304b208f1d051dfa48818337b4ca",
+        "shard-01.npz": "b0c8ac43f30de7946f78e0b738fd8d8684fd253f6e08ab5ed70bfe374a300302",
+        "shard-02.npz": "4058677e41dcbc72c65d43cc6173d04de452b597ae1acc4b7e9e1aa344b66e4e",
+        "shard-03.npz": "dd241f66d323c951c71f36ed079311c73cc7483a79de11f32653af3c3276ef58",
+        "shard-04.npz": "6cefb9c1a4a03b173686a755286e66327da1ea2ea8ba6accce902a92e7a7d5ff",
+        "shard-05.npz": "06a08565d0862b70520aeeef04e17ee3cf115ac74ba3a3cc4cf77bea0090b6ae",
+        "shard-06.npz": "1ed4a4f4d3371e0b5794a66e17f214e64d8575e27953abe2eb6cc38a96e2ad29",
+        "shard-07.npz": "a970625ccbd3d222147234f25f0bbdd8523d7033b98fc0cb48f8bb55efe4af8f",
+        "shard-08.npz": "01ae7613759fade1b9ad438e0c333802b1ba62656cc5090d548d70d474c46854",
+        "shard-09.npz": "77a135bf5ac73000f50f126bb8013e15efec0e6c79eb5f0eea54a7161658265f",
+        "shard-10.npz": "61a22c19e8ac2cd22bd49d4b384f5b0d7d6d920f95ad9820a330bae6e4ae080c",
+        "shard-11.npz": "bd3887ca46e7c06138fc4b8308f5299e5b14cf970b59618f2a79517b531e2c04",
+        "shard-12.npz": "e6d581809d88c8cde843dcfd42e41bc39f93a304cdbb42a3a4d56f313877c07f",
+        "shard-13.npz": "a50e08775230d71674feb13ecdf01b7a280ed54cccb1f147aa09b59559bf0fcd",
+        "shard-14.npz": "8c3fcb92ccfec513e553a9a76d982c6d626f3b5812db748683941744959d0cd4",
+        "shard-15.npz": "57dd0caf7c8bcb0200b297446737c876dc4a6ff542bbb19d19248e419da4efcf",
+        "shard-16.npz": "d09bbfa5361a7fca2405c6d53c3b04550b15414d41ae1eb35d8ee80805cf2bff",
+        "shard-17.npz": "27e5b662a03bd0ac64c8984debd17f983a7986c694c2d34f9e41ca52cfe50703",
+        "shard-18.npz": "eaf73bc0d7e24641766f093fb657d43b37af20bc2003cdbfd7b300fb5975a267",
+        "shard-19.npz": "cac7af74e7b62bb9f2be828878c535790bdf27e038d497d8db718bfd53ce2e50",
+        "shard-20.npz": "38cc160d10968e68bead6d282c8d9e54649596721150a420f2e4779ab68c28ec",
+        "shard-21.npz": "511ce21a5801cab8abb3cd4dfe5cc1ecd4b74d3ce77b5cf385160f5345ac4ac5",
+        "shard-22.npz": "7ef5aa2018739367fb01c0301ad4adc01c83497e56a7cdd26183d08b2eedeea0",
+        "shard-23.npz": "e3b15367fa623210cec47fa81bcec225b47fe9331ffd94658aefc4c3a4fbd0c8",
+        "shard-24.npz": "1b2a3e9c393cfa126621abd53b9872404e0727abd013baf6e02ae6a1cfe0f9bd",
+        "shard-25.npz": "82546eacd82a04ddaee6bc8fb519d4085cd59e7705ee38cd47b0e56cf1641b9e",
+        "shard-26.npz": "d51e4233003d95a5332cf68799b35d2b7034e249bf5801e705d22160e712fbd5",
+        "shard-27.npz": "b4fae6a8ac6d15fcdd7334173b91a2fea4f4dc0f7a8c19356048b69efce200b8",
+        "shard-28.npz": "c1d0e3dc7f4ec078c7345005f9389e90d599311936fc4697ed0f6f053c37220e",
+        "shard-29.npz": "8fd7587dabaff1a633bde9ac75934eaabd6a51d15de793826086494409b3875a",
+        "shard-30.npz": "e07fc25a60a3a94d8901cee64e819865e94987237059e414858189a3a4798989",
+        "shard-31.npz": "5203be847fdc04dda9d6f5b8e1ee96588b8fed867097b9386a22d617234eddd4"
+      }
+    }
+  ],
+  "endpoint": {
+    "target_bler": 0.001,
+    "methods": [
+      {
+        "method": "NMS",
+        "crossing_db": 1.6702907563440552,
+        "bootstrap_valid": 10000,
+        "bootstrap_total": 10000,
+        "conditional_bootstrap_ci95_db": [
+          1.6635393506731009,
+          1.677117115559167
+        ],
+        "ci95_db": [
+          1.6635393506731009,
+          1.677117115559167
+        ]
+      },
+      {
+        "method": "ssm-seed29",
+        "crossing_db": 1.6212564336713688,
+        "bootstrap_valid": 10000,
+        "bootstrap_total": 10000,
+        "conditional_bootstrap_ci95_db": [
+          1.6175423065679453,
+          1.6250196828139813
+        ],
+        "ci95_db": [
+          1.6175423065679453,
+          1.6250196828139813
+        ],
+        "gain_vs_NMS_db": 0.04903432267268637,
+        "gain_bootstrap_valid": 10000,
+        "gain_ci95_db": [
+          0.04213159042454107,
+          0.056341986193404005
+        ],
+        "gain_conditional_ci95_db": [
+          0.04213159042454107,
+          0.056341986193404005
+        ]
+      }
+    ],
+    "interpolation": "log10(BLER), adjacent positive observed points only; no pseudocount, no extrapolation",
+    "ci_scope": "paired32-shard percentile bootstrap, sampling uncertainty conditional on selected models; no training-seed uncertainty or interpolation-model-error coverage",
+    "invalid_bootstrap_policy": "any invalid replicate makes ordinary CI N/A; valid-only conditional interval separately disclosed"
+  },
+  "unique_channel_observations": 800000
+}

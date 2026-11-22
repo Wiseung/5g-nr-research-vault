@@ -1,0 +1,39 @@
+{
+  "cohort": "mlp-seed29",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.75
+      },
+      {
+        "name": "mlp-seed29",
+        "kind": "mlp",
+        "seed": 29,
+        "alpha": 0.75,
+        "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg2-mlp-seed29/checkpoints/step-41000.pt",
+        "checkpoint_sha256": "935e2511156056be34049cc4617717a43e59e53e84a66a0cff66d4406a256425",
+        "parameter_sha256": "364f4c70ca0baec68e2ec424f64b1258722a5e7643503adeaa6815ba1ed5545e",
+        "step": 41000
+      }
+    ],
+    "ldpc_B4096_R1-2_Q2": [
+      {
+        "name": "NMS",
+        "kind": "nms",
+        "alpha": 0.7
+      },
+      {
+        "name": "mlp-seed29",
+        "kind": "mlp",
+        "seed": 29,
+        "alpha": 0.7,
+        "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg1-mlp-seed29/checkpoints/step-47000.pt",
+        "checkpoint_sha256": "39abf24a2dd159674ecf61955689adb2c0e9a635602a21c6b84a2c1deee1e9aa",
+        "parameter_sha256": "5cd50aac137ef17a52f7b77bc1e47a46871e51267db1174c3dc2edea4adc3334",
+        "step": 47000
+      }
+    ]
+  }
+}

@@ -1,0 +1,777 @@
+{
+  "run_id": "20261113-152035-s2qc",
+  "effective_gpu": "RTX 4090",
+  "target_5090_tested": false,
+  "metadata": {
+    "run_id": "20261113-152035-s2qc",
+    "timezone": "Asia/Shanghai",
+    "created_at": "2026-11-13T15:20:35.365332+08:00",
+    "root": "/home/czr/workspace/5g-nr-research-vault",
+    "local": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+    "logs": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc",
+    "preflight": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-5090-preflight",
+    "initial_observed_commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+    "initial_observed_git_status": "",
+    "git_status_before_audit_files": "",
+    "effective_target": "RTX 4090",
+    "user_authorization": "允许本机 4090 完成五项验证",
+    "selected_gpu_uuid": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+    "selected_gpu_physical_index": 0,
+    "initial_target_5090_absent": true
+  },
+  "environment": {
+    "checked_at": "2026-11-13T15:33:31.895622+08:00",
+    "run_id": "20261113-152035-s2qc",
+    "effective_target": "RTX 4090, user-authorized substitution",
+    "initial_target": "RTX 5090, absent on this host",
+    "pid": 409690,
+    "python": "3.12.16 (main, Nov 11 2026, 00:15:59) [Clang 23.1.3 ]",
+    "executable": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+    "platform": "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+    "packages": {
+      "torch": "2.9.1+cu128",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "sionna": "2.2.0",
+      "py3gpp": "0.6.0",
+      "triton": "3.5.1",
+      "pip": "26.3"
+    },
+    "torch_cuda_runtime": "12.8",
+    "cudnn_version": 91002,
+    "arch_list": [
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "selected_gpu_name": "NVIDIA GeForce RTX 4090",
+    "selected_gpu_uuid": "1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+    "selected_gpu_compute_capability": [
+      8,
+      9
+    ],
+    "selected_gpu_total_memory_bytes": 25393692672,
+    "cuda_visible_devices": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+    "gpu_query": "index, name, uuid, driver_version, memory.total [MiB], memory.used [MiB], utilization.gpu [%]\n0, NVIDIA GeForce RTX 4090, GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857, 535.183.01, 24564 MiB, 673 MiB, 4 %\n1, NVIDIA GeForce RTX 4090, GPU-94bcb1c6-c74e-5cfd-e7f1-89116a6a4cd8, 535.183.01, 24564 MiB, 3263 MiB, 36 %\n2, NVIDIA GeForce RTX 4090, GPU-d9131a5f-46cd-8265-7053-4706b0576ff6, 535.183.01, 24564 MiB, 23232 MiB, 0 %\n3, NVIDIA GeForce RTX 4090, GPU-1d81424b-784e-92d9-00c4-3451655ff6ac, 535.183.01, 24564 MiB, 1812 MiB, 25 %\n",
+    "git_commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+    "git_status": "?? ../__pycache__/\n?? logs/\n?? results/20261113-152035-s2qc-5090-preflight/\n",
+    "precision": {
+      "dtype": "torch.float32",
+      "matmul_tf32": false,
+      "cudnn_tf32": false,
+      "autocast_enabled": false,
+      "NVIDIA_TF32_OVERRIDE": "0"
+    },
+    "cuda_forward_backward": {
+      "passed": true,
+      "loss": 125.58892822265625,
+      "x_grad_norm": 2.3702051639556885,
+      "w_grad_norm": 3.4625442028045654,
+      "forward_cpu_max_abs_difference": 1.71661376953125e-05
+    },
+    "sionna_scope": "PHY only; sionna-rt intentionally omitted, as original local experiment",
+    "source_sha256": {
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/py3gpp/nrCRCEncode.py": "0ee8ad95407b65a82da20e86d379bbfc7914f45f478469c811e6cafb3d063deb",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/py3gpp/nrRateMatchLDPC.py": "c45dee2fa53445434855f8f257a544056166564fb2b05aa9b53bdb82dcab48ed",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/py3gpp/nrRateRecoverLDPC.py": "66d185f30e7180621cc27c384d9355d9c465f18e61f6c69bed7a745e3e12b221",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/sionna/phy/fec/ldpc/codes/5G_bg1.csv": "4ae766634def05dc45e4903c775a5ad7e1feb067747a644504b6d8c90d33b1ed",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/sionna/phy/fec/ldpc/codes/5G_bg2.csv": "4f4db6f7607446984c0b1dc6243bff4286f6fbad3a477f29d84a5e0edab523fb",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/sionna/phy/fec/ldpc/decoding.py": "44d84b92b749e2970f94d92cd348a11648e2286b4d851faa0af8b21d08f0da23",
+      "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/lib/python3.12/site-packages/sionna/phy/fec/ldpc/encoding.py": "34d8db6660b2e84708a8fb534f63c194f6f2b964e3693fcffc9dcaf21532ccfd",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/README.md": "6e6b1aef72f4bef44eacf07c5cafc3deedd7df9bb82188f0b07e54602a53da83",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/budget_and_invariants.py": "46c6a05ae33a35741564fbd6740348abacec937a9d31b4ab0bf068de0ce48ecf",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/config.json": "a9baee4e52704d1d3914b38f11875bc4a0a97c314d5fd1637ae6a72b73871921",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/s2_codex.md": "b3d2436a15db64181c6115960de4d01f911401984640d133740d9dc9d82e6e7d",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/generate_manifest.py": "a50e3710e462ecff43cf08e48bf58548f789157ad1905b779703555843646258",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/protocol_checks.py": "4a8637cd6c998c80eab5a0f6a611d0cef92867f796aabce47ad32365468f51ce",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/results_template.json": "667a0cca5c0c41ddc72687b27acb04a2c757f4c3b403affab1aed940793bb0cd",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/source_verification.json": "9f309da77d850912b2c4159ff36ea0679e2de95120d9bad0ea23b7933802c164",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/.gitignore": "5fa05a44fc8f20bf3c3d273083af299cdd2170cd9ee5adc2cfe0d5b24f8720b6",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/20261112-本机试跑报告.md": "237ad5db977afcca08ecc9cf367e77350d3428e340b1339fc1d7b87d39d59f5a",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/README.md": "bddc3a10d988781da9ede54e1f061faf0876d5cca7b9beff7b4d41eba238202b",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/check_channel.py": "37dadbc864fa2e56c0a83a8c1711f57e41e3980528a1c436159a6aa536301cce",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "15dd7a5249f9563ae35278920e921a3a2af5d1e907be5704319534e2822d0fac",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/run_local.py": "cfe4b04f6d15b721f8a98fc704ce20b104093b9ade7b534ba1f4a2259a147d65",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/start_stage1.ps1": "897e0c7110ce9473fc0403ab5b122b17448f180272640fade4548d0472532d8b",
+      "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_smoke.py": "ba8a39ff3f45b3b22abe2bbb65670f86927910b2b44d343faa951514a67709fc"
+    }
+  },
+  "experiments": {
+    "quick": {
+      "directory": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-quick",
+      "summary": {
+        "status": "quick_smoke_completed",
+        "configs_checked": 2,
+        "gates": {
+          "1_scalar": "passed",
+          "2_QC_algebra": "smoke_only",
+          "3_independent_reference": "smoke_only",
+          "4_noiseless": "smoke_only",
+          "5_public_curve": "pending_exact_2.1.0_notebook_reproduction",
+          "6_SSM_symmetry_gradient": "passed_for_two_source_configs"
+        },
+        "formal_training_authorized_by_gates": false,
+        "formal_training_steps": 0,
+        "pilot_20k_per_point": "pending",
+        "alpha_calibration": "pending",
+        "polar_validation": "pending",
+        "limitations": [
+          "diagnostic is not formal BLER or public-curve reproduction",
+          "fixed-shape fixed-iteration decoder; no early stop or fallback implementation yet",
+          "RTX 4060 engineering data does not establish 4090/5090 ranking"
+        ]
+      },
+      "launch": {
+        "command": [
+          "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+          "-B",
+          "-u",
+          "run_local.py",
+          "--mode",
+          "quick",
+          "--output",
+          "results/20261113-152035-s2qc-4090-quick",
+          "--diagnostic-frames",
+          "256"
+        ],
+        "command_shell_display": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python -B -u run_local.py --mode quick --output results/20261113-152035-s2qc-4090-quick --diagnostic-frames 256",
+        "cwd": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+        "created_at": "2026-11-13T15:34:08.445645+08:00",
+        "environment_overrides": {
+          "CUDA_VISIBLE_DEVICES": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+          "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+          "NVIDIA_TF32_OVERRIDE": "0",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUNBUFFERED": "1"
+        },
+        "session_kind": "POSIX detached supervisor (setsid), direct stdout/stderr files",
+        "stdout": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/quick/stdout.log",
+        "stderr": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/quick/stderr.log",
+        "supervisor_pid": 409988,
+        "pid": 409991,
+        "session_id": 409988,
+        "started_at": "2026-11-13T15:34:08.494147+08:00"
+      },
+      "exit": {
+        "returncode": 0,
+        "finished_at": "2026-11-13T15:34:34.956132+08:00",
+        "pid": 409991,
+        "supervisor_pid": 409988
+      }
+    },
+    "channel": {
+      "directory": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-channel",
+      "summary": {
+        "status": "noisy_channel_checks_passed",
+        "source_configs": [
+          {
+            "config_id": "ldpc_B1024_R1-2_Q2",
+            "frames": 128,
+            "numpy_qpsk_llr_max_error": 2.3762163010587756e-06,
+            "scalar_vector_SNR_max_error": 0.0,
+            "standardized_noise_mean": -0.0038877992985930617,
+            "standardized_noise_variance": 1.0035382329037394,
+            "BPSK_QPSK_same_bit_energy": "passed",
+            "accept_valid_and_reject_invalid_CRC_filler_and_zero_ties": "passed",
+            "index_sha256": "21edf846d449aee0bf3c3ceec38d953d578aec5b88c253a7067173e362c5ff68",
+            "shift_sha256": "4f4db6f7607446984c0b1dc6243bff4286f6fbad3a477f29d84a5e0edab523fb"
+          },
+          {
+            "config_id": "ldpc_B4096_R1-2_Q2",
+            "frames": 128,
+            "numpy_qpsk_llr_max_error": 2.4076404674389096e-06,
+            "scalar_vector_SNR_max_error": 0.0,
+            "standardized_noise_mean": -0.0018569191183032492,
+            "standardized_noise_variance": 1.0032421574100336,
+            "BPSK_QPSK_same_bit_energy": "passed",
+            "accept_valid_and_reject_invalid_CRC_filler_and_zero_ties": "passed",
+            "index_sha256": "5c714e7c00be50cae8f1b718c8282b1279f4c7cda117e9722fe6293c40651dc3",
+            "shift_sha256": "4ae766634def05dc45e4903c775a5ad7e1feb067747a644504b6d8c90d33b1ed"
+          }
+        ],
+        "true_repetition": {
+          "config_id": "ldpc_B512_R1-8_Q2",
+          "repeat_count_max": 2,
+          "frames": 4,
+          "py3gpp_recovery_max_error": 9.5367431640625e-07,
+          "index_sha256": "c95b6908ff8bfbe866f39335549060160baffe5c5744b2bd56c1daedcb8ce500"
+        },
+        "public_curve_gate": "pending",
+        "formal_training": false
+      },
+      "launch": {
+        "command": [
+          "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+          "-B",
+          "-u",
+          "check_channel.py",
+          "--output",
+          "results/20261113-152035-s2qc-4090-channel"
+        ],
+        "command_shell_display": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python -B -u check_channel.py --output results/20261113-152035-s2qc-4090-channel",
+        "cwd": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+        "created_at": "2026-11-13T15:35:20.613482+08:00",
+        "environment_overrides": {
+          "CUDA_VISIBLE_DEVICES": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+          "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+          "NVIDIA_TF32_OVERRIDE": "0",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUNBUFFERED": "1"
+        },
+        "session_kind": "POSIX detached supervisor (setsid), direct stdout/stderr files",
+        "stdout": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/channel/stdout.log",
+        "stderr": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/channel/stderr.log",
+        "supervisor_pid": 410656,
+        "pid": 410657,
+        "session_id": 410656,
+        "started_at": "2026-11-13T15:35:20.658649+08:00"
+      },
+      "exit": {
+        "returncode": 0,
+        "finished_at": "2026-11-13T15:35:33.991134+08:00",
+        "pid": 410657,
+        "supervisor_pid": 410656
+      }
+    },
+    "stage1": {
+      "directory": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-stage1",
+      "summary": {
+        "status": "stage1_completed",
+        "configs_checked": 20,
+        "gates": {
+          "1_scalar": "passed",
+          "2_QC_algebra": "passed",
+          "3_independent_reference": "passed",
+          "4_noiseless": "passed",
+          "5_public_curve": "pending_exact_2.1.0_notebook_reproduction",
+          "6_SSM_symmetry_gradient": "passed_for_two_source_configs"
+        },
+        "formal_training_authorized_by_gates": false,
+        "formal_training_steps": 0,
+        "pilot_20k_per_point": "pending",
+        "alpha_calibration": "pending",
+        "polar_validation": "pending",
+        "limitations": [
+          "diagnostic is not formal BLER or public-curve reproduction",
+          "fixed-shape fixed-iteration decoder; no early stop or fallback implementation yet",
+          "RTX 4060 engineering data does not establish 4090/5090 ranking"
+        ]
+      },
+      "launch": {
+        "command": [
+          "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+          "-B",
+          "-u",
+          "run_local.py",
+          "--mode",
+          "stage1",
+          "--output",
+          "results/20261113-152035-s2qc-4090-stage1",
+          "--batch",
+          "64",
+          "--diagnostic-frames",
+          "256"
+        ],
+        "command_shell_display": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python -B -u run_local.py --mode stage1 --output results/20261113-152035-s2qc-4090-stage1 --batch 64 --diagnostic-frames 256",
+        "cwd": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+        "created_at": "2026-11-13T15:35:55.158181+08:00",
+        "environment_overrides": {
+          "CUDA_VISIBLE_DEVICES": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+          "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+          "NVIDIA_TF32_OVERRIDE": "0",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUNBUFFERED": "1"
+        },
+        "session_kind": "POSIX detached supervisor (setsid), direct stdout/stderr files",
+        "stdout": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/stage1/stdout.log",
+        "stderr": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/stage1/stderr.log",
+        "supervisor_pid": 410911,
+        "pid": 410912,
+        "session_id": 410911,
+        "started_at": "2026-11-13T15:35:55.203324+08:00"
+      },
+      "exit": {
+        "returncode": 0,
+        "finished_at": "2026-11-13T15:41:42.940123+08:00",
+        "pid": 410912,
+        "supervisor_pid": 410911
+      }
+    },
+    "bg2-smoke": {
+      "directory": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-bg2-smoke",
+      "summary": {
+        "status": "smoke_training_completed",
+        "formal_training": false,
+        "config_id": "ldpc_B1024_R1-2_Q2",
+        "steps": 100,
+        "batch": 8,
+        "observations": 800,
+        "parameters": 1857,
+        "elapsed_seconds": 46.64708993025124,
+        "mean_step_seconds": 0.256217225426808,
+        "mean_step_seconds_after_first_10": 0.25477276814894545,
+        "peak_allocated_bytes": 139849728,
+        "peak_reserved_bytes": 167772160,
+        "initial_validation": [
+          {
+            "snr_db": 0.5,
+            "frames": 64,
+            "information_bce": 0.39085276797413826,
+            "payload_frame_errors": 63,
+            "payload_bit_errors": 11104,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9166589839990573,
+              0.9972364580766624
+            ]
+          },
+          {
+            "snr_db": 1.0,
+            "frames": 64,
+            "information_bce": 0.18212413787841797,
+            "payload_frame_errors": 55,
+            "payload_bit_errors": 4886,
+            "rejected": 59,
+            "bler_ci95": [
+              0.7538371825842297,
+              0.9242142744396914
+            ]
+          },
+          {
+            "snr_db": 1.5,
+            "frames": 64,
+            "information_bce": 0.01098086617514582,
+            "payload_frame_errors": 8,
+            "payload_bit_errors": 282,
+            "rejected": 13,
+            "bler_ci95": [
+              0.06472242663330453,
+              0.22774561821129946
+            ]
+          }
+        ],
+        "final_validation": [
+          {
+            "snr_db": 0.5,
+            "frames": 64,
+            "information_bce": 0.3863306790590286,
+            "payload_frame_errors": 63,
+            "payload_bit_errors": 10916,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9166589839990573,
+              0.9972364580766624
+            ]
+          },
+          {
+            "snr_db": 1.0,
+            "frames": 64,
+            "information_bce": 0.18276282772421837,
+            "payload_frame_errors": 55,
+            "payload_bit_errors": 4895,
+            "rejected": 59,
+            "bler_ci95": [
+              0.7538371825842297,
+              0.9242142744396914
+            ]
+          },
+          {
+            "snr_db": 1.5,
+            "frames": 64,
+            "information_bce": 0.01006042544035779,
+            "payload_frame_errors": 8,
+            "payload_bit_errors": 268,
+            "rejected": 13,
+            "bler_ci95": [
+              0.06472242663330453,
+              0.22774561821129946
+            ]
+          }
+        ],
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.8743412494659424,
+          "trained_controller_noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        },
+        "checkpoint_replay_max_error": 0.0,
+        "checkpoint_sha256": "01852f8a9c9c3692e094f5160cfefec4b398b506db68bee521437d31aec72a68",
+        "limitations": [
+          "bounded debugging run is not formal model training",
+          "uncalibrated alpha and debugging SNR; no BLER improvement claim",
+          "no protocol speed benchmark or full-batch64 runtime extrapolation"
+        ]
+      },
+      "launch": {
+        "command": [
+          "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+          "-B",
+          "-u",
+          "train_smoke.py",
+          "--output",
+          "results/20261113-152035-s2qc-4090-bg2-smoke",
+          "--config-id",
+          "ldpc_B1024_R1-2_Q2",
+          "--steps",
+          "100",
+          "--batch",
+          "8",
+          "--validation-frames",
+          "64",
+          "--seed",
+          "17"
+        ],
+        "command_shell_display": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python -B -u train_smoke.py --output results/20261113-152035-s2qc-4090-bg2-smoke --config-id ldpc_B1024_R1-2_Q2 --steps 100 --batch 8 --validation-frames 64 --seed 17",
+        "cwd": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+        "created_at": "2026-11-13T15:41:49.418190+08:00",
+        "environment_overrides": {
+          "CUDA_VISIBLE_DEVICES": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+          "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+          "NVIDIA_TF32_OVERRIDE": "0",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUNBUFFERED": "1"
+        },
+        "session_kind": "POSIX detached supervisor (setsid), direct stdout/stderr files",
+        "stdout": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/bg2-smoke/stdout.log",
+        "stderr": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/bg2-smoke/stderr.log",
+        "supervisor_pid": 413432,
+        "pid": 413433,
+        "session_id": 413432,
+        "started_at": "2026-11-13T15:41:49.462710+08:00"
+      },
+      "exit": {
+        "returncode": 0,
+        "finished_at": "2026-11-13T15:42:47.519575+08:00",
+        "pid": 413433,
+        "supervisor_pid": 413432
+      }
+    },
+    "bg1-smoke": {
+      "directory": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-152035-s2qc-4090-bg1-smoke",
+      "summary": {
+        "status": "smoke_training_completed",
+        "formal_training": false,
+        "config_id": "ldpc_B4096_R1-2_Q2",
+        "steps": 100,
+        "batch": 8,
+        "observations": 800,
+        "parameters": 1873,
+        "elapsed_seconds": 65.70337285660207,
+        "mean_step_seconds": 0.35807397212833164,
+        "mean_step_seconds_after_first_10": 0.3518028463857869,
+        "peak_allocated_bytes": 347149312,
+        "peak_reserved_bytes": 358612992,
+        "initial_validation": [
+          {
+            "snr_db": 0.5,
+            "frames": 64,
+            "information_bce": 0.3659203164279461,
+            "payload_frame_errors": 64,
+            "payload_bit_errors": 40839,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9433759402071946,
+              1
+            ]
+          },
+          {
+            "snr_db": 1.0,
+            "frames": 64,
+            "information_bce": 0.1584393996745348,
+            "payload_frame_errors": 63,
+            "payload_bit_errors": 16836,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9166589839990573,
+              0.9972364580766624
+            ]
+          },
+          {
+            "snr_db": 1.5,
+            "frames": 64,
+            "information_bce": 0.000379976261945289,
+            "payload_frame_errors": 5,
+            "payload_bit_errors": 43,
+            "rejected": 7,
+            "bler_ci95": [
+              0.03383117690855046,
+              0.17019537354162906
+            ]
+          }
+        ],
+        "final_validation": [
+          {
+            "snr_db": 0.5,
+            "frames": 64,
+            "information_bce": 0.3649754859507084,
+            "payload_frame_errors": 64,
+            "payload_bit_errors": 40539,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9433759402071946,
+              1
+            ]
+          },
+          {
+            "snr_db": 1.0,
+            "frames": 64,
+            "information_bce": 0.15525964181870222,
+            "payload_frame_errors": 63,
+            "payload_bit_errors": 16396,
+            "rejected": 64,
+            "bler_ci95": [
+              0.9166589839990573,
+              0.9972364580766624
+            ]
+          },
+          {
+            "snr_db": 1.5,
+            "frames": 64,
+            "information_bce": 0.0003969162288281758,
+            "payload_frame_errors": 5,
+            "payload_bit_errors": 38,
+            "rejected": 7,
+            "bler_ci95": [
+              0.03383117690855046,
+              0.17019537354162906
+            ]
+          }
+        ],
+        "post_checks": {
+          "frames": 8,
+          "symmetry_max_abs_error": 0.0,
+          "state_abs_max": 0.9256672859191895,
+          "trained_controller_noiseless_payload_errors": 0,
+          "noiseless_rejected": 0
+        },
+        "checkpoint_replay_max_error": 0.0,
+        "checkpoint_sha256": "d7fc076d2be9098e6b338f2b82216364e7f01d070849ca04e51a021dcf76f317",
+        "limitations": [
+          "bounded debugging run is not formal model training",
+          "uncalibrated alpha and debugging SNR; no BLER improvement claim",
+          "no protocol speed benchmark or full-batch64 runtime extrapolation"
+        ]
+      },
+      "launch": {
+        "command": [
+          "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+          "-B",
+          "-u",
+          "train_smoke.py",
+          "--output",
+          "results/20261113-152035-s2qc-4090-bg1-smoke",
+          "--config-id",
+          "ldpc_B4096_R1-2_Q2",
+          "--steps",
+          "100",
+          "--batch",
+          "8",
+          "--validation-frames",
+          "64",
+          "--seed",
+          "17"
+        ],
+        "command_shell_display": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python -B -u train_smoke.py --output results/20261113-152035-s2qc-4090-bg1-smoke --config-id ldpc_B4096_R1-2_Q2 --steps 100 --batch 8 --validation-frames 64 --seed 17",
+        "cwd": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+        "created_at": "2026-11-13T15:43:23.043720+08:00",
+        "environment_overrides": {
+          "CUDA_VISIBLE_DEVICES": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+          "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+          "NVIDIA_TF32_OVERRIDE": "0",
+          "PYTHONDONTWRITEBYTECODE": "1",
+          "PYTHONUNBUFFERED": "1"
+        },
+        "session_kind": "POSIX detached supervisor (setsid), direct stdout/stderr files",
+        "stdout": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/bg1-smoke/stdout.log",
+        "stderr": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261113-152035-s2qc/bg1-smoke/stderr.log",
+        "supervisor_pid": 414360,
+        "pid": 414361,
+        "session_id": 414360,
+        "started_at": "2026-11-13T15:43:23.089621+08:00"
+      },
+      "exit": {
+        "returncode": 0,
+        "finished_at": "2026-11-13T15:44:40.982278+08:00",
+        "pid": 414361,
+        "supervisor_pid": 414360
+      }
+    }
+  },
+  "chains": {
+    "quick": {
+      "configs": 2,
+      "algebra_frames": 32,
+      "reference_frames": 8,
+      "noiseless_frames": 32,
+      "noiseless_payload_frame_errors": 0,
+      "noiseless_rejected": 0,
+      "reference_llr_max_error": 0.0,
+      "diagnostic_frames": 3072
+    },
+    "stage1": {
+      "configs": 20,
+      "algebra_frames": 20000,
+      "reference_frames": 2000,
+      "noiseless_frames": 128000,
+      "noiseless_payload_frame_errors": 0,
+      "noiseless_rejected": 0,
+      "reference_llr_max_error": 0.0,
+      "diagnostic_frames": 3072
+    }
+  },
+  "training_statistics": {
+    "bg2": {
+      "steps": 100,
+      "observations": 800,
+      "mean_step_seconds": 0.256217225426808,
+      "mean_step_seconds_after_first_10": 0.25477276814894545,
+      "peak_allocated_MiB": 133.37109375,
+      "peak_reserved_MiB": 160.0,
+      "initial_mean_bce": 0.19465259067590068,
+      "final_mean_bce": 0.1930513107412016,
+      "initial_frame_errors": [
+        63,
+        55,
+        8
+      ],
+      "final_frame_errors": [
+        63,
+        55,
+        8
+      ],
+      "clip_threshold": 1.0,
+      "clip_count": 76,
+      "clip_fraction": 0.76,
+      "gradient_norm_percentiles": {
+        "0": 0.04140550643205643,
+        "25": 1.0260969698429108,
+        "50": 1.9571435451507568,
+        "75": 3.1291163563728333,
+        "90": 5.060666704177858,
+        "95": 5.760292315483094,
+        "99": 8.777298154830936,
+        "100": 9.203971862792969
+      },
+      "loss_first": 0.30839598178863525,
+      "loss_last": 0.18725739419460297,
+      "loss_min": 0.008047513663768768,
+      "loss_max": 0.34890395402908325,
+      "training_state_abs_max": 0.8948028087615967,
+      "post_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 0.8743412494659424,
+        "trained_controller_noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      },
+      "checkpoint_replay_max_error": 0.0,
+      "checkpoint_sha256": "01852f8a9c9c3692e094f5160cfefec4b398b506db68bee521437d31aec72a68",
+      "all_saved_loss_gradient_state_values_finite": true,
+      "all_parameter_gradient_finiteness_assertions_passed": true
+    },
+    "bg1": {
+      "steps": 100,
+      "observations": 800,
+      "mean_step_seconds": 0.35807397212833164,
+      "mean_step_seconds_after_first_10": 0.3518028463857869,
+      "peak_allocated_MiB": 331.0673828125,
+      "peak_reserved_MiB": 342.0,
+      "initial_mean_bce": 0.17491323078814205,
+      "final_mean_bce": 0.1735440146660796,
+      "initial_frame_errors": [
+        64,
+        63,
+        5
+      ],
+      "final_frame_errors": [
+        64,
+        63,
+        5
+      ],
+      "clip_threshold": 1.0,
+      "clip_count": 100,
+      "clip_fraction": 1.0,
+      "gradient_norm_percentiles": {
+        "0": 3.1794111728668213,
+        "25": 31.29220676422119,
+        "50": 49.40879821777344,
+        "75": 82.19181442260742,
+        "90": 119.41383590698243,
+        "95": 130.49535675048827,
+        "99": 145.90917968750003,
+        "100": 149.7899627685547
+      },
+      "loss_first": 0.12694959342479706,
+      "loss_last": 0.20051859319210052,
+      "loss_min": 0.02087840624153614,
+      "loss_max": 0.3408513069152832,
+      "training_state_abs_max": 0.9147453308105469,
+      "post_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 0.9256672859191895,
+        "trained_controller_noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      },
+      "checkpoint_replay_max_error": 0.0,
+      "checkpoint_sha256": "d7fc076d2be9098e6b338f2b82216364e7f01d070849ca04e51a021dcf76f317",
+      "all_saved_loss_gradient_state_values_finite": true,
+      "all_parameter_gradient_finiteness_assertions_passed": true
+    }
+  },
+  "initial_source_sha256": {
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/README.md": "6e6b1aef72f4bef44eacf07c5cafc3deedd7df9bb82188f0b07e54602a53da83",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/budget_and_invariants.py": "46c6a05ae33a35741564fbd6740348abacec937a9d31b4ab0bf068de0ce48ecf",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/config.json": "a9baee4e52704d1d3914b38f11875bc4a0a97c314d5fd1637ae6a72b73871921",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/s2_codex.md": "b3d2436a15db64181c6115960de4d01f911401984640d133740d9dc9d82e6e7d",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/generate_manifest.py": "a50e3710e462ecff43cf08e48bf58548f789157ad1905b779703555843646258",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/protocol_checks.py": "4a8637cd6c998c80eab5a0f6a611d0cef92867f796aabce47ad32365468f51ce",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/results_template.json": "667a0cca5c0c41ddc72687b27acb04a2c757f4c3b403affab1aed940793bb0cd",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/source_verification.json": "9f309da77d850912b2c4159ff36ea0679e2de95120d9bad0ea23b7933802c164",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/.gitignore": "5fa05a44fc8f20bf3c3d273083af299cdd2170cd9ee5adc2cfe0d5b24f8720b6",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/20261112-本机试跑报告.md": "237ad5db977afcca08ecc9cf367e77350d3428e340b1339fc1d7b87d39d59f5a",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/README.md": "bddc3a10d988781da9ede54e1f061faf0876d5cca7b9beff7b4d41eba238202b",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/check_channel.py": "37dadbc864fa2e56c0a83a8c1711f57e41e3980528a1c436159a6aa536301cce",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "15dd7a5249f9563ae35278920e921a3a2af5d1e907be5704319534e2822d0fac",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/run_local.py": "cfe4b04f6d15b721f8a98fc704ce20b104093b9ade7b534ba1f4a2259a147d65",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/start_stage1.ps1": "897e0c7110ce9473fc0403ab5b122b17448f180272640fade4548d0472532d8b",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_smoke.py": "ba8a39ff3f45b3b22abe2bbb65670f86927910b2b44d343faa951514a67709fc",
+    "AGENTS.md": "fb7111cf230e31d65fb828e880c60002a1f9209ea6bb7f5796ffa4701700c8b1"
+  },
+  "final_source_sha256": {
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/README.md": "6e6b1aef72f4bef44eacf07c5cafc3deedd7df9bb82188f0b07e54602a53da83",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/budget_and_invariants.py": "46c6a05ae33a35741564fbd6740348abacec937a9d31b4ab0bf068de0ce48ecf",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/config.json": "a9baee4e52704d1d3914b38f11875bc4a0a97c314d5fd1637ae6a72b73871921",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/s2_codex.md": "b3d2436a15db64181c6115960de4d01f911401984640d133740d9dc9d82e6e7d",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/README.md": "1f483086d4334f6cd7b043b30ad2abe2d286fee7c4e8815bceb1308fec13dbbe",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/experiment_manifest.json": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/generate_manifest.py": "a50e3710e462ecff43cf08e48bf58548f789157ad1905b779703555843646258",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/protocol_checks.py": "4a8637cd6c998c80eab5a0f6a611d0cef92867f796aabce47ad32365468f51ce",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/results_template.json": "667a0cca5c0c41ddc72687b27acb04a2c757f4c3b403affab1aed940793bb0cd",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/source_verification.json": "9f309da77d850912b2c4159ff36ea0679e2de95120d9bad0ea23b7933802c164",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/.gitignore": "5fa05a44fc8f20bf3c3d273083af299cdd2170cd9ee5adc2cfe0d5b24f8720b6",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/20261112-本机试跑报告.md": "237ad5db977afcca08ecc9cf367e77350d3428e340b1339fc1d7b87d39d59f5a",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/README.md": "bddc3a10d988781da9ede54e1f061faf0876d5cca7b9beff7b4d41eba238202b",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/check_channel.py": "37dadbc864fa2e56c0a83a8c1711f57e41e3980528a1c436159a6aa536301cce",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/nr_link.py": "15dd7a5249f9563ae35278920e921a3a2af5d1e907be5704319534e2822d0fac",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/run_local.py": "cfe4b04f6d15b721f8a98fc704ce20b104093b9ade7b534ba1f4a2259a147d65",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/ssm.py": "cb034023d4a79ecc7120866b4f87f91d6071cf7e34d8c4b0828cd42d10a55d3c",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/start_stage1.ps1": "897e0c7110ce9473fc0403ab5b122b17448f180272640fade4548d0472532d8b",
+    "03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_smoke.py": "ba8a39ff3f45b3b22abe2bbb65670f86927910b2b44d343faa951514a67709fc",
+    "AGENTS.md": "fb7111cf230e31d65fb828e880c60002a1f9209ea6bb7f5796ffa4701700c8b1"
+  },
+  "original_files_changed": [],
+  "formal_training_steps": 0,
+  "final_git_status": "?? logs/\n?? results/20261113-152035-s2qc-4090-bg1-smoke/\n?? results/20261113-152035-s2qc-4090-bg2-smoke/\n?? results/20261113-152035-s2qc-4090-channel/\n?? results/20261113-152035-s2qc-4090-environment/\n?? results/20261113-152035-s2qc-4090-quick/\n?? results/20261113-152035-s2qc-4090-stage1/\n?? results/20261113-152035-s2qc-5090-preflight/\n"
+}

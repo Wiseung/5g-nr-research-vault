@@ -1,0 +1,20 @@
+{
+  "formal_training": false,
+  "T": 20,
+  "alpha": 0.8,
+  "alpha_calibrated": false,
+  "debug_SNR_per_codeword_uniform_dB": [
+    0.0,
+    2.0
+  ],
+  "seed": 17,
+  "steps": 100,
+  "batch": 8,
+  "lr": 0.001,
+  "lr_schedule": "constant_debug_only; no protocol warmup/cosine",
+  "syndrome_loss": "zero for first 5000 steps, as protocol",
+  "validation": "fixed random payload/noise at 0.5/1/1.5 dB, last checkpoint only",
+  "index_sha256": "21edf846d449aee0bf3c3ceec38d953d578aec5b88c253a7067173e362c5ff68",
+  "shift_sha256": "4f4db6f7607446984c0b1dc6243bff4286f6fbad3a477f29d84a5e0edab523fb",
+  "formal_gates": "public curve, pilot and alpha calibration still pending"
+}

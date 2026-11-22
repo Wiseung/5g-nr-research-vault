@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-13T15:46:52.981552+08:00",
+  "commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+  "tracked_diff_exit_code": 0,
+  "report_link_count": 35,
+  "missing_report_links": [],
+  "all_logged_commands_exit": {
+    "python-install": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:24:03.678713+08:00",
+      "pid": 405359,
+      "supervisor_pid": 405357
+    },
+    "environment-install": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:32:21.405760+08:00",
+      "pid": 405663,
+      "supervisor_pid": 405662
+    },
+    "cuda-preliminary": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:31:11.661702+08:00",
+      "pid": 408608,
+      "supervisor_pid": 408606
+    },
+    "environment-probe": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:33:34.794711+08:00",
+      "pid": 409690,
+      "supervisor_pid": 409688
+    },
+    "quick": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:34:34.956132+08:00",
+      "pid": 409991,
+      "supervisor_pid": 409988
+    },
+    "channel": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:35:33.991134+08:00",
+      "pid": 410657,
+      "supervisor_pid": 410656
+    },
+    "stage1": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:41:42.940123+08:00",
+      "pid": 410912,
+      "supervisor_pid": 410911
+    },
+    "bg2-smoke": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:42:47.519575+08:00",
+      "pid": 413433,
+      "supervisor_pid": 413432
+    },
+    "bg1-smoke": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:44:40.982278+08:00",
+      "pid": 414361,
+      "supervisor_pid": 414360
+    },
+    "summarize": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T15:45:26.793274+08:00",
+      "pid": 415311,
+      "supervisor_pid": 415310
+    }
+  },
+  "five_primary_experiments_completed": true,
+  "formal_training_steps": 0,
+  "git_commit_or_push_performed": false,
+  "source_implementation_changed": false,
+  "background_session_kind": "Detached POSIX supervisor via setsid; all commands finished with exit 0"
+}

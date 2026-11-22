@@ -1,0 +1,12 @@
+{
+  "scope": "gradient diagnosis",
+  "formal_training": false,
+  "replay_steps_per_config": 100,
+  "replay_lr": 0.001,
+  "replay_clip_norm": 1.0,
+  "replay_batch": 8,
+  "T": 20,
+  "seed": 17,
+  "diagnostic_controls": "detach_state / detach_messages backward-only, same forward; never optimized",
+  "frozen_models": "original initial/final checkpoints; no optimizer updates in probes"
+}

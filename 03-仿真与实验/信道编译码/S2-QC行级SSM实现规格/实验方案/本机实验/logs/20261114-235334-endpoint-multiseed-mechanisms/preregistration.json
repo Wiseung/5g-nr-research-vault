@@ -1,0 +1,108 @@
+{
+  "run_id": "20261114-235334-endpoint-multiseed-mechanisms",
+  "created_at": "2026-11-14T23:53:34.458290+08:00",
+  "authorization": "用户明确要求：已选模型独立细网格pilot→冻结网格与200k/点T20配对测试→补seed29/43及机制消融。",
+  "commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+  "root": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验",
+  "logs": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms",
+  "output": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms",
+  "python": "/home/czr/workspace/5g-nr-research-vault/.cache/s2qc/venv/bin/python",
+  "gpu_uuid": "GPU-1b921c5f-58e5-ea98-777b-8f09a1ef0857",
+  "frozen_inputs": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-163414-pilot-alpha/training_inputs_frozen.json",
+  "frozen_inputs_sha256": "627b71b0f7c5e5e4908c1547c940f4a3799486e5ebfb1b7d52b153ee79de8f7b",
+  "proof": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-214206-formal50k-verify-03/summary.json",
+  "configs": [
+    {
+      "config_id": "ldpc_B1024_R1-2_Q2",
+      "alpha": 0.75,
+      "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261113-214206-formal50k-bg2-seed17/checkpoints/step-24000.pt",
+      "checkpoint_sha256": "8c9fbf3172614588a5ba0626eb168b26e870d4ee92c089f6e300286c07f0688e",
+      "parameter_sha256": "6546fefe36025be110e468737fbf3eabde156be87c2e4d0d7c487c2e6b336325",
+      "selected_step": 24000,
+      "pilot_initial_range_db": [
+        1.5,
+        2.3
+      ]
+    },
+    {
+      "config_id": "ldpc_B4096_R1-2_Q2",
+      "alpha": 0.7,
+      "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-165401-bg1-formal50k-seed17/checkpoints/step-42000.pt",
+      "checkpoint_sha256": "6b1e18157c7bc633d1240ddd99fd8c07f2d089d8a69fa9ff3036dd981109756e",
+      "parameter_sha256": "69a25323d08c45587140558839a2829ec04b28b9037d5ed97dd8da2ed6b7fff2",
+      "selected_step": 42000,
+      "pilot_initial_range_db": [
+        1.2,
+        1.9
+      ]
+    }
+  ],
+  "T": 20,
+  "precision": "FP32; TF32/AMP off; deterministic",
+  "early_stop": false,
+  "fallback": false,
+  "target_bler": 0.001,
+  "pilot": {
+    "split": "S2-endpoint-pilot-v1",
+    "frames_per_snr": 20000,
+    "shards": 32,
+    "spacing_db": 0.1,
+    "refinement": "If a crossing has a zero-error upper point, insert its midpoint; if not bracketed extend outward by0.2dB; at most8 rounds and range[-1,4]. All newly added points are fixed20k, never pseudocounts or extrapolation."
+  },
+  "test": {
+    "split": "S2-formal-test-awgn-t20-v1",
+    "frames_per_snr": 200000,
+    "shards": 32,
+    "grid_rule": "Union of positive adjacent pilot brackets for NMS and S2 seed17, expanded by0.1dB on either side, sampled every0.1dB on global decimal grid; include pilot bracket endpoints. Freeze both configs before testing.",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261115,
+    "invalid_crossing": "N/A; report invalid bootstrap fraction, no extrapolation or post-test grid changes"
+  },
+  "replication": {
+    "seeds": [
+      29,
+      43
+    ],
+    "configs": [
+      "ldpc_B1024_R1-2_Q2",
+      "ldpc_B4096_R1-2_Q2"
+    ],
+    "steps": 50000,
+    "batch": 64,
+    "runner": "unchanged train_formal.py",
+    "validation": "same frozen5SNRs:20k/1000steps;top2→100k",
+    "test_grid": "reuse frozen seed17 endpoint grid and common test observations; report perseed, never pool into3N"
+  },
+  "mechanisms": {
+    "priority": "protocol section10 priority1",
+    "static_eta": "validation tune eta=0:.05:.50 with frozenalpha;5 frozenSNR each20k;top2 extend100k;eta=.05 also retained as predefined initialization control",
+    "neural": [
+      "mlp",
+      "ema",
+      "gru"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "configs": [
+      "ldpc_B1024_R1-2_Q2",
+      "ldpc_B4096_R1-2_Q2"
+    ],
+    "steps": 50000,
+    "batch": 64,
+    "input_information": "same8 row features and8 condition features + row embedding4; no oracle SNR",
+    "architectures": "MLP/EMA d24; GRU d14, declared parameter counts near SSM within10%; details frozen in mechanisms.py before test",
+    "training": "same formal samples, optimizer, losses, schedules and checkpoint selection",
+    "not_in_this_priority_group": [
+      "syndrome2x2",
+      "grouping",
+      "depth/state-size grid",
+      "fallback comparisons",
+      "all baseline methods"
+    ]
+  },
+  "scope_gpu_hour_cap": 160,
+  "no_git_commit_push": true
+}

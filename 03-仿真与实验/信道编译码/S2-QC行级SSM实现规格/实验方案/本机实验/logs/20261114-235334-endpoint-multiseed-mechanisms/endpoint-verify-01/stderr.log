@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py", line 304, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py", line 298, in main
+    if a.mode=="verify":verify()
+                        ^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/code/endpoint.py", line 286, in verify
+    error=float((eager-got).abs().max());maxerror=max(maxerror,error);assert torch.equal(eager,got),(cid,batch,error)
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('ldpc_B1024_R1-2_Q2', 1, 3.814697265625e-06)

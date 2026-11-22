@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "config_id": "ldpc_B1024_R1-2_Q2",
+  "seed": 17,
+  "kind": "ema",
+  "steps": 50000,
+  "checkpoints": 501,
+  "validation_score_files": 55,
+  "decoded_validation_records": 6700000,
+  "selected_model": {
+    "name": "ema-seed17",
+    "kind": "ema",
+    "seed": 17,
+    "alpha": 0.75,
+    "checkpoint": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/training/bg2-ema-seed17/checkpoints/step-47000.pt",
+    "checkpoint_sha256": "203533a3756e360dfc12ebaae9628cd17aee304b2a9cb32a4b0d054b03d7ea68",
+    "parameter_sha256": "ac7c103d7733e51325f3a41c5e3db06c8848d04f3b32186bc307b045d5d673a1",
+    "step": 47000
+  },
+  "post_checks": {
+    "frames": 8,
+    "symmetry_max_abs_error": 0.0,
+    "state_abs_max": 0.9999977946281433,
+    "noiseless_payload_errors": 0,
+    "noiseless_rejected": 0
+  },
+  "observations_matched_to_SSM_same_seed": 3200000
+}

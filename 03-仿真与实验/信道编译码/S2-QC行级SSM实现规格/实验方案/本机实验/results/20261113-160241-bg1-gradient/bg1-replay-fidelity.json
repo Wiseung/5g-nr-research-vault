@@ -1,0 +1,36 @@
+{
+  "max_loss_abs_diff": 0.0,
+  "max_gradient_norm_abs_diff": 1.52587890625e-05,
+  "parameter_max_abs_diff_to_original_checkpoint": {
+    "embedding": 0.0,
+    "theta": 0.0,
+    "skip": 0.0,
+    "input.weight": 0.0,
+    "input.bias": 0.0,
+    "norm.weight": 0.0,
+    "drive.weight": 0.0,
+    "drive.bias": 0.0,
+    "gate.weight": 0.0,
+    "gate.bias": 0.0,
+    "delta.weight": 0.0,
+    "delta.bias": 0.0,
+    "condition_delta.weight": 0.0,
+    "bsel.weight": 0.0,
+    "bsel.bias": 0.0,
+    "csel.weight": 0.0,
+    "csel.bias": 0.0,
+    "out.weight": 0.0,
+    "out.bias": 0.0,
+    "head_norm.weight": 0.0,
+    "head.weight": 0.0,
+    "head.bias": 0.0
+  },
+  "saved_before_steps": [
+    1,
+    5,
+    20,
+    50,
+    100
+  ],
+  "note": "Replay adds observation hooks only; numerical drift is measured, not assumed absent."
+}

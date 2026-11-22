@@ -1,0 +1,25 @@
+{
+  "status": "updated",
+  "report": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/20261114-235334-endpoint-multiseed-mechanisms-独立终点测试与多种子机制对照进展.md",
+  "completed_test_cohorts": [
+    "ema-seed17",
+    "ema-seed29",
+    "ema-seed43",
+    "gru-seed17",
+    "gru-seed29",
+    "gru-seed43",
+    "mlp-seed17",
+    "mlp-seed29",
+    "mlp-seed43",
+    "seed17",
+    "seed29",
+    "seed43",
+    "static-controls"
+  ],
+  "completed_training_runs": 22,
+  "device_migration_disclosed": true,
+  "platform_recovery": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/platform_recovery-20261118.json",
+  "reporting_adapter": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/guarded_report.py",
+  "reporting_adapter_sha256": "27ae42205eb7e96ec7ee0dd81c0aa68348d8ff53c7c62d4b163fbd1dcc38d5ed",
+  "report_sha256": "1d028417c65bf70b306ee1a5dc6ed2bba4f1682dc696a007a55badcc946f8663"
+}

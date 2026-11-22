@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/pipeline.py", line 77, in <module>
+    stage("verify-mechanisms",code("verify_mechanisms.py"))
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/pipeline.py", line 55, in stage
+    return wait(name)
+           ^^^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/pipeline.py", line 46, in wait
+    result=load(directory/"exit.json");assert result["returncode"]==0,(name,result)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('verify-mechanisms', {'returncode': 1, 'finished_at': '2026-11-15T00:14:44.393581+08:00', 'pid': 1331464, 'supervisor_pid': 1331463})

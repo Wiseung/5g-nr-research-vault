@@ -1,0 +1,216 @@
+{
+  "rule": "mean information BCE then earlier step",
+  "candidates": [
+    {
+      "step": 49000,
+      "mean_information_bce": 0.10998248897431698
+    },
+    {
+      "step": 47000,
+      "mean_information_bce": 0.1100204727361754
+    },
+    {
+      "step": 43000,
+      "mean_information_bce": 0.11004250478847515
+    },
+    {
+      "step": 44000,
+      "mean_information_bce": 0.11008018333259975
+    },
+    {
+      "step": 50000,
+      "mean_information_bce": 0.11011068308457765
+    },
+    {
+      "step": 37000,
+      "mean_information_bce": 0.11012679498922251
+    },
+    {
+      "step": 48000,
+      "mean_information_bce": 0.11014378072848356
+    },
+    {
+      "step": 46000,
+      "mean_information_bce": 0.11015727190921058
+    },
+    {
+      "step": 42000,
+      "mean_information_bce": 0.1101581099713697
+    },
+    {
+      "step": 36000,
+      "mean_information_bce": 0.11019252736313019
+    },
+    {
+      "step": 39000,
+      "mean_information_bce": 0.1102022926832941
+    },
+    {
+      "step": 40000,
+      "mean_information_bce": 0.11022221389543643
+    },
+    {
+      "step": 28000,
+      "mean_information_bce": 0.11033143045828979
+    },
+    {
+      "step": 41000,
+      "mean_information_bce": 0.11035503380651827
+    },
+    {
+      "step": 29000,
+      "mean_information_bce": 0.11036416244697596
+    },
+    {
+      "step": 30000,
+      "mean_information_bce": 0.1104479772420411
+    },
+    {
+      "step": 45000,
+      "mean_information_bce": 0.11047489729912947
+    },
+    {
+      "step": 31000,
+      "mean_information_bce": 0.11052678493978488
+    },
+    {
+      "step": 35000,
+      "mean_information_bce": 0.11059270658438214
+    },
+    {
+      "step": 27000,
+      "mean_information_bce": 0.11059971552794419
+    },
+    {
+      "step": 25000,
+      "mean_information_bce": 0.11071725534256971
+    },
+    {
+      "step": 38000,
+      "mean_information_bce": 0.1107200875687567
+    },
+    {
+      "step": 23000,
+      "mean_information_bce": 0.11079066472287043
+    },
+    {
+      "step": 32000,
+      "mean_information_bce": 0.11084781980004488
+    },
+    {
+      "step": 24000,
+      "mean_information_bce": 0.11099946019947068
+    },
+    {
+      "step": 33000,
+      "mean_information_bce": 0.11101726032296673
+    },
+    {
+      "step": 34000,
+      "mean_information_bce": 0.11101978383164153
+    },
+    {
+      "step": 22000,
+      "mean_information_bce": 0.11102321748258628
+    },
+    {
+      "step": 26000,
+      "mean_information_bce": 0.11117645176259783
+    },
+    {
+      "step": 21000,
+      "mean_information_bce": 0.11169914616124824
+    },
+    {
+      "step": 20000,
+      "mean_information_bce": 0.11187289791416258
+    },
+    {
+      "step": 19000,
+      "mean_information_bce": 0.11241499491886242
+    },
+    {
+      "step": 18000,
+      "mean_information_bce": 0.11275550109525963
+    },
+    {
+      "step": 16000,
+      "mean_information_bce": 0.11313710416418081
+    },
+    {
+      "step": 14000,
+      "mean_information_bce": 0.11320755369770678
+    },
+    {
+      "step": 17000,
+      "mean_information_bce": 0.11322891975315805
+    },
+    {
+      "step": 13000,
+      "mean_information_bce": 0.11359840591229398
+    },
+    {
+      "step": 15000,
+      "mean_information_bce": 0.11373181912219159
+    },
+    {
+      "step": 12000,
+      "mean_information_bce": 0.11423697820360938
+    },
+    {
+      "step": 11000,
+      "mean_information_bce": 0.11435424880114886
+    },
+    {
+      "step": 10000,
+      "mean_information_bce": 0.11471291500165767
+    },
+    {
+      "step": 6000,
+      "mean_information_bce": 0.1148193821123438
+    },
+    {
+      "step": 9000,
+      "mean_information_bce": 0.11516811845773198
+    },
+    {
+      "step": 8000,
+      "mean_information_bce": 0.11542114908572076
+    },
+    {
+      "step": 5000,
+      "mean_information_bce": 0.11590000069379244
+    },
+    {
+      "step": 3000,
+      "mean_information_bce": 0.11605164103984555
+    },
+    {
+      "step": 4000,
+      "mean_information_bce": 0.11626727399415968
+    },
+    {
+      "step": 7000,
+      "mean_information_bce": 0.11691819195079245
+    },
+    {
+      "step": 2000,
+      "mean_information_bce": 0.11753371743157101
+    },
+    {
+      "step": 1000,
+      "mean_information_bce": 0.12152937348716131
+    }
+  ],
+  "top2": [
+    {
+      "step": 49000,
+      "mean_information_bce": 0.10998248897431698
+    },
+    {
+      "step": 47000,
+      "mean_information_bce": 0.1100204727361754
+    }
+  ],
+  "frozen_before_extension": true
+}

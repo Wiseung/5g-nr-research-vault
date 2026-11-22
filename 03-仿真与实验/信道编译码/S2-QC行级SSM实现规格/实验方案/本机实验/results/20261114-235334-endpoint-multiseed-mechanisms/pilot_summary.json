@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "configs": {
+    "ldpc_B1024_R1-2_Q2": "04b24a1963c7062728d56bc0644a4398a4a98c73e8473230ffb78c1d3d21d6c1",
+    "ldpc_B4096_R1-2_Q2": "dc11d6d10614c294525698b217ff4c54c29d25fbb3a0223f7a1a10c908ef41bd"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scope": "seed43",
+  "points": 9,
+  "channel_observations": 1800000,
+  "paired_baseline_shards_reproduced": 288,
+  "CI_check": "independent SciPy Wilson",
+  "sources_unchanged": true
+}

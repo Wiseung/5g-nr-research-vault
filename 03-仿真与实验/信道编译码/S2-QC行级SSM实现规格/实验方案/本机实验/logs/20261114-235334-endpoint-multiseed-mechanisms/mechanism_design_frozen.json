@@ -1,0 +1,70 @@
+{
+  "definitions": {
+    "mlp": {
+      "width": 24,
+      "history": false,
+      "definition": "x=W_in[features,embedding]; z=RMSNorm(x); h=tanh(W_drive z+W_condition c); eta=.5sigmoid(head(RMSNorm(x+W_out h)))"
+    },
+    "ema": {
+      "width": 24,
+      "history": true,
+      "definition": "Same current drive as MLP; h_t=a*h_prev+(1-a)*drive, learned constant per-channel a=sigmoid(theta), initial a=.5; zero initial state."
+    },
+    "gru": {
+      "width": 14,
+      "history": true,
+      "definition": "x=W_in[features,embedding]; z=RMSNorm(x)+W_condition c; h_t=GRUCell(z,h_prev), zero initial state; eta=.5sigmoid(head(RMSNorm(x+W_out h_t)))."
+    }
+  },
+  "parameter_counts": {
+    "BG2": {
+      "ssm": 1857,
+      "mlp": {
+        "parameters": 1945,
+        "relative_difference": 0.04738826063543344
+      },
+      "ema": {
+        "parameters": 1969,
+        "relative_difference": 0.06031233171782446
+      },
+      "gru": {
+        "parameters": 1975,
+        "relative_difference": 0.06354334948842211
+      }
+    },
+    "BG1": {
+      "ssm": 1873,
+      "mlp": {
+        "parameters": 1961,
+        "relative_difference": 0.0469834490122798
+      },
+      "ema": {
+        "parameters": 1985,
+        "relative_difference": 0.059797116924719784
+      },
+      "gru": {
+        "parameters": 1991,
+        "relative_difference": 0.06300053390282967
+      }
+    }
+  },
+  "pre_test_architectures": true,
+  "teacher": false,
+  "state_not_shared_across_codewords": true,
+  "MLP_no_recurrence": true,
+  "training_loss_and_sample_stream_unchanged": true,
+  "constant_eta_validation_candidates": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "mechanism_source_sha256": "ab68a3d16650e21018576ef5d1968dcff9eef9cebeeca945d7323038d66232a4"
+}

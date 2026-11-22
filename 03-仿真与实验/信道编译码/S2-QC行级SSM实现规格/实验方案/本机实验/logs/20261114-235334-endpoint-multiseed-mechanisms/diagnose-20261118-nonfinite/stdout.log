@@ -1,0 +1,2 @@
+{"method": "NMS", "finite": true, "state_max": 0.0}
+{"method": "mlp-seed29", "finite": true, "state_max": 0.9999997615814209}

@@ -1,0 +1,77 @@
+{
+  "verified_at": "2026-11-13T16:21:36.337411+08:00",
+  "status": "passed",
+  "stage_exit_records": {
+    "replay": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:06:04.701656+08:00",
+      "pid": 423272,
+      "supervisor_pid": 423271
+    },
+    "profiles": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:07:21.138196+08:00",
+      "pid": 424121,
+      "supervisor_pid": 424120
+    },
+    "detail": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:08:12.000874+08:00",
+      "pid": 424571,
+      "supervisor_pid": 424570
+    },
+    "finite-difference": {
+      "returncode": 1,
+      "finished_at": "2026-11-13T16:08:53.284678+08:00",
+      "pid": 425050,
+      "supervisor_pid": 425049
+    },
+    "finite-difference-retry": {
+      "returncode": 1,
+      "finished_at": "2026-11-13T16:10:09.790785+08:00",
+      "pid": 425546,
+      "supervisor_pid": 425545
+    },
+    "finite-difference-fp64": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:12:15.349543+08:00",
+      "pid": 426320,
+      "supervisor_pid": 426319
+    },
+    "graph-controls": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:13:30.928603+08:00",
+      "pid": 426996,
+      "supervisor_pid": 426995
+    },
+    "branch-audit": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:15:09.497568+08:00",
+      "pid": 427646,
+      "supervisor_pid": 427645
+    },
+    "report": {
+      "returncode": 0,
+      "finished_at": "2026-11-13T16:19:30.946889+08:00",
+      "pid": 429208,
+      "supervisor_pid": 429207
+    }
+  },
+  "previous_run_artifacts_verified_unchanged": 140,
+  "report_links_verified": 42,
+  "replay_optimizer_steps": 200,
+  "replay_is_original_bounded_100_steps_per_config": true,
+  "formal_training_steps": 0,
+  "fixed_model_snr_batch_evaluations": 80,
+  "constant_damping_batch_evaluations": 20,
+  "production_math_source_changed": false,
+  "tracked_git_diff_exit_code": 0,
+  "git_commit_or_push": false,
+  "numerical_probe_only": "FP64 frozen-model finite differences; all optimizer replay is FP32",
+  "diagnostic_source_sha256": {
+    "report.py": "93d938a1fd633dfb20bd11767cc0882df46893325cff64ab2ee85a3cd9d9d159",
+    "diagnose.py": "2de4d1e09cbb04a9a602d3a896e7d5a9f421545430eed56279f53fc09dd1192f",
+    "sensitivity.py": "3dfe51d7d79d79ab9a342f3073bcfbd43b68f96d8334cb96c6d32b2f327a3d8a",
+    "runner.py": "392e5a8f1b171be2d743b50964fb70bf73feda3be851e07c78f1018ccf631bfa"
+  }
+}

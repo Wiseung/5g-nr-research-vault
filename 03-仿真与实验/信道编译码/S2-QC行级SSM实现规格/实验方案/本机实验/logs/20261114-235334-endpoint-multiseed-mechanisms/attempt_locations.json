@@ -1,0 +1,25 @@
+{
+  "endpoint_batchshape_failure": "endpoint-verify-01",
+  "endpoint_verified": "endpoint-verify-02",
+  "pilot_audit_failure": "audit-pilot-failed-01",
+  "pilot_audit_verified": "audit-pilot",
+  "mechanism_static_rounding_failure": "verify-mechanisms-failed-02",
+  "mechanism_verified": "verify-mechanisms",
+  "pipeline_failed_attempts": [
+    "pipeline-failed-01",
+    "pipeline-failed-02",
+    "recovery-20261116-cli/pipeline"
+  ],
+  "active_pipeline": "pipeline",
+  "note": "Original launch records preserved; archived failure directories contain their original logs despite original path fields.",
+  "mechanism_cli_failure": "train-bg2-mlp-seed17-failed-01",
+  "cli_recovery": "recovery-20261116-cli/repair.json",
+  "pipeline_interrupted_attempt_20261117": "recovery-20261117-interruption/pipeline",
+  "train_bg1_mlp_seed29_interrupted_attempt": "recovery-20261117-interruption/train-bg1-mlp-seed29",
+  "interruption_recovery": "recovery-20261117-interruption/recovery.json",
+  "nonfinite_test_failure": "recovery-20261118-nonfinite/test-mlp-seed29",
+  "pipeline_nonfinite_failure": "recovery-20261118-nonfinite/pipeline",
+  "nonfinite_test_retry02": "recovery-20261118-rate-recovery/test-mlp-seed29-failed-retry02",
+  "pipeline_nonfinite_retry02": "recovery-20261118-rate-recovery/pipeline-failed-retry02",
+  "recovery_20261118_gpu3": "recovery-20261118-rate-recovery"
+}

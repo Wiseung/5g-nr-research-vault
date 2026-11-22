@@ -1,0 +1,19 @@
+{
+  "source": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/train_formal.py",
+  "source_sha256": "1dea3255595adea2210a0cdf14a7fd45b9273a7df5a0811087d477ae9a6bc93b",
+  "changes": [
+    "model factory selects preregistered MLP/EMA/GRU",
+    "contract binds mechanism and adapted runner hashes",
+    "new mechanism correctness gate",
+    "validation sidecar binds mechanism source identity"
+  ],
+  "unchanged": [
+    "NRLink",
+    "loss",
+    "optimizer",
+    "training stream",
+    "batch64",
+    "schedule",
+    "validation sampling and checkpoint selection"
+  ]
+}

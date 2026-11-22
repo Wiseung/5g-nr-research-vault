@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/verify_training_guard.py", line 14, in <module>
+    info,lch,snrs,digest=guard.core.train_batch(link,seed,step,(.5,2.5))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/formal_core.py", line 148, in train_batch
+    _,info,lch=channel_arrays(link,payload,noise,snrs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/guarded_training.py", line 27, in arrays
+    exact(result[2],reference[2],{'kind':'training','config':link.cfg['id']})
+  File "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/guarded_training.py", line 22, in exact
+    raise AssertionError(('CPU/CUDA channel disagreement',context,str(p)))
+AssertionError: ('CPU/CUDA channel disagreement', {'kind': 'training', 'config': 'ldpc_B4096_R1-2_Q2'}, '/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/training-channel-failure-984198.npz')

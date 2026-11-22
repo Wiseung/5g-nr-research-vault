@@ -1,0 +1,6 @@
+{"time": "2026-11-15T00:13:47.753918+08:00", "event": "mechanism_verified", "config": "ldpc_B1024_R1-2_Q2", "kind": "mlp", "parameters": 1945}
+{"time": "2026-11-15T00:13:56.523573+08:00", "event": "mechanism_verified", "config": "ldpc_B1024_R1-2_Q2", "kind": "ema", "parameters": 1969}
+{"time": "2026-11-15T00:14:05.398380+08:00", "event": "mechanism_verified", "config": "ldpc_B1024_R1-2_Q2", "kind": "gru", "parameters": 1975}
+{"time": "2026-11-15T00:14:18.428748+08:00", "event": "mechanism_verified", "config": "ldpc_B4096_R1-2_Q2", "kind": "mlp", "parameters": 1961}
+{"time": "2026-11-15T00:14:30.519887+08:00", "event": "mechanism_verified", "config": "ldpc_B4096_R1-2_Q2", "kind": "ema", "parameters": 1985}
+{"time": "2026-11-15T00:14:42.691738+08:00", "event": "mechanism_verified", "config": "ldpc_B4096_R1-2_Q2", "kind": "gru", "parameters": 1991}

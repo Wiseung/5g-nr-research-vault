@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "config": "ldpc_B1024_R1-2_Q2",
+      "seed": 29,
+      "step": 1,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B1024_R1-2_Q2",
+      "seed": 43,
+      "step": 1000,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B1024_R1-2_Q2",
+      "seed": 43,
+      "step": 50000,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B1024_R1-2_Q2",
+      "post_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 1.0,
+        "noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      }
+    },
+    {
+      "config": "ldpc_B4096_R1-2_Q2",
+      "seed": 29,
+      "step": 1,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B4096_R1-2_Q2",
+      "seed": 43,
+      "step": 1000,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B4096_R1-2_Q2",
+      "seed": 43,
+      "step": 50000,
+      "batch": 64,
+      "cpu_absolute_error_lt_1e_5": true
+    },
+    {
+      "config": "ldpc_B4096_R1-2_Q2",
+      "post_checks": {
+        "frames": 8,
+        "symmetry_max_abs_error": 0.0,
+        "state_abs_max": 0.9999997615814209,
+        "noiseless_payload_errors": 0,
+        "noiseless_rejected": 0
+      }
+    }
+  ]
+}

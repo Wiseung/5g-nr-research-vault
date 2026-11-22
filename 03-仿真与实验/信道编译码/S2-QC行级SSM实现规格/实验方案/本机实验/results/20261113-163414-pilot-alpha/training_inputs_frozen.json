@@ -1,0 +1,109 @@
+{
+  "run_id": "20261113-163414-pilot-alpha",
+  "formal_training_started": false,
+  "git_commit": "606439166812f97fb42e30ae3dcfec58ec2b35f9",
+  "manifest_sha256": "0db21f16f4dcd462f6056dd814c7bf0e0a4af8eed13073a61b2238a8da5b3c6c",
+  "calibration_summary_sha256": "a9a9143a41f0aa9cede5288b949376fbba430cd1d61860c2fa550a3db1d79b53",
+  "calibration_completed_at": "2026-11-13T17:37:51.906602+08:00",
+  "format": "frozen data inputs; no optimizer selection from bounded comparison",
+  "configs": [
+    {
+      "config_id": "ldpc_B1024_R1-2_Q2",
+      "alpha": 0.75,
+      "gamma_ref_db": 1.8199962765691882,
+      "training_snr_range_db": [
+        0.31999627656918816,
+        2.819996276569188
+      ],
+      "validation_snr_db": [
+        0.32,
+        0.945,
+        1.57,
+        2.195,
+        2.82
+      ],
+      "pilot_split": "20261113-pilot-final",
+      "alpha_validation_split": "20261113-alpha-validation",
+      "energy": "payload A/E_tx, QPSK, Es=1",
+      "decoder": "NMS-F20, eta=0, clip20, no early stop or fallback",
+      "full_config": {
+        "id": "ldpc_B1024_R1-2_Q2",
+        "family": "LDPC",
+        "payload_bits_A": 1008,
+        "tb_crc": "CRC16",
+        "B_including_tb_crc": 1024,
+        "base_graph": 2,
+        "Z": 104,
+        "i_LS": 6,
+        "Kb_for_lifting_selection": 10,
+        "K_encoder_including_filler": 1040,
+        "filler_bits": 16,
+        "N_full_graph": 5408,
+        "M_checks": 4368,
+        "graph_edges": 20488,
+        "N_circular_buffer": 5200,
+        "mandatory_first_puncture_bits": 208,
+        "E_tx_bits": 2048,
+        "target_rate_label": "1/2",
+        "actual_B_over_E": 0.5,
+        "actual_payload_rate_A_over_E": 0.4921875,
+        "modulation_bits_Qm": 2,
+        "rv": 0,
+        "Nref_limit": null,
+        "code_blocks": 1,
+        "cb_crc_bits": 0,
+        "status": "scalar_parameters_checked_full_chain_pending",
+        "scope": "TS38.212_coding_kernel_not_TS38.214_TBS_MCS_validation"
+      }
+    },
+    {
+      "config_id": "ldpc_B4096_R1-2_Q2",
+      "alpha": 0.7,
+      "gamma_ref_db": 1.5612375029552632,
+      "training_snr_range_db": [
+        0.0612375029552632,
+        2.5612375029552634
+      ],
+      "validation_snr_db": [
+        0.0612,
+        0.6862,
+        1.3112,
+        1.9362,
+        2.5612
+      ],
+      "pilot_split": "20261113-pilot-final",
+      "alpha_validation_split": "20261113-alpha-validation",
+      "energy": "payload A/E_tx, QPSK, Es=1",
+      "decoder": "NMS-F20, eta=0, clip20, no early stop or fallback",
+      "full_config": {
+        "id": "ldpc_B4096_R1-2_Q2",
+        "family": "LDPC",
+        "payload_bits_A": 4072,
+        "tb_crc": "CRC24A",
+        "B_including_tb_crc": 4096,
+        "base_graph": 1,
+        "Z": 192,
+        "i_LS": 1,
+        "Kb_for_lifting_selection": 22,
+        "K_encoder_including_filler": 4224,
+        "filler_bits": 128,
+        "N_full_graph": 13056,
+        "M_checks": 8832,
+        "graph_edges": 60672,
+        "N_circular_buffer": 12672,
+        "mandatory_first_puncture_bits": 384,
+        "E_tx_bits": 8192,
+        "target_rate_label": "1/2",
+        "actual_B_over_E": 0.5,
+        "actual_payload_rate_A_over_E": 0.4970703125,
+        "modulation_bits_Qm": 2,
+        "rv": 0,
+        "Nref_limit": null,
+        "code_blocks": 1,
+        "cb_crc_bits": 0,
+        "status": "scalar_parameters_checked_full_chain_pending",
+        "scope": "TS38.212_coding_kernel_not_TS38.214_TBS_MCS_validation"
+      }
+    }
+  ]
+}

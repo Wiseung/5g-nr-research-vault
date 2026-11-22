@@ -1,0 +1,1 @@
+{"status": "passed", "scope": "pilot", "points": 17, "channel_observations": 340000, "paired_baseline_shards_reproduced": 0, "CI_check": "independent SciPy Wilson", "sources_unchanged": true}

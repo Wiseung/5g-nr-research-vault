@@ -1,0 +1,139 @@
+{
+  "bg": 1,
+  "step_before": 5,
+  "precision": "FP64 diagnosis only; training remains FP32",
+  "parameter": "head.bias",
+  "loss": 0.12380773922139376,
+  "surrogate_autograd": -38.06160195978296,
+  "differences": [
+    {
+      "epsilon": 0.01,
+      "features_frozen": true,
+      "central_difference": 0.022774502054293683,
+      "forward_difference": 0.01339139068963352,
+      "backward_difference": 0.032157613418953845,
+      "relative_error_vs_surrogate_autograd": 1.0005983589991394
+    },
+    {
+      "epsilon": 0.01,
+      "features_frozen": false,
+      "central_difference": 0.024595067229216117,
+      "forward_difference": 0.014535738513171692,
+      "backward_difference": 0.03465439594526054,
+      "relative_error_vs_surrogate_autograd": 1.0006461910682374
+    },
+    {
+      "epsilon": 0.001,
+      "features_frozen": true,
+      "central_difference": 2.035561442426781,
+      "forward_difference": 0.9815860659143083,
+      "backward_difference": 3.0895368189392536,
+      "relative_error_vs_surrogate_autograd": 1.0534807085780997
+    },
+    {
+      "epsilon": 0.001,
+      "features_frozen": false,
+      "central_difference": 2.0386691932272605,
+      "forward_difference": 0.9959908554764141,
+      "backward_difference": 3.081347530978107,
+      "relative_error_vs_surrogate_autograd": 1.053562359129849
+    },
+    {
+      "epsilon": 0.0001,
+      "features_frozen": true,
+      "central_difference": -10.731877443539567,
+      "forward_difference": -14.15767019295272,
+      "backward_difference": -7.3060846941264135,
+      "relative_error_vs_surrogate_autograd": 0.7180392602791865
+    },
+    {
+      "epsilon": 0.0001,
+      "features_frozen": false,
+      "central_difference": -10.734732326230233,
+      "forward_difference": -14.159280927931727,
+      "backward_difference": -7.31018372452874,
+      "relative_error_vs_surrogate_autograd": 0.7179642533813244
+    },
+    {
+      "epsilon": 1e-05,
+      "features_frozen": true,
+      "central_difference": -28.231924363054937,
+      "forward_difference": -32.87042253969086,
+      "backward_difference": -23.593426186419016,
+      "relative_error_vs_surrogate_autograd": 0.25825706461631226
+    },
+    {
+      "epsilon": 1e-05,
+      "features_frozen": false,
+      "central_difference": -28.245495328922672,
+      "forward_difference": -32.8789495256665,
+      "backward_difference": -23.61204113217885,
+      "relative_error_vs_surrogate_autograd": 0.25790051194461766
+    },
+    {
+      "epsilon": 1e-06,
+      "features_frozen": true,
+      "central_difference": -38.14107388015048,
+      "forward_difference": -41.41562609358274,
+      "backward_difference": -34.86652166671822,
+      "relative_error_vs_surrogate_autograd": 0.002087981489888145
+    },
+    {
+      "epsilon": 1e-06,
+      "features_frozen": false,
+      "central_difference": -38.140311232760794,
+      "forward_difference": -41.40647599991387,
+      "backward_difference": -34.874146465607716,
+      "relative_error_vs_surrogate_autograd": 0.0020679443041046685
+    },
+    {
+      "epsilon": 1e-07,
+      "features_frozen": true,
+      "central_difference": -39.26451991639879,
+      "forward_difference": -39.50623542248177,
+      "backward_difference": -39.02280441031581,
+      "relative_error_vs_surrogate_autograd": 0.03160450151012738
+    },
+    {
+      "epsilon": 1e-07,
+      "features_frozen": false,
+      "central_difference": -39.23769722420645,
+      "forward_difference": -39.455339473637444,
+      "backward_difference": -39.020054974775455,
+      "relative_error_vs_surrogate_autograd": 0.030899783610426734
+    },
+    {
+      "epsilon": 1e-08,
+      "features_frozen": true,
+      "central_difference": -38.18928574136904,
+      "forward_difference": -38.251178668957664,
+      "backward_difference": -38.12739281378041,
+      "relative_error_vs_surrogate_autograd": 0.0033546612599488924
+    },
+    {
+      "epsilon": 1e-08,
+      "features_frozen": false,
+      "central_difference": -38.190758939321555,
+      "forward_difference": -38.252652501125084,
+      "backward_difference": -38.128865377518025,
+      "relative_error_vs_surrogate_autograd": 0.0033933668812748258
+    },
+    {
+      "epsilon": 1e-09,
+      "features_frozen": true,
+      "central_difference": -38.061635454500475,
+      "forward_difference": -38.05647613708274,
+      "backward_difference": -38.06679477191821,
+      "relative_error_vs_surrogate_autograd": 8.800133412340564e-07
+    },
+    {
+      "epsilon": 1e-09,
+      "features_frozen": false,
+      "central_difference": -38.06307715542578,
+      "forward_difference": -38.05794832056897,
+      "backward_difference": -38.0682059902826,
+      "relative_error_vs_surrogate_autograd": 3.875810703861707e-05
+    }
+  ],
+  "interpretation": "frozen features match detach-statistics proxy gradient; recomputed features differentiate the full closed loop and need not agree with the protocol proxy. Finite differences at large epsilon may cross min/sign/clip active branches."
+}

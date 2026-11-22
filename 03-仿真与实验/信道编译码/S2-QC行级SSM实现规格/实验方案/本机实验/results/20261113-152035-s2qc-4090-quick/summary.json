@@ -1,0 +1,22 @@
+{
+  "status": "quick_smoke_completed",
+  "configs_checked": 2,
+  "gates": {
+    "1_scalar": "passed",
+    "2_QC_algebra": "smoke_only",
+    "3_independent_reference": "smoke_only",
+    "4_noiseless": "smoke_only",
+    "5_public_curve": "pending_exact_2.1.0_notebook_reproduction",
+    "6_SSM_symmetry_gradient": "passed_for_two_source_configs"
+  },
+  "formal_training_authorized_by_gates": false,
+  "formal_training_steps": 0,
+  "pilot_20k_per_point": "pending",
+  "alpha_calibration": "pending",
+  "polar_validation": "pending",
+  "limitations": [
+    "diagnostic is not formal BLER or public-curve reproduction",
+    "fixed-shape fixed-iteration decoder; no early stop or fallback implementation yet",
+    "RTX 4060 engineering data does not establish 4090/5090 ranking"
+  ]
+}

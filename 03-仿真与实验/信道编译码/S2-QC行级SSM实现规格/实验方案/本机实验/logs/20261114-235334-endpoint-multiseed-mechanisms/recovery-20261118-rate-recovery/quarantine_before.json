@@ -1,0 +1,31 @@
+{
+  "time": "2026-11-18T17:03:33.190741+08:00",
+  "reason": "GPU0 standalone byte errors and all11 BG1 shards differ from paired seed17; do not reuse",
+  "original_path": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/results/20261114-235334-endpoint-multiseed-mechanisms/test/mlp-seed29/ldpc_B4096_R1-2_Q2",
+  "destination": "/home/czr/workspace/5g-nr-research-vault/03-仿真与实验/信道编译码/S2-QC行级SSM实现规格/实验方案/本机实验/logs/20261114-235334-endpoint-multiseed-mechanisms/recovery-20261118-rate-recovery/quarantined-test-artifacts/ldpc_B4096_R1-2_Q2",
+  "files_sha256": {
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-01.npz": "82828d4d9a74eeb4c34d26e3aeaeebc015d402cd2e514ad7be7e6abab9e70b27",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-04.npz": "8ef70633f9f081e636d13dcf1a3d495a8e232d4d3ff6c7368fec69380545c262",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-02.npz": "d7268eb09236dbcfd687778e1de2f747c1313f50bd5db1958a27488b37d2735b",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-05.npz": "586bab88e987d4a2019b35a912a9497d225b699fdf5fbaceb752465f6ccc291e",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-08.npz": "7c670d660e3d00a3171280f7cebfc0e28d6a59e50a6110c7bc45d1f674945ffe",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/identity.json": "ff0a5aa69d549d361e7770d0c5799400db89457e106fde025f476100e3a34a23",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-06.npz.sha256": "5a5b8dd6f244bbb6dfac1687f1f95d480b3ba0a193b1e8cd58e0daccb900325b",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-00.npz": "6799bc3cfe51c871c73a110a637677c717ec3f82f92504375c24c8f2f832614f",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-00.npz.sha256": "e9987489c54464af357963bfcb91a48692d43531eed1f8d240fe75eefd28d9b7",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-03.npz": "52e700dbfd05f002bfb00c9c901a43aa7205895c0da2bfd0577bb7f1a96d4110",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-03.npz.sha256": "3d4cfa0b216d767322d47f87306b0165a041ed0c7c8c8bf267e1dcdc1809697a",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-01.npz.sha256": "5acfaa81bc9019633967069854cf7e594cece75e9e7e44fa0f16fe00607cd769",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-09.npz.sha256": "52d8afd430ddb252d1492d4e08ad0a8aeac3c79201e45961a382b2802a7cd70c",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-06.npz": "f8d5e6ccb818bb0b0bb8d9ff36754cdab6423b9ae2b7ff177907d6e9503b3d55",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-09.npz": "51ce2da84e5e8f933d5b2129dcaf19d3369b9493dd0b1df23b2ecb70990dc01a",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-10.npz.sha256": "957c99cae41fb1584ac9d88ffee1caa1b887b9b36e4b2518e19f942946de1fba",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-07.npz.sha256": "1284dc88edc6a84c6c9781e66893a7d0fe290a7fc9b3269bcdabd52d11870b7f",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-07.npz": "cd2b51ca8218b0babbee89b67630291022d8536884e0a4bb3c86c2d71a4adf66",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-10.npz": "7735b9a9d14f79fe2e9281c5d835dffc9d5f6a6dfb0987edde6693d3510c30dc",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-05.npz.sha256": "29f91f67441215d3843eac3ca01e8cd73b570ca4b6daf9c4ed08ec8b788c404b",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-04.npz.sha256": "aa755683b4ca3119d6a2de4e4728476de3873d19969d62a3efbf58e546f50923",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-08.npz.sha256": "8246e8db0b59d139ff93b62de0644bc1c6f7e4172ca8b55dd1a94ce54ccb979a",
+    "test/mlp-seed29/ldpc_B4096_R1-2_Q2/snr-1.5000/shard-02.npz.sha256": "15e63b45dfa5e3639d95c68b2971e614099522a6c60c5ff15fe9d56d04ab1fad"
+  }
+}

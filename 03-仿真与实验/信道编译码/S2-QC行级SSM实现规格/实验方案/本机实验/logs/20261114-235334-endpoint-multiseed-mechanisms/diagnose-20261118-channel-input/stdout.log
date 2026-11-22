@@ -1,0 +1,12 @@
+{"shard": 11, "input_finite_immediately_after_sample": true, "sample_sha256": "785d32829fda19bf4912c9522cd97b08cc25a5129a6de24814db4d40eacb7754", "pid": 471583}
+{"shard": 11, "input_finite_immediately_after_sample": true, "sample_sha256": "785d32829fda19bf4912c9522cd97b08cc25a5129a6de24814db4d40eacb7754", "pid": 471583, "input_finite_after": true, "input_bitwise_unchanged": true}
+{"shard": 12, "input_finite_immediately_after_sample": true, "sample_sha256": "0f51502f3f7aae1f77584eb37d3285e9244d59c27832711d897e3ad1ad58af76", "pid": 471583}
+{"shard": 12, "input_finite_immediately_after_sample": true, "sample_sha256": "0f51502f3f7aae1f77584eb37d3285e9244d59c27832711d897e3ad1ad58af76", "pid": 471583, "input_finite_after": true, "input_bitwise_unchanged": true}
+{"shard": 13, "input_finite_immediately_after_sample": true, "sample_sha256": "9494912091cc814d497b9a63253f971adbb491dd017cbf0ca6593b2e2f27697e", "pid": 471583}
+{"shard": 13, "input_finite_immediately_after_sample": true, "sample_sha256": "9494912091cc814d497b9a63253f971adbb491dd017cbf0ca6593b2e2f27697e", "pid": 471583, "input_finite_after": true, "input_bitwise_unchanged": true}
+{"shard": 14, "input_finite_immediately_after_sample": true, "sample_sha256": "1a7faa154a2fbf55446dd3af160ac9e84551e66eb7d30bfd699d8abccd94d085", "pid": 471583}
+{"shard": 14, "input_finite_immediately_after_sample": true, "sample_sha256": "1a7faa154a2fbf55446dd3af160ac9e84551e66eb7d30bfd699d8abccd94d085", "pid": 471583, "input_finite_after": true, "input_bitwise_unchanged": true}
+{"shard": 15, "input_finite_immediately_after_sample": true, "sample_sha256": "d607c32ce329cb61593b9c2bd20eb52e831ea1b5c903629016965d3edaa47f78", "pid": 471583}
+{"shard": 15, "input_finite_immediately_after_sample": true, "sample_sha256": "d607c32ce329cb61593b9c2bd20eb52e831ea1b5c903629016965d3edaa47f78", "pid": 471583, "input_finite_after": true, "input_bitwise_unchanged": true}
+{"shard": 16, "input_finite_immediately_after_sample": false, "sample_sha256": "c4ad7ea7e648d38335eb858ef38ff19869d3a4c10c7f5a202ec051bd70f203b8", "pid": 471583}
+{"shard": 16, "input_finite_immediately_after_sample": false, "sample_sha256": "c4ad7ea7e648d38335eb858ef38ff19869d3a4c10c7f5a202ec051bd70f203b8", "pid": 471583, "failure": "nonfinite_input_before_engine", "method": 0, "begin": 4875, "input_finite_after": false, "input_bitwise_unchanged": true}
